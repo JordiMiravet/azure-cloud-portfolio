@@ -13,3 +13,11 @@ Bug reports, documentation corrections, and improvement suggestions are welcome.
 Please open an issue in the [GitHub repository](https://github.com/JordiMiravet/azure-cloud-portfolio/issues).
 
 When reporting an issue, provide a clear description of the problem or suggestion and include reproduction steps when applicable.
+
+## Proposing Changes
+
+Before implementing any changes, open an issue to discuss the proposal with the project author.
+
+Pull requests must be agreed upon beforehand and should follow the project's development conventions.
+
+See the [Development Workflow](docs/development-workflow.md) guide for branch naming, commit messages, task organization, and pull request requirements.
