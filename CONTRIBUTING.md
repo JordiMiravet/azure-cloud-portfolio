@@ -32,6 +32,8 @@ See the [Development Workflow](docs/development-workflow.md) guide for branch na
 
 ## License
 
-The project is distributed under the terms described in the [LICENSE](LICENSE) file.
+The Azure Cloud Portfolio is not distributed under an open-source license.
 
-Submitting a suggestion or pull request does not grant any additional rights beyond those established by the applicable license.
+All rights to the original project materials are reserved by the author, as described in the [LICENSE](LICENSE) file.
+
+Third-party components and materials remain subject to their respective licenses.
