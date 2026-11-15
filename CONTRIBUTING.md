@@ -1,12 +1,25 @@
 # Contributing Guidelines
 
-Thank you for your interest in contributing to the Azure Cloud Portfolio.
+Thank you for your interest in the Azure Cloud Portfolio!
 
-This document explains how work is organized, how changes should be submitted, and the conventions followed throughout the repository.
+This repository documents my learning journey in Microsoft Azure, including certifications, hands-on laboratories, technical documentation, and cloud projects.
 
-The goal is to maintain a consistent, professional, and well-documented portfolio of Microsoft Azure certifications, practical laboratories, technical documentation, and independent cloud projects.
+Although this is primarily a personal portfolio, suggestions, corrections, and contributions are welcome.
 
-## Table of Contents
+## How to Contribute
 
-- [Contributing Guidelines](#contributing-guidelines)
-  - [Table of Contents](#table-of-contents)
+If you would like to contribute:
+
+- Report errors or suggest improvements through GitHub Issues.
+- Propose changes or new ideas.
+- Submit corrections or improvements through Pull Requests.
+
+## Guidelines
+
+- Keep contributions relevant to the project's scope.
+- Write documentation in English.
+- Provide clear and accurate technical information.
+- Follow the existing repository structure and conventions.
+- Never include credentials, secrets, or sensitive information.
+
+Thank you for helping improve this project!
