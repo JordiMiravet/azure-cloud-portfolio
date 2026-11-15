@@ -21,3 +21,9 @@ Before implementing any changes, open an issue to discuss the proposal with the 
 Pull requests must be agreed upon beforehand and should follow the project's development conventions.
 
 See the [Development Workflow](docs/development-workflow.md) guide for branch naming, commit messages, task organization, and pull request requirements.
+
+## License
+
+The project is distributed under the terms described in the [LICENSE](LICENSE) file.
+
+Submitting a suggestion or pull request does not grant any additional rights beyond those established by the applicable license.
