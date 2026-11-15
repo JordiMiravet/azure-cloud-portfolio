@@ -6,6 +6,14 @@ This is a personal portfolio project focused on documenting my learning journey 
 
 Contributions are not accepted without prior agreement from the project author.
 
+## Table of Contents
+
+- [Contributing](#contributing)
+  - [Table of Contents](#table-of-contents)
+  - [Reporting Issues](#reporting-issues)
+  - [Proposing Changes](#proposing-changes)
+  - [License](#license)
+
 ## Reporting Issues
 
 Bug reports, documentation corrections, and improvement suggestions are welcome.
