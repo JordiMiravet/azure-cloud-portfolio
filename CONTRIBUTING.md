@@ -12,6 +12,7 @@ Although this is primarily a personal portfolio, suggestions, corrections, and c
   - [Table of Contents](#table-of-contents)
   - [How to Contribute](#how-to-contribute)
   - [Guidelines](#guidelines)
+  - [Contact and Communication](#contact-and-communication)
 
 ## How to Contribute
 
@@ -30,3 +31,11 @@ If you would like to contribute:
 - Never include credentials, secrets, or sensitive information.
 
 Thank you for helping improve this project!
+
+## Contact and Communication
+
+For questions, suggestions, bug reports, or general feedback, you can use GitHub Issues.
+
+Please provide a clear description of your question or proposal so it can be properly understood and addressed.
+
+For more specific discussions, use the appropriate GitHub repository channels.
