@@ -1,21 +1,31 @@
-MIT License
+Copyright (c) 2026 Jordi Miravet. All rights reserved.
 
-Copyright (c) 2026 Jordi Miravet
+Azure Cloud Portfolio is a personal portfolio project published publicly
+for educational, demonstration, and professional evaluation purposes.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Its primary purpose is to showcase cloud engineering skills, Microsoft Azure
+knowledge, technical documentation, cloud architectures, hands-on laboratories,
+and practical implementations.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The repository is made available for inspection and review so that recruiters,
+employers, and other interested individuals can evaluate the technical
+knowledge, practical experience, and skills demonstrated throughout
+the project.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Public access to this repository does not mean that the project is
+open-source software or that permission is granted to reuse its original
+source code, documentation, or project materials.
+
+Unless expressly authorized in writing by the author, no permission is
+granted to copy, modify, redistribute, publish, sublicense, commercially
+exploit, or incorporate any part of the original project materials into
+other projects or software products.
+
+All rights to the original source code, documentation, architectures,
+laboratory implementations, and project materials are reserved by the
+author, except for third-party components and materials that are subject
+to their respective licenses.
+
+For permission to use, reproduce, modify, or otherwise reuse any part
+of this project beyond its intended portfolio and evaluation purposes,
+please contact the author.
