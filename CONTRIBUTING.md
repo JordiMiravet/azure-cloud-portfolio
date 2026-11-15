@@ -6,6 +6,13 @@ This repository documents my learning journey in Microsoft Azure, including cert
 
 Although this is primarily a personal portfolio, suggestions, corrections, and contributions are welcome.
 
+## Table of Contents
+
+- [Contributing Guidelines](#contributing-guidelines)
+  - [Table of Contents](#table-of-contents)
+  - [How to Contribute](#how-to-contribute)
+  - [Guidelines](#guidelines)
+
 ## How to Contribute
 
 If you would like to contribute:
