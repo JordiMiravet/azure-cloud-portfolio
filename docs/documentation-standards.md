@@ -68,6 +68,7 @@ The following rules apply:
 - Use inline code formatting for file paths, commands, configuration values, and technical identifiers.
 - Use tables when presenting structured information or comparisons.
 - Separate sections with blank lines to improve readability.
+- Include a table of contents in documents with multiple sections to improve navigation.
 
 Formatting should remain consistent throughout each document.
 
