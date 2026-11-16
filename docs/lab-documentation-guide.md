@@ -277,13 +277,16 @@ Laboratory documentation should include relevant learning materials and official
 
 The following guidelines apply:
 
-- Include links to relevant Microsoft Learn modules and learning paths when they relate to the laboratory objectives.
-- Reference official Azure documentation when explaining services, configurations, or technical features.
-- Use direct links to the specific learning resources or documentation pages whenever possible.
+- **Microsoft Learn:** Include relevant learning modules, learning paths, and guided exercises related to the laboratory objectives.
+- **Azure Documentation:** Reference official technical documentation when explaining Azure services, configurations, features, or implementation procedures.
+- **Additional Resources:** Include relevant community tutorials, repositories, or external technical materials when they provide useful complementary information.
+- Use direct links to specific learning resources or documentation pages whenever possible.
 - Ensure references are relevant to the laboratory implementation and learning objectives.
 - Use descriptive link text that clearly identifies each resource.
 - Verify that external links are valid and accessible before publishing documentation.
-- Distinguish official Microsoft resources from community tutorials and other external references.
+- Clearly distinguish official Microsoft resources from community tutorials and other external references.
+
+When a laboratory is based on an official Microsoft Learn exercise, include a direct reference to the original learning material whenever possible.
 
 References should help readers understand the concepts behind each laboratory and provide reliable resources for further exploration.
 
