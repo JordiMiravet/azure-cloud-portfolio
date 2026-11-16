@@ -62,4 +62,6 @@ Work is tracked with GitHub Issues and delivered through pull requests, followin
 | [Contributing Guidelines](CONTRIBUTING.md) | How to report issues and propose changes. |
 | [License](LICENSE) | Terms of use for the original materials. |
 
+---
 
+[↑ Back to top](#azure-cloud-portfolio)
