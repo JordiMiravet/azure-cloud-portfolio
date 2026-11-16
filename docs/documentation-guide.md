@@ -13,6 +13,7 @@ For branch names, commit messages, and pull requests, see the [Development Workf
   - [Lab Documentation](#lab-documentation)
     - [Lab README Template](#lab-readme-template)
     - [Screenshots](#screenshots)
+  - [Project Documentation](#project-documentation)
 
 ## Folder Structure
 
@@ -94,3 +95,31 @@ Sections that do not apply can be omitted.
 - Use `.png` files named in `kebab-case` with a sequence number, for example `01-resource-group-created.png`.
 - Add a short sentence explaining what each screenshot shows.
 - Remove or blur subscription IDs, keys, tokens, and personal data before committing.
+
+## Project Documentation
+
+Each project has its own folder in `projects/` with a `README.md` as its entry point. Longer explanations go in a `docs/` subfolder, and code or infrastructure templates in `src/`.
+
+```markdown
+# Project Title
+
+## Overview
+
+What the project does and which problem it solves.
+
+## Architecture
+
+Main Azure components and how they connect. Include a diagram if it helps.
+
+## Deployment
+
+How to deploy it, with commands and required permissions. Never include secrets.
+
+## Result
+
+What was achieved, with screenshots or evidence of what was verified.
+
+## Future Improvements
+
+Limitations and possible next steps.
+```
