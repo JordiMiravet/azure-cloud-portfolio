@@ -107,3 +107,7 @@ The following guidelines apply:
 - Include relevant documentation updates in the pull requests associated with the corresponding changes.
 
 Documentation should evolve alongside the project to remain a reliable source of information.
+
+---
+
+[↑ Back to top](#documentation-standards)
