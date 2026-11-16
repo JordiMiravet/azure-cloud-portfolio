@@ -200,6 +200,9 @@ The following guidelines apply:
 - Keep diagrams readable and avoid unnecessary complexity.
 - Store diagrams in the laboratory's `assets/` directory.
 - Reference diagrams from the laboratory `README.md` using relative paths.
+- Prefer editable diagram formats whenever possible.
+- Use exported image formats such as PNG or SVG when embedding diagrams in Markdown.
+- Keep the original diagram source alongside the exported image whenever practical.
 
 ### Scripts and Configuration Files
 
