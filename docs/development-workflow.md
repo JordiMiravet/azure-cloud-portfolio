@@ -16,6 +16,7 @@ For contribution guidelines, including how to report issues and propose changes,
     - [How They Relate](#how-they-relate)
     - [Quick Reference](#quick-reference)
     - [Development Flow](#development-flow)
+  - [Branch Naming](#branch-naming)
 
 ## Issue and Pull Request Structure
 
@@ -62,3 +63,25 @@ The typical development process follows these steps:
 4. Implement the task through small, focused commits that follow the [Commit Messages](#commit-messages) convention.
 5. Open a pull request referencing the corresponding task and following the [Pull Request Structure and Conventions](#pull-request-structure-and-conventions).
 6. Review the pull request, address feedback, and merge it into `main` once approved.
+
+## Branch Naming
+
+Create a new branch from `main` using the following naming convention:
+
+```text
+<type>/<task-number>-<short-description>
+```
+
+Where:
+
+- `<type>` identifies the type of change.
+- `<task-number>` corresponds to the GitHub Issue number of the task.
+- `<short-description>` briefly describes the purpose of the branch.
+
+Examples:
+
+```text
+feature/234-document-development-workflow
+fix/198-handle-null-response
+docs/234-update-readme
+```
