@@ -11,7 +11,9 @@ This portfolio was started during the **IT Academy Azure and AI Certification pr
   - [Certification Progress](#certification-progress)
   - [Completed Labs](#completed-labs)
   - [Repository Structure](#repository-structure)
+  - [Development Workflow](#development-workflow)
   - [Documentation](#documentation)
+  - [More Information](#more-information)
 
 ## Certification Progress
 
@@ -51,14 +53,33 @@ azure-cloud-portfolio/
 
 New certifications and projects get their own folders as the work progresses.
 
+## Development Workflow
+
+Work is tracked with GitHub Issues and delivered through pull requests, following consistent conventions:
+
+| Element | Convention | Example |
+| --- | --- | --- |
+| Issue | `[CATEGORY] - Short description` | `[DOCS] - Rewrite README to showcase certification progress and labs` |
+| Branch | `<type>/<task-number>-<short-description>` | `feature/25-create-certification-structure` |
+| Commit | `<type>(<scope>): <description> (#<task-number>)` | `feat(labs): add reusable lab README template (#25)` |
+| Pull request | Commit format as title, referencing its task | `docs(readme): rewrite README (#26)` |
+
+For the full process, see the [Development Workflow](docs/development-workflow.md) guide.
+
 ## Documentation
 
-Work is tracked with GitHub Issues and delivered through pull requests, following consistent branch and commit conventions.
+Each lab and project is documented in its own folder, following a common structure:
 
-| Guide | Description |
+- Every lab has a `README.md` with five sections: Overview, Steps, Result, Lessons Learned, and References.
+- Files and folders use lowercase `kebab-case`, and all documentation is written in English.
+- Screenshots are stored in the lab's `assets/screenshots/` folder, numbered by step, with sensitive data removed.
+
+For the folder structure, formatting conventions, and templates, see the [Documentation Guide](docs/documentation-guide.md).
+
+## More Information
+
+| Resource | Description |
 | --- | --- |
-| [Development Workflow](docs/development-workflow.md) | Issues, branch naming, commit messages, and pull requests. |
-| [Documentation Guide](docs/documentation-guide.md) | Folder structure, naming and formatting conventions, and lab and project templates. |
 | [Contributing Guidelines](CONTRIBUTING.md) | How to report issues and propose changes. |
 | [License](LICENSE) | Terms of use for the original materials. |
 
