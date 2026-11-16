@@ -114,9 +114,9 @@ Where:
 Examples:
 
 ```text
-feature/234-document-development-workflow
-fix/198-handle-null-response
-docs/234-update-readme
+feature/25-create-certification-structure
+fix/31-correct-broken-link
+docs/23-align-workflow-examples
 ```
 
 ## Commit Messages
@@ -130,8 +130,8 @@ Commit messages must follow this format:
 Examples:
 
 ```text
-feat(terraform): add storage account module (#145)
-fix(networking): correct subnet configuration (#182)
+feat(labs): add storage account lab (#30)
+fix(readme): correct certification link (#31)
 docs(workflow): document development workflow (#7)
 ```
 
