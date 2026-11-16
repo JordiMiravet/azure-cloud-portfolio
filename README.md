@@ -102,6 +102,9 @@ The following table provides an overview of the project's documentation, includi
 | Guide | Description |
 | --- | --- |
 | [Development Workflow](docs/development-workflow.md) | Conventions for issue organization, branch naming, commit messages, pull requests, and development processes. |
+| [Documentation Standards](docs/documentation-standards.md) | General documentation conventions, including Markdown formatting, file naming, and writing guidelines. |
+| [Repository Structure](docs/repository-structure.md) | Repository organization, including certification learning paths, laboratories, projects, and shared resources. |
+| [Laboratory Documentation Guide](docs/lab-documentation-guide.md) | Guidelines and reusable templates for documenting hands-on laboratories, implementation procedures, and supporting evidence. |
 | [Contributing Guidelines](CONTRIBUTING.md) | Guidelines for reporting issues, proposing changes, and contributing to the project. |
 | [License](LICENSE) | Defines the terms and restrictions governing the use of the repository's original materials. |
 
