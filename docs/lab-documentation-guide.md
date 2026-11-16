@@ -126,7 +126,7 @@ The template may be adapted depending on the laboratory's complexity, objectives
 
 Laboratory documentation should provide enough information for readers to understand the purpose of the exercise, follow its implementation, and verify the expected results.
 
-The following sections establish the recommended documentation structure for hands-on laboratories. Core sections should be included in every laboratory, while additional sections may be adapted depending on the implementation requirements.
+The following descriptions explain the purpose and expected content of each documentation section, helping maintain consistency across laboratories.
 
 - **Overview:** Introduces the laboratory, its purpose, and the Azure services or technologies involved.
 - **Objectives:** Defines the technical concepts and practical skills the laboratory aims to develop.
