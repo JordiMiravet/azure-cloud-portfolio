@@ -15,6 +15,7 @@ For information about repository organization and independent project directorie
 - [Project Documentation Guide](#project-documentation-guide)
   - [Table of Contents](#table-of-contents)
   - [Project Directory Structure](#project-directory-structure)
+  - [Project README Template](#project-readme-template)
 
 ## Project Directory Structure
 
@@ -56,3 +57,79 @@ The internal directories are optional and should only be created when required b
 Additional files and directories may be introduced depending on the project's architecture, technologies, and implementation requirements.
 
 Projects should maintain a simple and logical structure, avoiding unnecessary directories and duplicated documentation.
+
+## Project README Template
+
+Every independent project must include a `README.md` file describing its purpose, architecture, implementation, and results.
+
+The README serves as the main entry point for understanding the project and should provide enough information for readers to understand its design and technical approach.
+
+The following template establishes the recommended structure for documenting independent projects:
+
+```markdown
+# Project Title
+
+## Overview
+
+Describe the project, its purpose, the problem it addresses, and the main technologies involved.
+
+## Objectives
+
+List the main technical objectives and expected outcomes of the project.
+
+## Architecture
+
+Describe the overall architecture, including the main components, Azure services, and their relationships.
+
+Include an architecture diagram when appropriate.
+
+## Technologies
+
+List the main technologies, frameworks, tools, and Azure services used in the implementation.
+
+## Prerequisites
+
+Describe the required tools, permissions, subscriptions, dependencies, and configurations.
+
+## Implementation
+
+Provide an overview of the implementation process and link to detailed technical documentation when necessary.
+
+## Deployment
+
+Explain how the solution is deployed and configured.
+
+Include relevant commands, infrastructure templates, and deployment instructions.
+
+## Testing and Validation
+
+Describe how the implementation is tested and how its expected behavior is verified.
+
+Include relevant results and supporting evidence.
+
+## Cost Analysis
+
+Document relevant Azure resource costs, estimates, and cost optimization considerations when applicable.
+
+## Security Considerations
+
+Describe relevant security configurations, access controls, and data protection considerations.
+
+## Results
+
+Summarize the final implementation, achieved objectives, and relevant technical outcomes.
+
+## Future Improvements
+
+Identify potential enhancements, limitations, or additional features that could be implemented.
+
+## References
+
+Include links to official documentation, technical resources, and other relevant references.
+```
+
+The template should be adapted according to the project's scope and complexity.
+
+Sections that are not applicable may be omitted, while additional sections may be introduced when necessary.
+
+The README should prioritize a clear overview rather than reproducing every implementation detail. More extensive technical explanations should be maintained in the project's `docs/` directory.
