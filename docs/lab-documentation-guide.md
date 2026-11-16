@@ -186,3 +186,19 @@ The following guidelines apply:
 
 Lessons learned should focus on practical knowledge and meaningful technical insights rather than simply repeating the implementation steps.
 
+## Microsoft Learning References
+
+Laboratory documentation should include relevant learning materials and official technical references to provide additional context and support further learning.
+
+The following guidelines apply:
+
+- Include links to relevant Microsoft Learn modules and learning paths when they relate to the laboratory objectives.
+- Reference official Azure documentation when explaining services, configurations, or technical features.
+- Use direct links to the specific learning resources or documentation pages whenever possible.
+- Ensure references are relevant to the laboratory implementation and learning objectives.
+- Use descriptive link text that clearly identifies each resource.
+- Verify that external links are valid and accessible before publishing documentation.
+- Distinguish official Microsoft resources from community tutorials and other external references.
+
+References should help readers understand the concepts behind each laboratory and provide reliable resources for further exploration.
+
