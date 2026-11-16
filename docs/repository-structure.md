@@ -165,3 +165,7 @@ Resources should be stored according to their context:
 - **Project assets:** Resources associated with an independent project belong in its `assets/` directory.
 
 This organization keeps resources close to the content they support while avoiding unnecessary duplication across the repository.
+
+---
+
+[↑ Back to top](#repository-structure)
