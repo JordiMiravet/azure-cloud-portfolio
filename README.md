@@ -11,7 +11,7 @@ This portfolio was started during the **IT Academy Azure and AI Certification pr
   - [Certification Progress](#certification-progress)
   - [Completed Labs](#completed-labs)
   - [Repository Structure](#repository-structure)
-    - [Directory Overview](#directory-overview)
+  - [Documentation](#documentation)
 
 ## Certification Progress
 
@@ -32,38 +32,31 @@ See the [AZ-900 labs index](certifications/az-900/labs/README.md) for the full l
 
 ## Repository Structure
 
-The repository is organized by certification, with separate directories for documentation, shared assets, and project configuration.
-
 ```text
 azure-cloud-portfolio/
 ├── .github/                         # Issue and pull request templates
 ├── assets/                          # Shared images and resources
-├── certifications/                  # Certification-related content
+├── certifications/
 │   └── az-900/
 │       └── labs/                    # AZ-900 hands-on labs
 │           ├── README.md            # Labs index
-│           └── storage-account/     # Individual lab
-│               ├── README.md
-│               └── assets/
-│                   └── screenshots/
-├── docs/                            # Repository documentation
-│   ├── development-workflow.md
-│   └── documentation-guide.md
-└── projects/                        # Independent Azure and AI projects
+│           └── lab-template/        # Template for documenting new labs
+├── docs/
+│   ├── development-workflow.md      # Issues, branches, commits, and pull requests
+│   └── documentation-guide.md       # Folder structure, formatting, and templates
+├── CONTRIBUTING.md
+├── LICENSE
+└── README.md
 ```
 
-### Directory Overview
+New certifications and projects get their own folders as the work progresses.
 
-- **`certifications/`**: Contains hands-on labs organized by Microsoft certification. Each certification has its own directory.
-- **`docs/`**: Contains repository documentation, including development conventions and documentation standards.
-- **`assets/`**: Stores images and resources shared across the repository.
-- **`projects/`**: Contains independent Azure and AI projects, each documented separately.
-- **`.github/`**: Contains GitHub Issue and Pull Request templates.
+## Documentation
 
-Each lab and project has its own `README.md` describing its purpose, implementation, results, and lessons learned.
+Work is tracked with GitHub Issues and delivered through pull requests, following consistent branch and commit conventions.
 
-The structure is designed to remain consistent as new certifications, labs, and projects are added.
+- [Development Workflow](docs/development-workflow.md)
+- [Documentation Guide](docs/documentation-guide.md)
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [License](LICENSE)
 
----
-
-[↑ Back to top](#azure-cloud-portfolio)
