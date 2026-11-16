@@ -32,6 +32,11 @@ For information about repository organization and independent project directorie
     - [Infrastructure Validation](#infrastructure-validation)
     - [Results and Evidence](#results-and-evidence)
     - [Validation Limitations](#validation-limitations)
+  - [Cost Analysis and Security Documentation](#cost-analysis-and-security-documentation)
+    - [Cost Analysis](#cost-analysis)
+    - [Cost Optimization](#cost-optimization)
+    - [Security Documentation](#security-documentation)
+    - [Security Best Practices](#security-best-practices)
 
 ## Project Directory Structure
 
@@ -453,3 +458,76 @@ These may include:
 - Known issues that may affect the expected behavior of the solution.
 
 Documenting limitations provides transparency and helps readers understand the current state and reliability of the implementation.
+
+## Cost Analysis and Security Documentation
+
+Independent cloud projects should document relevant cost and security considerations to provide visibility into their operational requirements, resource consumption, and security posture.
+
+The level of detail should reflect the project's architecture, complexity, and deployment environment.
+
+### Cost Analysis
+
+Cost analysis documentation should explain the expected or actual costs associated with the Azure resources and services used by the project.
+
+The following guidelines apply:
+
+- Identify the main Azure resources and services that generate costs.
+- Provide estimated or actual costs when reliable information is available.
+- Explain the assumptions behind cost estimates, including region, pricing tier, usage, and deployment duration.
+- Identify relevant pricing models and billing considerations.
+- Document potential cost optimization opportunities.
+- Highlight resources that may continue generating costs after deployment.
+- Include references to official Azure pricing information when applicable.
+- Distinguish estimated costs from actual consumption.
+
+Cost estimates should be treated as indicative values rather than fixed prices, as Azure costs may vary depending on region, configuration, usage, and pricing changes.
+
+### Cost Optimization
+
+When applicable, projects should document relevant strategies for reducing infrastructure and operational costs.
+
+These may include:
+
+- Selecting appropriate service tiers and resource sizes.
+- Using autoscaling or serverless services when suitable.
+- Removing unused resources and temporary environments.
+- Applying resource lifecycle management policies.
+- Monitoring resource consumption and identifying unnecessary expenses.
+- Using Azure cost management tools to track and analyze spending.
+
+Cost optimization decisions should consider the project's performance, availability, and operational requirements.
+
+### Security Documentation
+
+Security documentation should describe the security controls and configurations implemented to protect project resources, applications, and data.
+
+The following guidelines apply:
+
+- Document relevant identity and access management configurations.
+- Explain authentication and authorization mechanisms.
+- Identify the use of managed identities and role-based access control (RBAC) when applicable.
+- Describe relevant network security configurations and access restrictions.
+- Document how secrets, credentials, and sensitive configuration values are managed.
+- Explain relevant data protection and encryption mechanisms.
+- Identify security-related Azure services and monitoring capabilities when applicable.
+- Document relevant security assumptions, limitations, and considerations.
+
+Security documentation should reflect the actual implementation and avoid claiming security controls that have not been configured or verified.
+
+### Security Best Practices
+
+Depending on the project's requirements and architecture, documentation should address the following practices:
+
+- Apply the principle of least privilege when assigning permissions.
+- Avoid exposing services and resources unnecessarily to the public internet.
+- Use secure authentication mechanisms and managed identities whenever appropriate.
+- Store secrets in dedicated secret management services, such as Azure Key Vault.
+- Protect sensitive data through appropriate encryption mechanisms.
+- Avoid committing credentials, access keys, tokens, or other sensitive information.
+- Enable relevant monitoring, logging, and security alerts.
+- Review resource configurations and access permissions periodically.
+
+Only practices relevant to the project need to be documented.
+
+Security considerations should be incorporated throughout the project lifecycle rather than treated as a final implementation step.
+
