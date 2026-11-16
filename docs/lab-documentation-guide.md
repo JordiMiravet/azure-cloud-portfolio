@@ -88,3 +88,24 @@ Include links to official Microsoft Learn materials and other relevant technical
 ```
 
 The template may be adapted depending on the laboratory's complexity, objectives, and implementation requirements. Sections that are not relevant may be omitted, while additional sections may be introduced when necessary.
+
+## Expected Documentation Sections
+
+Laboratory documentation should provide enough information for readers to understand the purpose of the exercise, follow its implementation, and verify the expected results.
+
+The following sections should be included when relevant:
+
+- **Overview:** Introduces the laboratory, its purpose, and the Azure services or technologies involved.
+- **Objectives:** Defines the technical concepts and practical skills the laboratory aims to develop.
+- **Prerequisites:** Identifies the required knowledge, tools, permissions, subscriptions, and resources.
+- **Architecture:** Describes the solution design, Azure components, and their relationships.
+- **Implementation:** Documents the configuration and deployment procedures in a logical sequence.
+- **Validation and Results:** Explains how to verify the implementation and presents the expected outcomes.
+- **Troubleshooting:** Records relevant issues, their causes, and their resolutions.
+- **Lessons Learned:** Summarizes the main concepts, challenges, and technical knowledge gained.
+- **References:** Provides links to official Microsoft Learn materials and other relevant technical resources.
+
+Documentation should prioritize practical clarity and reproducibility. Instructions must be detailed enough for readers to understand and repeat the implementation without unnecessary ambiguity.
+
+The level of detail may vary depending on the laboratory's complexity. Simple exercises do not require unnecessary sections or excessive explanations.
+
