@@ -129,6 +129,8 @@ The directories and files serve the following purposes:
 
 The internal structure may vary depending on the complexity and requirements of each laboratory. Unnecessary directories should be avoided for simple exercises.
 
+For detailed laboratory documentation conventions, including README templates, implementation procedures, screenshots, and supporting evidence, see the [Laboratory Documentation Guide](lab-documentation-guide.md).
+
 ## Independent Project Organization
 
 The `projects/` directory contains independent cloud projects that demonstrate practical implementations, cloud architectures, and technical solutions beyond individual certification exercises.

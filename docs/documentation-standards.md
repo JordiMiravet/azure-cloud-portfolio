@@ -127,17 +127,18 @@ Documentation should evolve alongside the project to remain a reliable source of
 
 ## Screenshots and Diagrams
 
-Screenshots and diagrams should be used when they help explain technical concepts, demonstrate configurations, or illustrate implementation details.
+Screenshots and diagrams should be used when they help explain technical concepts, illustrate configurations, or communicate implementation details.
 
 The following guidelines apply:
 
-- Use screenshots to document relevant configurations, procedures, and implementation results.
-- Ensure screenshots are clear, readable, and relevant to the accompanying explanation.
-- Remove credentials, secrets, personal information, and other sensitive data before publishing screenshots.
-- Use diagrams to illustrate cloud architectures, workflows, infrastructure components, and technical relationships.
+- Ensure visual resources are clear, readable, and relevant to the accompanying documentation.
+- Remove credentials, secrets, personal information, and other sensitive data before publishing visual resources.
 - Maintain consistent visual styles and use descriptive filenames.
 - Optimize image sizes to reduce repository storage and loading overhead.
-- Store images and diagrams in the appropriate `assets/` directory according to their context.
+- Store visual resources in the appropriate `assets/` directory according to their context.
+- Reference images and diagrams using relative paths whenever possible.
+
+For laboratory-specific screenshot, evidence, and architecture diagram conventions, see the [Laboratory Documentation Guide](lab-documentation-guide.md).
 
 ---
 
