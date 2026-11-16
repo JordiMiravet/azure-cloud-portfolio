@@ -17,6 +17,7 @@ For contribution guidelines, including how to report issues and propose changes,
     - [Quick Reference](#quick-reference)
     - [Development Flow](#development-flow)
   - [Branch Naming](#branch-naming)
+  - [Commit Messages](#commit-messages)
 
 ## Issue and Pull Request Structure
 
@@ -85,3 +86,36 @@ feature/234-document-development-workflow
 fix/198-handle-null-response
 docs/234-update-readme
 ```
+
+## Commit Messages
+
+Commit messages must follow this format:
+
+```text
+<type>(<scope>): <short description in English> (#<task-number>)
+```
+
+Examples:
+
+```text
+feat(terraform): add storage account module (#145)
+fix(networking): correct subnet configuration (#182)
+docs(workflow): document development workflow (#7)
+```
+
+Common types:
+
+- `feat`: a new feature.
+- `fix`: a bug fix.
+- `docs`: documentation changes.
+- `test`: adding or updating tests.
+- `refactor`: code changes that neither fix a bug nor add a feature.
+- `chore`: maintenance tasks such as dependency updates.
+
+Branch names use the same types, with `feature` written in full instead of `feat`.
+
+To keep commit messages consistent:
+
+- Keep commit messages concise.
+- Write them in English.
+- Focus each commit on a single logical change.
