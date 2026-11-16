@@ -55,8 +55,11 @@ New certifications and projects get their own folders as the work progresses.
 
 Work is tracked with GitHub Issues and delivered through pull requests, following consistent branch and commit conventions.
 
-- [Development Workflow](docs/development-workflow.md)
-- [Documentation Guide](docs/documentation-guide.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [License](LICENSE)
+| Guide | Description |
+| --- | --- |
+| [Development Workflow](docs/development-workflow.md) | Issues, branch naming, commit messages, and pull requests. |
+| [Documentation Guide](docs/documentation-guide.md) | Folder structure, naming and formatting conventions, and lab and project templates. |
+| [Contributing Guidelines](CONTRIBUTING.md) | How to report issues and propose changes. |
+| [License](LICENSE) | Terms of use for the original materials. |
+
 
