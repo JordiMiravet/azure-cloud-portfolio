@@ -20,6 +20,7 @@ For contribution guidelines, including how to report issues and propose changes,
   - [Commit Messages](#commit-messages)
   - [Epic Structure and Conventions](#epic-structure-and-conventions)
       - [Epic Title](#epic-title)
+      - [Epic Structure](#epic-structure)
 
 ## Issue and Pull Request Structure
 
@@ -137,3 +138,38 @@ Epics must follow this title format:
 The category identifies the type of work, while the description summarizes the overall objective of the epic.
 
 Example: `[DOCS] - Document project workflow and issue templates`
+
+#### Epic Structure
+
+Every epic must contain the following sections, in this order:
+
+1. Description
+2. Scope
+3. Acceptance Criteria
+
+**Description**
+
+Explain the problem, need, or objective behind the epic, providing enough context to understand why the work is necessary and what it aims to achieve.
+
+- Introduce the overall goal of the initiative.
+- Explain the current situation or problem when relevant.
+- Describe the expected outcome or improvement.
+- Focus on the overall objective rather than individual implementation steps.
+
+**Scope**
+
+Define the work covered by the epic using a bullet list.
+
+- Describe the main changes, improvements, or deliverables included.
+- Keep each item focused on a specific area of work.
+- Establish clear boundaries to prevent unrelated changes from being included.
+- Ensure the scope is consistent with the objective described in the description.
+
+**Acceptance Criteria**
+
+List the conditions that must be satisfied for the epic to be considered complete.
+
+- Use a checklist with Markdown checkboxes (`- [ ]`).
+- Describe specific, verifiable outcomes rather than implementation steps.
+- Ensure each criterion corresponds to the epic's objective and scope.
+- Include relevant constraints, such as preserving existing functionality or limiting changes to documentation, when applicable.
