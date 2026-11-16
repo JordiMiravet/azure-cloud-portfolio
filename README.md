@@ -12,8 +12,8 @@ This portfolio was started during the **IT Academy Azure and AI Certification pr
   - [Completed Labs](#completed-labs)
   - [Repository Structure](#repository-structure)
   - [Development Workflow](#development-workflow)
+  - [Documentation Guide](#documentation-guide)
   - [Documentation](#documentation)
-  - [More Information](#more-information)
 
 ## Certification Progress
 
@@ -66,7 +66,7 @@ Work is tracked with GitHub Issues and delivered through pull requests, followin
 
 For the full process, see the [Development Workflow](docs/development-workflow.md) guide.
 
-## Documentation
+## Documentation Guide
 
 Each lab and project is documented in its own folder, following a common structure:
 
@@ -76,10 +76,14 @@ Each lab and project is documented in its own folder, following a common structu
 
 For the folder structure, formatting conventions, and templates, see the [Documentation Guide](docs/documentation-guide.md).
 
-## More Information
+## Documentation
 
-| Resource | Description |
+The following table lists all the guides and policies available in the repository:
+
+| Document | Description |
 | --- | --- |
+| [Development Workflow](docs/development-workflow.md) | Issues, branch naming, commit messages, and pull requests. |
+| [Documentation Guide](docs/documentation-guide.md) | Folder structure, naming and formatting conventions, and lab and project templates. |
 | [Contributing Guidelines](CONTRIBUTING.md) | How to report issues and propose changes. |
 | [License](LICENSE) | Terms of use for the original materials. |
 
