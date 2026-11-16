@@ -26,6 +26,9 @@ For contribution guidelines, including how to report issues and propose changes,
       - [Task Title](#task-title)
       - [Task Structure](#task-structure)
       - [Task Example](#task-example)
+  - [Pull Request Structure and Conventions](#pull-request-structure-and-conventions)
+      - [PR Title](#pr-title)
+      - [PR Structure](#pr-structure)
 
 ## Issue and Pull Request Structure
 
@@ -312,3 +315,76 @@ The goal is to establish clear conventions for branches, commits, epics, tasks, 
 - [ ] The typical development workflow is explained.
 - [ ] GitHub Projects usage is documented.
 ```
+
+## Pull Request Structure and Conventions
+
+Pull Requests (PRs) document and submit the changes implemented for a task. They provide reviewers with the context, affected components, and implementation details needed to evaluate the changes before merging.
+
+All pull requests must follow the structure defined in the [Pull Request Template](../.github/PULL_REQUEST_TEMPLATE.md).
+
+#### PR Title
+
+PR titles must follow the project's [Commit Messages](#commit-messages) convention:
+
+`<type>(<scope>): <short description in English> (#<task-number>)`
+
+The type identifies the kind of change, the scope identifies the affected area, and the task number links the pull request to its corresponding GitHub Issue.
+
+Example: `docs(workflow): document pull request conventions (#7)`
+
+#### PR Structure
+
+Every PR must contain the following sections, in this order:
+
+1. Task Reference
+2. Summary
+3. Components
+4. What's included
+5. Notes
+
+**Task Reference**
+
+Link the task implemented by the PR using the following format:
+
+`### [Task #<task-number>](<task-url>)`
+
+Replace the placeholders with the actual task number and its GitHub URL.
+
+This reference establishes a direct link between the pull request and the task it implements.
+
+**Summary**
+
+Explain the purpose of the PR and the changes it introduces.
+
+- Describe the objective and context of the changes.
+- Explain what the implementation aims to achieve.
+- Summarize the overall result without listing every individual change.
+- Keep it concise and focused on the task being completed.
+
+**Components**
+
+List the files, components, or areas of the project affected by the changes.
+
+- Use a bullet list with file paths or component names.
+- Include all relevant modified files.
+- Keep the list consistent with the actual changes in the PR.
+
+**What's Included**
+
+Describe the specific changes implemented using a bullet list.
+
+- Identify the main changes and deliverables.
+- Explain implementation details that help reviewers understand the changes.
+- Include relevant test improvements, documentation updates, or other changes when applicable.
+- Keep each item focused on a specific change and consistent with the actual implementation.
+
+**Notes**
+
+Document relevant details for reviewers that do not belong in the previous sections.
+
+- Include relevant test results and coverage information when applicable.
+- Explain important implementation decisions or constraints.
+- Mention whether existing behavior has been preserved, when relevant.
+- Include limitations or outstanding considerations.
+
+Only report tests, coverage figures, and behavior checks that have actually been verified.
