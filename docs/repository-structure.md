@@ -15,6 +15,7 @@ For general documentation conventions, including file naming, Markdown formattin
   - [Root Directory Structure](#root-directory-structure)
   - [Main Directories](#main-directories)
   - [Certification Organization](#certification-organization)
+  - [Laboratory Organization](#laboratory-organization)
 
 ## Root Directory Structure
 
@@ -84,3 +85,29 @@ The directories serve the following purposes:
 - **`assets/`:** Stores supporting resources such as images, diagrams, and screenshots.
 
 This structure is shared across all certification learning paths to maintain consistency and make learning materials easy to navigate.
+
+## Laboratory Organization
+
+Hands-on laboratories are organized within the `labs/` directory of their corresponding certification learning path.
+
+Each laboratory should have its own dedicated directory to keep its implementation files, documentation, and supporting resources together.
+
+A typical laboratory directory may follow this structure:
+
+```text
+labs/
+└── storage-account-lab/
+    ├── README.md
+    ├── src/
+    └── assets/
+```
+
+The directories and files serve the following purposes:
+
+- **`README.md`:** Describes the laboratory objectives, prerequisites, implementation steps, and expected results.
+- **`src/`:** Contains scripts, configuration files, and other implementation resources used in the laboratory.
+- **`assets/`:** Stores supporting resources such as screenshots, diagrams, and images.
+
+The internal structure may vary depending on the complexity and requirements of each laboratory. Unnecessary directories should be avoided for simple exercises.
+
+
