@@ -156,3 +156,33 @@ The following guidelines apply:
 - Use placeholders or environment variables for sensitive configuration values.
 
 Scripts and configuration files should be organized to support reproducibility, readability, and maintainability.
+
+## Troubleshooting and Lessons Learned
+
+Laboratory documentation should capture relevant implementation issues, their resolutions, and the technical knowledge gained throughout the exercise.
+
+### Troubleshooting
+
+The following guidelines apply:
+
+- Document relevant errors and unexpected behaviors encountered during implementation.
+- Describe the conditions under which each issue occurred.
+- Explain the identified cause whenever possible.
+- Provide the steps taken to resolve the issue.
+- Include relevant error messages or screenshots when they provide useful context.
+- Document alternative solutions or workarounds when appropriate.
+
+Troubleshooting information should help readers understand common issues and avoid repeating the same mistakes.
+
+### Lessons Learned
+
+The following guidelines apply:
+
+- Summarize the main technical concepts explored during the laboratory.
+- Highlight important Azure services, configurations, and implementation decisions.
+- Describe relevant challenges and how they were addressed.
+- Identify areas for improvement or further exploration.
+- Explain how the knowledge gained can be applied to other cloud scenarios.
+
+Lessons learned should focus on practical knowledge and meaningful technical insights rather than simply repeating the implementation steps.
+
