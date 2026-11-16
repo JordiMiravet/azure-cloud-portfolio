@@ -59,6 +59,13 @@ The repository contains the following main directories:
 - **`docs/`:** Contains general repository documentation, including development guidelines, documentation standards, and repository organization guides.
 - **`projects/`:** Contains independent cloud projects demonstrating practical implementations, architectures, and technical solutions.
 
+The repository also includes the following root-level files:
+
+- **`README.md`:** Introduces the portfolio, its objectives, certification learning paths, and repository organization.
+- **`CONTRIBUTING.md`:** Defines guidelines for reporting issues and proposing changes.
+- **`LICENSE`:** Describes the rights and restrictions governing the use of the original project materials.
+- **`.gitignore`:** Specifies files and directories that Git should exclude from version control.
+
 Each directory has a specific responsibility to maintain a clear separation between certification learning materials, independent projects, and general repository resources.
 
 ## Certification Organization
