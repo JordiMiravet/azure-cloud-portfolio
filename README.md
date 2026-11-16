@@ -51,7 +51,7 @@ azure-cloud-portfolio/
 └── README.md
 ```
 
-New certifications and projects get their own folders as the work progresses.
+New certifications and projects get their own folders as the work progresses. For more details on how content is organized, see the [Folder Structure](docs/documentation-guide.md#folder-structure) section of the Documentation Guide.
 
 ## Development Workflow
 
