@@ -235,6 +235,30 @@ The following guidelines apply:
 
 Troubleshooting information should help readers understand common issues and avoid repeating the same mistakes.
 
+When documenting troubleshooting scenarios, the following structure can be used:
+
+```markdown
+### Issue: Brief description of the problem
+
+**Error:**
+
+Describe the error message or unexpected behavior encountered.
+
+**Cause:**
+
+Explain the identified cause of the issue.
+
+**Resolution:**
+
+Document the steps taken to resolve the issue.
+
+**Additional Notes:**
+
+Include relevant observations, alternative solutions, or preventive recommendations.
+```
+
+This structure is recommended for documenting relevant issues consistently. It may be adapted depending on the complexity and nature of the problem.
+
 ### Lessons Learned
 
 The following guidelines apply:
