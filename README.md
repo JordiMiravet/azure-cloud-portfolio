@@ -109,9 +109,9 @@ The following official Microsoft Learn resources provide certification informati
 
 | Certification | Official Microsoft Learn Reference |
 | --- | --- |
-| **AZ-900** - Microsoft Azure Fundamentals | [Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/) |
-| **AI-901** - Introduction to AI in Azure | [Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) |
-| **AI-103** - Developing AI Applications and Agents in Azure | [Azure AI Apps and Agents Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/) |
-| **AI-200** - Developing AI Cloud Solutions in Azure | [Azure AI Cloud Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/) |
+| **AZ-900** - Microsoft Azure Fundamentals | [AZ-900 Exam](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/) |
+| **AI-901** - Microsoft Azure AI Fundamentals | [AI-901 Exam](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/) |
+| **AI-103** - Azure AI Apps and Agents Developer Associate | [AI-103 Exam](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/) |
+| **AI-200** - Azure AI Cloud Developer Associate | [AI-200 Exam](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/) |
 
 For additional learning materials, tutorials, and hands-on training, visit [Microsoft Learn](https://learn.microsoft.com/en-us/training/).
