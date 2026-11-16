@@ -20,3 +20,24 @@ The following conventions apply:
 - **General Documentation:** Repository-wide guidelines, development conventions, and documentation standards belong in the root `docs/` directory.
 
 Documentation should be placed as close as possible to the content it describes, avoiding unnecessary duplication and keeping related resources together.
+
+## File Naming Conventions
+
+Documentation files must follow consistent naming conventions to improve readability and navigation throughout the repository.
+
+The following rules apply:
+
+- Use lowercase letters.
+- Separate words using hyphens (`kebab-case`).
+- Use descriptive names that clearly identify the document's content.
+- Use the `.md` extension for Markdown documentation.
+- Avoid spaces, special characters, and unnecessary abbreviations.
+
+Examples:
+
+```text
+development-workflow.md
+documentation-standards.md
+azure-fundamentals.md
+storage-account-lab.md
+```
