@@ -34,3 +34,57 @@ The directories and files serve the following purposes:
 Additional files or directories may be introduced when required by the laboratory's complexity or implementation technologies.
 
 The structure should remain as simple as possible, avoiding unnecessary files and directories for straightforward exercises.
+
+## Laboratory README Template
+
+Each laboratory must include a `README.md` file describing its objectives, requirements, implementation procedures, and results.
+
+The following template establishes the recommended structure for documenting hands-on laboratories:
+
+```markdown
+# Laboratory Title
+
+## Overview
+
+Briefly describe the laboratory, its purpose, and the Azure services or technologies involved.
+
+## Objectives
+
+List the main learning objectives and technical skills addressed by the laboratory.
+
+## Prerequisites
+
+Describe the required knowledge, tools, permissions, Azure resources, and configurations needed before starting the laboratory.
+
+## Architecture
+
+Describe the architecture and Azure resources involved in the implementation.
+
+Include an architecture diagram when it helps explain the solution.
+
+## Implementation
+
+Document the implementation procedure in a logical sequence.
+
+Include relevant commands, configurations, code examples, and screenshots where necessary.
+
+## Validation and Results
+
+Explain how to verify that the implementation works as expected.
+
+Include relevant outputs, screenshots, and observations.
+
+## Troubleshooting
+
+Document relevant issues encountered during implementation and their solutions.
+
+## Lessons Learned
+
+Summarize the main technical concepts, challenges, and practical knowledge gained from the laboratory.
+
+## References
+
+Include links to official Microsoft Learn materials and other relevant technical documentation.
+```
+
+The template may be adapted depending on the laboratory's complexity, objectives, and implementation requirements. Sections that are not relevant may be omitted, while additional sections may be introduced when necessary.
