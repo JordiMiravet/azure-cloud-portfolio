@@ -78,3 +78,18 @@ The following guidelines apply:
 
 Documentation should prioritize clarity, accuracy, and practical usefulness.
 
+## Links and References
+
+Documentation should include relevant links and references to help readers navigate related content and access authoritative information.
+
+The following guidelines apply:
+
+- Use relative links when referencing files and directories within the repository.
+- Use descriptive link text that clearly identifies the destination.
+- Prefer official documentation and trusted sources when referencing external technical information.
+- Ensure that external references point to relevant and reliable resources.
+- Verify that links are valid and accessible before publishing documentation.
+- Avoid unnecessary duplication of information by linking to existing documentation when appropriate.
+
+References should provide additional context and support the information presented in each document.
+
