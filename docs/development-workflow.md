@@ -19,6 +19,7 @@ For contribution guidelines, including how to report issues and propose changes,
   - [Branch Naming](#branch-naming)
   - [Commit Messages](#commit-messages)
   - [Epic Structure and Conventions](#epic-structure-and-conventions)
+      - [Epic Title](#epic-title)
 
 ## Issue and Pull Request Structure
 
@@ -126,3 +127,13 @@ To keep commit messages consistent:
 Epics group larger features, improvements, or technical objectives into a single initiative. They define the overall goal and scope of the work, which is broken down into multiple related tasks.
 
 All epics must follow the structure defined in the [Epic Template](../.github/ISSUE_TEMPLATE/epic.md).
+
+#### Epic Title
+
+Epics must follow this title format:
+
+`[CATEGORY] - Short description of the objective`
+
+The category identifies the type of work, while the description summarizes the overall objective of the epic.
+
+Example: `[DOCS] - Document project workflow and issue templates`
