@@ -27,6 +27,11 @@ For information about repository organization and independent project directorie
     - [Infrastructure as Code](#infrastructure-as-code)
     - [Deployment Instructions](#deployment-instructions)
     - [Configuration and Secrets Management](#configuration-and-secrets-management)
+  - [Testing and Validation](#testing-and-validation)
+    - [Testing Types](#testing-types)
+    - [Infrastructure Validation](#infrastructure-validation)
+    - [Results and Evidence](#results-and-evidence)
+    - [Validation Limitations](#validation-limitations)
 
 ## Project Directory Structure
 
@@ -372,3 +377,79 @@ The following guidelines apply:
 
 Configuration documentation should allow readers to understand the requirements without exposing credentials or compromising security.
 
+## Testing and Validation
+
+Testing and validation documentation must describe how an independent project is tested and how its expected functionality and technical requirements are verified.
+
+The goal is to provide evidence that the implemented solution behaves as expected and satisfies its defined objectives.
+
+The following guidelines apply:
+
+- Identify the testing approaches used throughout the project.
+- Document relevant test scenarios, procedures, and expected outcomes.
+- Explain how application functionality and infrastructure configurations are validated.
+- Include relevant test commands, tools, and configuration examples.
+- Document important test results and identified limitations.
+- Provide evidence supporting successful validation when applicable.
+- Ensure that documented results reflect tests that have actually been performed.
+
+Testing documentation should provide enough information for readers to understand how the solution was evaluated and how its expected behavior can be verified.
+
+### Testing Types
+
+Depending on the project's architecture and complexity, testing documentation may include:
+
+- **Unit Testing:** Verifies individual functions, modules, or application components independently.
+- **Integration Testing:** Validates interactions between application components, Azure services, and external dependencies.
+- **Infrastructure Testing:** Verifies infrastructure definitions, resource configurations, and deployment requirements.
+- **Functional Testing:** Confirms that the solution performs its intended operations and satisfies functional requirements.
+- **Security Testing:** Evaluates relevant security configurations, permissions, and potential weaknesses.
+- **Performance Testing:** Assesses response times, resource consumption, and behavior under different workloads.
+
+Only testing types relevant to the project need to be documented.
+
+### Infrastructure Validation
+
+When projects include cloud infrastructure, documentation should explain how deployed resources and their configurations are validated.
+
+The following guidelines apply:
+
+- Verify that the required Azure resources have been successfully provisioned.
+- Validate relevant resource configurations and dependencies.
+- Confirm that networking, connectivity, and access permissions work as expected.
+- Document relevant Azure CLI commands, scripts, or validation tools.
+- Include infrastructure validation outputs when they provide useful evidence.
+- Identify configuration errors or deployment issues encountered during validation.
+
+Infrastructure validation should confirm that the deployed environment reflects the intended architecture and configuration.
+
+### Results and Evidence
+
+Testing results and supporting evidence should be documented to demonstrate the outcome of the validation process.
+
+The following guidelines apply:
+
+- Summarize the tests performed and their results.
+- Identify successful validations and relevant failures.
+- Include screenshots, command outputs, logs, or reports when they provide useful evidence.
+- Explain what each piece of evidence demonstrates.
+- Store project-specific screenshots and visual evidence in the `assets/screenshots/` directory.
+- Reference supporting evidence using relative paths.
+- Remove credentials, tokens, personal information, and other sensitive data before publishing evidence.
+- Clearly distinguish verified results from expected or theoretical outcomes.
+
+Evidence should support the documented results rather than replace the explanation of the testing process.
+
+### Validation Limitations
+
+Relevant limitations identified during testing and validation should be documented.
+
+These may include:
+
+- Features that have not yet been implemented or tested.
+- Infrastructure configurations that have only been validated in specific environments.
+- Dependencies on external services or resources.
+- Performance or scalability limitations.
+- Known issues that may affect the expected behavior of the solution.
+
+Documenting limitations provides transparency and helps readers understand the current state and reliability of the implementation.
