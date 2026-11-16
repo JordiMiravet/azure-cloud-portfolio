@@ -18,6 +18,7 @@ For information about laboratory directory organization, see the [Repository Str
   - [Laboratory README Template](#laboratory-readme-template)
   - [Expected Documentation Sections](#expected-documentation-sections)
   - [Screenshots and Evidence](#screenshots-and-evidence)
+    - [Screenshot Naming Conventions](#screenshot-naming-conventions)
   - [Architecture Diagrams and Scripts](#architecture-diagrams-and-scripts)
     - [Architecture Diagrams](#architecture-diagrams)
     - [Scripts and Configuration Files](#scripts-and-configuration-files)
@@ -160,6 +161,30 @@ The following guidelines apply:
 Evidence should support the documented implementation and provide readers with a clear understanding of the expected results.
 
 Screenshots should complement written instructions rather than replace essential implementation details.
+
+### Screenshot Naming Conventions
+
+Screenshots should follow consistent naming conventions to improve identification and navigation.
+
+The following guidelines apply:
+
+- Use lowercase letters and hyphens (`kebab-case`) in filenames.
+- Use descriptive names that identify the resource, operation, or implementation step.
+- Use sequential numbering when screenshots follow a specific implementation sequence.
+- Use the `.png` format for screenshots containing interfaces, terminal output, or configuration details.
+- Avoid spaces, special characters, and generic filenames.
+
+Example:
+
+```text
+assets/
+└── screenshots/
+    ├── 01-resource-group-created.png
+    ├── 02-storage-account-created.png
+    └── 03-container-created.png
+```
+
+Screenshots should be named consistently throughout each laboratory to make their purpose immediately recognizable.
 
 ## Architecture Diagrams and Scripts
 
