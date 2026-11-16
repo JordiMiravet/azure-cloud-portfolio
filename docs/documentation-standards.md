@@ -59,3 +59,22 @@ The following rules apply:
 - Separate sections with blank lines to improve readability.
 
 Formatting should remain consistent throughout each document.
+
+## Writing Guidelines
+
+Documentation must be written in a clear, consistent, and professional manner.
+
+The following guidelines apply:
+
+- Write all documentation in English.
+- Use clear and concise language.
+- Prefer technical accuracy over unnecessary complexity.
+- Explain technical concepts and procedures in a way that is easy to understand.
+- Use consistent terminology throughout the repository.
+- Avoid ambiguous descriptions and unnecessary repetition.
+- Write instructions in a logical sequence.
+- Use active voice whenever possible.
+- Ensure that examples and commands are relevant to the documented content.
+
+Documentation should prioritize clarity, accuracy, and practical usefulness.
+
