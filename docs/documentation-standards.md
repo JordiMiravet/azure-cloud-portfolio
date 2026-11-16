@@ -18,6 +18,7 @@ For development conventions, including branch naming, commit messages, and pull 
   - [Writing Guidelines](#writing-guidelines)
   - [Links and References](#links-and-references)
   - [Documentation Maintenance](#documentation-maintenance)
+  - [Screenshots and Diagrams](#screenshots-and-diagrams)
 
 ## Documentation Structure
 
@@ -121,6 +122,19 @@ The following guidelines apply:
 - Include relevant documentation updates in the pull requests associated with the corresponding changes.
 
 Documentation should evolve alongside the project to remain a reliable source of information.
+
+## Screenshots and Diagrams
+
+Screenshots and diagrams should be used when they help explain technical concepts, demonstrate configurations, or illustrate implementation details.
+
+The following guidelines apply:
+
+- Use screenshots to document relevant configurations, procedures, and implementation results.
+- Ensure screenshots are clear, readable, and relevant to the accompanying explanation.
+- Remove credentials, secrets, personal information, and other sensitive data before publishing screenshots.
+- Use diagrams to illustrate cloud architectures, workflows, infrastructure components, and technical relationships.
+- Maintain consistent visual styles and use descriptive filenames.
+- Store images and diagrams in the appropriate `assets/` directory according to their context.
 
 ---
 
