@@ -1,138 +1,91 @@
 # Azure Cloud Portfolio
 
-My Azure Cloud Engineering journey, documenting hands-on laboratories, technical projects, cloud architectures, and Microsoft Azure certification learning paths.
+Hands-on labs and projects documenting my learning journey through Microsoft Azure and AI, as part of my certification path.
+
+This portfolio was started during the **IT Academy Azure and AI Certification program** (5 November – 3 December 2026), a free 80-hour training program covering four official Microsoft learning paths. It showcases my practical work throughout the program, including step-by-step labs, implementation screenshots, technical documentation, and lessons learned.
 
 ## Table of Contents
 
 - [Azure Cloud Portfolio](#azure-cloud-portfolio)
   - [Table of Contents](#table-of-contents)
-  - [About This Portfolio](#about-this-portfolio)
-  - [Certification Learning Paths](#certification-learning-paths)
-    - [AZ-900: Microsoft Azure Fundamentals](#az-900-microsoft-azure-fundamentals)
-    - [AI-901: Microsoft Azure AI Fundamentals](#ai-901-microsoft-azure-ai-fundamentals)
-    - [AI-103: Azure AI Apps and Agents Developer Associate](#ai-103-azure-ai-apps-and-agents-developer-associate)
-    - [AI-200: Azure AI Cloud Developer Associate](#ai-200-azure-ai-cloud-developer-associate)
+  - [Certification Progress](#certification-progress)
+  - [Completed Labs](#completed-labs)
   - [Repository Structure](#repository-structure)
-    - [Main Directories](#main-directories)
-  - [Documentation](#documentation)
   - [Development Workflow](#development-workflow)
-  - [Microsoft Learning References](#microsoft-learning-references)
+  - [Documentation Guide](#documentation-guide)
+  - [Documentation](#documentation)
 
-## About This Portfolio
+## Certification Progress
 
-Azure Cloud Portfolio is a personal technical portfolio focused on developing and demonstrating practical knowledge of Microsoft Azure and cloud engineering.
+| Certification | Status | Links |
+| --- | --- | --- |
+| **AZ-900** - Microsoft Azure Fundamentals | In progress | [Labs](certifications/az-900/labs/README.md) · [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/) |
+| **AI-901** - Microsoft Azure AI Fundamentals | Pending | [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/) |
+| **AI-103** - Azure AI Apps and Agents Developer Associate | Pending | [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/) |
+| **AI-200** - Azure AI Cloud Developer Associate | Pending | [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/) |
 
-This repository documents my learning journey through structured certification paths, hands-on laboratories, technical documentation, and independent cloud projects.
+## Completed Labs
 
-The goal is to build a practical reference of cloud technologies, architecture patterns, and implementation approaches while progressively developing the skills required to design, deploy, and manage cloud solutions using Microsoft Azure.
+_No labs completed yet. AZ-900 hands-on labs are currently in progress._
 
-## Certification Learning Paths
+Every completed lab is documented with step-by-step instructions, implementation screenshots, results, and lessons learned.
 
-The portfolio is organized around four Microsoft certification learning paths, covering foundational Azure knowledge, artificial intelligence, and cloud application development.
-
-Each learning path includes relevant study materials, practical exercises, and hands-on implementations to reinforce the concepts covered throughout the preparation process.
-
-### AZ-900: Microsoft Azure Fundamentals
-
-Introduction to cloud computing concepts and Microsoft Azure core services, including cloud architecture, infrastructure, security, governance, and pricing.
-
-### AI-901: Microsoft Azure AI Fundamentals
-
-Introduction to artificial intelligence concepts, Azure AI services, machine learning, computer vision, natural language processing, and generative AI.
-
-### AI-103: Azure AI Apps and Agents Developer Associate
-
-Focus on developing AI-powered applications and agents using Microsoft Foundry and Azure services, including generative AI, agent development, computer vision, and natural language processing.
-
-### AI-200: Azure AI Cloud Developer Associate
-
-Focus on developing and implementing AI cloud solutions using Azure services, covering application development, containerized solutions, data management, security, monitoring, and troubleshooting.
+See the [AZ-900 labs index](certifications/az-900/labs/README.md) for the full list of labs.
 
 ## Repository Structure
 
-The repository is organized to keep certification materials, hands-on laboratories, technical documentation, and independent cloud projects structured and easy to navigate.
-
 ```text
 azure-cloud-portfolio/
-├── .github/
-├── assets/                      # General repository assets
+├── .github/                         # Issue and pull request templates
+├── assets/                          # Shared images and resources
 ├── certifications/
-│   ├── az-900/                  # Microsoft Azure Fundamentals
-│   │   ├── notes/
-│   │   ├── labs/
-│   │   └── assets/
-│   ├── ai-901/                  # Microsoft Azure AI Fundamentals
-│   │   ├── notes/
-│   │   ├── labs/
-│   │   └── assets/
-│   ├── ai-103/                  # Azure AI Apps and Agents Developer Associate
-│   │   ├── notes/
-│   │   ├── labs/
-│   │   └── assets/
-│   └── ai-200/                  # Azure AI Cloud Developer Associate
-│       ├── notes/
-│       ├── labs/
-│       └── assets/
-├── docs/                        # General project documentation
-├── projects/                    # Independent cloud projects
-│   ├── project-01/
-│   │   ├── docs/
-│   │   ├── src/
-│   │   └── assets/
-│   └── project-02/
-│       ├── docs/
-│       ├── src/
-│       └── assets/
+│   └── az-900/
+│       └── labs/                    # AZ-900 hands-on labs
+│           ├── README.md            # Labs index
+│           └── lab-template/        # Template for documenting new labs
+├── docs/
+│   ├── development-workflow.md      # Issues, branches, commits, and pull requests
+│   └── documentation-guide.md       # Folder structure, formatting, and templates
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── README.md
 ```
 
-### Main Directories
-
-- **certifications/**: Certification learning paths, including study notes, hands-on laboratories, and related resources organized by certification.
-- **projects/**: Independent cloud projects demonstrating practical implementations, cloud architectures, and technical solutions beyond individual certification exercises.
-- **docs/**: General project documentation, development guidelines, and repository conventions.
-- **.github/**: GitHub issue templates and pull request templates.
-
-## Documentation
-
-The following table provides an overview of the project's documentation, including development guides and additional guidelines and policies available at the repository root:
-
-| Guide | Description |
-| --- | --- |
-| [Development Workflow](docs/development-workflow.md) | Conventions for issue organization, branch naming, commit messages, pull requests, and development processes. |
-| [Documentation Guide](docs/documentation-guide.md) | Folder structure, naming and formatting conventions, and templates for documenting labs and projects. |
-| [Contributing Guidelines](CONTRIBUTING.md) | Guidelines for reporting issues, proposing changes, and contributing to the project. |
-| [License](LICENSE) | Defines the terms and restrictions governing the use of the repository's original materials. |
+New certifications and projects get their own folders as the work progresses. For more details on how content is organized, see the [Folder Structure](docs/documentation-guide.md#folder-structure) section of the Documentation Guide.
 
 ## Development Workflow
 
-The project follows a structured development workflow to ensure consistency, traceability, and maintainability across all contributions.
+Work is tracked with GitHub Issues and delivered through pull requests, following consistent conventions:
 
-Development work is organized into GitHub Issues using epics and tasks, with dedicated branches and pull requests for implementing individual tasks.
+| Element | Convention | Example |
+| --- | --- | --- |
+| Issue | `[CATEGORY] - Short description` | `[DOCS] - Rewrite README to showcase certification progress and labs` |
+| Branch | `<type>/<task-number>-<short-description>` | `feature/25-create-certification-structure` |
+| Commit | `<type>(<scope>): <description> (#<task-number>)` | `feat(labs): add reusable lab README template (#25)` |
+| Pull request | Commit format as title, referencing its task | `docs(readme): rewrite README (#26)` |
 
-The workflow follows these conventions:
+For the full process, see the [Development Workflow](docs/development-workflow.md) guide.
 
-- **Issues:** Work is organized into epics and actionable tasks.
-- **Branches:** Each task is implemented in a dedicated branch following the project's naming conventions.
-- **Commits:** Changes follow a consistent commit message format.
-- **Pull Requests:** Each pull request references its corresponding task and undergoes review before being merged into `main`.
+## Documentation Guide
 
-For detailed information about development conventions and processes, see the [Development Workflow](docs/development-workflow.md) guide.
+Each lab and project is documented in its own folder, following a common structure:
 
-## Microsoft Learning References
+- Every lab has a `README.md` with five sections: Overview, Steps, Result, Lessons Learned, and References.
+- Files and folders use lowercase `kebab-case`, and all documentation is written in English.
+- Screenshots are stored in the lab's `assets/screenshots/` folder, numbered by step, with sensitive data removed.
 
-The following official Microsoft Learn resources provide certification information, learning materials, and exam preparation guidance for each learning path.
+For the folder structure, formatting conventions, and templates, see the [Documentation Guide](docs/documentation-guide.md).
 
-| Certification | Official Microsoft Learn Reference |
+## Documentation
+
+The following table lists all the guides and policies available in the repository:
+
+| Document | Description |
 | --- | --- |
-| **AZ-900** - Microsoft Azure Fundamentals | [AZ-900 Exam](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/) |
-| **AI-901** - Microsoft Azure AI Fundamentals | [AI-901 Exam](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/) |
-| **AI-103** - Azure AI Apps and Agents Developer Associate | [AI-103 Exam](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/) |
-| **AI-200** - Azure AI Cloud Developer Associate | [AI-200 Exam](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/) |
-
-For additional learning materials, tutorials, and hands-on training, visit [Microsoft Learn](https://learn.microsoft.com/en-us/training/).
+| [Development Workflow](docs/development-workflow.md) | Issues, branch naming, commit messages, and pull requests. |
+| [Documentation Guide](docs/documentation-guide.md) | Folder structure, naming and formatting conventions, and lab and project templates. |
+| [Contributing Guidelines](CONTRIBUTING.md) | How to report issues and propose changes. |
+| [License](LICENSE) | Terms of use for the original materials. |
 
 ---
 
