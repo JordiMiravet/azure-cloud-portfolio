@@ -13,6 +13,7 @@ For general documentation conventions, including file naming, Markdown formattin
 - [Repository Structure](#repository-structure)
   - [Table of Contents](#table-of-contents)
   - [Root Directory Structure](#root-directory-structure)
+  - [Main Directories](#main-directories)
 
 ## Root Directory Structure
 
@@ -39,4 +40,16 @@ azure-cloud-portfolio/
 ```
 
 The structure separates certification materials, independent projects, and general repository resources to keep related content organized and easy to navigate.
+
+## Main Directories
+
+The repository contains the following main directories:
+
+- **`.github/`:** Contains GitHub configuration files, including issue templates and pull request templates.
+- **`assets/`:** Stores images, diagrams, and other resources shared across the repository.
+- **`certifications/`:** Contains certification learning paths, including study notes, hands-on laboratories, and related resources organized by certification.
+- **`docs/`:** Contains general repository documentation, including development guidelines, documentation standards, and repository organization guides.
+- **`projects/`:** Contains independent cloud projects demonstrating practical implementations, architectures, and technical solutions.
+
+Each directory has a specific responsibility to maintain a clear separation between certification learning materials, independent projects, and general repository resources.
 
