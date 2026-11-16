@@ -29,7 +29,7 @@ The following tree provides an overview of the main repository structure:
 
 ```text
 azure-cloud-portfolio/
-.github/
+├── .github/
 │   ├── ISSUE_TEMPLATE/
 │   │   ├── epic.md
 │   │   └── task.md
@@ -41,7 +41,11 @@ azure-cloud-portfolio/
 │   ├── ai-103/
 │   └── ai-200/
 ├── docs/
+│   ├── development-workflow.md
+│   ├── documentation-standards.md
+│   └── repository-structure.md
 ├── projects/
+├── .gitignore
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── README.md
