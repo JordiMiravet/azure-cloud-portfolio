@@ -131,3 +131,7 @@ The following official Microsoft Learn resources provide certification informati
 | **AI-200** - Azure AI Cloud Developer Associate | [AI-200 Exam](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/) |
 
 For additional learning materials, tutorials, and hands-on training, visit [Microsoft Learn](https://learn.microsoft.com/en-us/training/).
+
+---
+
+[↑ Back to top](#azure-cloud-portfolio)
