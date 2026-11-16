@@ -459,3 +459,7 @@ git commit -m "docs(workflow): document development workflow (#7)"
 # Push the branch to the remote repository
 git push --set-upstream origin docs/7-development-workflow
 ```
+
+---
+
+[↑ Back to top](#development-workflow)
