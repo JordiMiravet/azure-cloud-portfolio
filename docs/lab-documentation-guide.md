@@ -90,6 +90,12 @@ Explain how to verify that the implementation works as expected.
 
 Include relevant outputs, screenshots, and observations.
 
+## Cleanup
+
+Describe how to remove the resources created during the laboratory.
+
+Include relevant commands, portal instructions, or configuration changes required to safely remove the deployed resources and avoid unnecessary Azure costs.
+
 ## Troubleshooting
 
 Document relevant issues encountered during implementation and their solutions.
@@ -117,6 +123,7 @@ The following sections should be included when relevant:
 - **Architecture:** Describes the solution design, Azure components, and their relationships.
 - **Implementation:** Documents the configuration and deployment procedures in a logical sequence.
 - **Validation and Results:** Explains how to verify the implementation and presents the expected outcomes.
+- **Cleanup:** Explains how to remove resources created during the laboratory and avoid unnecessary Azure costs.
 - **Troubleshooting:** Records relevant issues, their causes, and their resolutions.
 - **Lessons Learned:** Summarizes the main concepts, challenges, and technical knowledge gained.
 - **References:** Provides links to official Microsoft Learn materials and other relevant technical resources.
