@@ -128,3 +128,31 @@ Evidence should support the documented implementation and provide readers with a
 
 Screenshots should complement written instructions rather than replace essential implementation details.
 
+## Architecture Diagrams and Scripts
+
+Architecture diagrams and implementation scripts should be documented clearly to help readers understand the laboratory design and reproduce its implementation.
+
+### Architecture Diagrams
+
+The following guidelines apply:
+
+- Include architecture diagrams when they help explain Azure resources, infrastructure components, or service interactions.
+- Clearly identify the main components and their relationships.
+- Use consistent visual conventions and descriptive labels.
+- Keep diagrams readable and avoid unnecessary complexity.
+- Store diagrams in the laboratory's `assets/` directory.
+- Reference diagrams from the laboratory `README.md` using relative paths.
+
+### Scripts and Configuration Files
+
+The following guidelines apply:
+
+- Store implementation scripts, configuration files, and infrastructure templates in the `src/` directory.
+- Use descriptive filenames that reflect their purpose.
+- Document the purpose and expected behavior of each relevant script.
+- Include execution instructions and required parameters when applicable.
+- Identify required dependencies, permissions, and configuration values.
+- Never include hardcoded credentials, secrets, or sensitive information.
+- Use placeholders or environment variables for sensitive configuration values.
+
+Scripts and configuration files should be organized to support reproducibility, readability, and maintainability.
