@@ -22,6 +22,11 @@ For information about repository organization and independent project directorie
   - [Technical Design and Decisions](#technical-design-and-decisions)
     - [Architecture Decision Records (ADRs)](#architecture-decision-records-adrs)
     - [Technical Design Considerations](#technical-design-considerations)
+    - [Technical Design Considerations](#technical-design-considerations-1)
+  - [Implementation and Deployment Documentation](#implementation-and-deployment-documentation)
+    - [Infrastructure as Code](#infrastructure-as-code)
+    - [Deployment Instructions](#deployment-instructions)
+    - [Configuration and Secrets Management](#configuration-and-secrets-management)
 
 ## Project Directory Structure
 
@@ -277,3 +282,93 @@ Depending on the project's requirements and complexity, technical design documen
 Only considerations relevant to the project need to be documented.
 
 Technical design documentation should provide sufficient context for understanding the reasoning behind the implementation and evaluating its suitability for the project's objectives.
+
+### Technical Design Considerations
+
+Depending on the project's requirements and complexity, technical design documentation may address:
+
+- **Scalability:** How the solution accommodates changes in workload and resource demand.
+- **Availability:** How the architecture addresses service availability and resilience.
+- **Performance:** Relevant performance requirements, constraints, and optimization decisions.
+- **Security:** Design decisions related to identity, access control, networking, and data protection.
+- **Maintainability:** How the solution supports future changes, updates, and troubleshooting.
+- **Cost Efficiency:** How infrastructure and service selections influence operational costs.
+- **Reliability:** Relevant failure scenarios, recovery mechanisms, and fault tolerance considerations.
+
+Only considerations relevant to the project need to be documented.
+
+Technical design documentation should provide sufficient context for understanding the reasoning behind the implementation and evaluating its suitability for the project's objectives.
+
+## Implementation and Deployment Documentation
+
+Implementation and deployment documentation must explain how an independent project is built, configured, and deployed.
+
+The goal is to provide enough technical information for readers to understand the implementation process and reproduce the solution in an appropriate environment.
+
+The following guidelines apply:
+
+- Describe the main implementation components and their responsibilities.
+- Explain how application code, infrastructure definitions, and configuration files are organized.
+- Document relevant dependencies, tools, and required versions.
+- Identify environment variables and configuration parameters required by the implementation.
+- Explain how infrastructure resources are provisioned and configured.
+- Include relevant commands, scripts, and configuration examples.
+- Document deployment procedures in a logical and reproducible sequence.
+- Identify required permissions and prerequisites for deployment.
+- Explain relevant environment-specific configurations.
+- Ensure that documented procedures reflect the actual implementation.
+
+Implementation documentation should provide sufficient detail to understand how the solution works without unnecessarily duplicating source code or configuration files.
+
+### Infrastructure as Code
+
+When infrastructure is managed through Infrastructure as Code (IaC), the documentation should explain how infrastructure resources are defined, provisioned, and maintained.
+
+The following guidelines apply:
+
+- Identify the IaC tools and technologies used, such as Terraform, Bicep, or ARM templates.
+- Describe the purpose and organization of the infrastructure definitions.
+- Document relevant modules, templates, and resource dependencies.
+- Explain required parameters and configuration values.
+- Include instructions for validating and deploying infrastructure definitions.
+- Document relevant state management considerations when applicable.
+- Identify required permissions and deployment prerequisites.
+- Avoid including credentials, secrets, or sensitive configuration values.
+
+Infrastructure documentation should provide enough context for readers to understand the deployment approach and reproduce the required resources.
+
+### Deployment Instructions
+
+Deployment instructions should describe the steps required to deploy and configure the project.
+
+Depending on the implementation, documentation may include:
+
+- Required tools and dependencies.
+- Environment preparation and configuration.
+- Authentication and permission requirements.
+- Infrastructure provisioning procedures.
+- Application deployment and configuration.
+- Required environment variables and parameters.
+- Post-deployment configuration and verification.
+- Cleanup procedures for removing deployed resources.
+
+Commands and configuration examples should include the appropriate language identifier and clearly explain any required parameters.
+
+Deployment instructions should be tested whenever possible to ensure they are accurate and reproducible.
+
+### Configuration and Secrets Management
+
+Projects should document how configuration values and sensitive information are managed throughout development and deployment.
+
+The following guidelines apply:
+
+- Use environment variables or dedicated configuration mechanisms for environment-specific values.
+- Never commit passwords, access keys, tokens, connection strings, or other secrets.
+- Document the configuration values required to run or deploy the project.
+- Use placeholders in examples instead of real credentials or sensitive information.
+- Identify the secret management mechanisms used, such as Azure Key Vault, when applicable.
+- Explain how required configuration values are supplied during deployment.
+- Avoid exposing sensitive information in logs, screenshots, and documentation.
+
+Configuration documentation should allow readers to understand the requirements without exposing credentials or compromising security.
+
