@@ -4,6 +4,15 @@ Hands-on labs and projects documenting my learning journey through Microsoft Azu
 
 This portfolio was started during the **IT Academy Azure and AI Certification program** (5 November – 3 December 2026), a free 80-hour training program covering four official Microsoft learning paths. It showcases my practical work throughout the program, including step-by-step labs, implementation screenshots, technical documentation, and lessons learned.
 
+## Table of Contents
+
+- [Azure Cloud Portfolio](#azure-cloud-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Certification Progress](#certification-progress)
+  - [Completed Labs](#completed-labs)
+  - [Repository Structure](#repository-structure)
+    - [Directory Overview](#directory-overview)
+
 ## Certification Progress
 
 | Certification | Status | Links |
