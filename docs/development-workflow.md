@@ -25,6 +25,7 @@ For contribution guidelines, including how to report issues and propose changes,
   - [Task Structure and Conventions](#task-structure-and-conventions)
       - [Task Title](#task-title)
       - [Task Structure](#task-structure)
+      - [Task Example](#task-example)
 
 ## Issue and Pull Request Structure
 
@@ -273,3 +274,41 @@ List the conditions that must be satisfied for the task to be considered complet
 - Describe specific, verifiable outcomes.
 - Ensure each criterion corresponds to an item in the task's scope or its expected result.
 - Include relevant constraints, such as preserving existing behavior or limiting changes to documentation, when applicable.
+
+#### Task Example
+
+**Title:** `[DOCS] - Document development workflow`
+
+The following example illustrates how a task should be structured:
+
+```markdown
+### [PR #]()
+
+## Description
+
+Document the development workflow of Azure Cloud Portfolio, including how development work is organized and how contributions are managed throughout the implementation process.
+
+The goal is to establish clear conventions for branches, commits, epics, tasks, and pull requests, ensuring that contributions follow a consistent and traceable workflow.
+
+## Scope
+
+- Create `docs/development-workflow.md`.
+- Document the relationship between epics, tasks, and pull requests.
+- Define branch naming conventions.
+- Define commit message conventions.
+- Document epic and task structures and conventions.
+- Document pull request structure and conventions.
+- Explain the typical development workflow.
+- Document how GitHub Projects is used to organize work.
+
+## Acceptance Criteria
+
+- [ ] The development workflow document exists.
+- [ ] The relationship between epics, tasks, and pull requests is documented.
+- [ ] Branch naming conventions are defined.
+- [ ] Commit message conventions are defined.
+- [ ] Epic and task structures are documented.
+- [ ] Pull request conventions are documented.
+- [ ] The typical development workflow is explained.
+- [ ] GitHub Projects usage is documented.
+```
