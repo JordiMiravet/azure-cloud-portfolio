@@ -20,17 +20,17 @@ Each learning path includes relevant study materials, practical exercises, and h
 
 Introduction to cloud computing concepts and Microsoft Azure core services, including cloud architecture, infrastructure, security, governance, and pricing.
 
-### AI-901: Introduction to AI in Azure
+### AI-901: Microsoft Azure AI Fundamentals
 
-Introduction to artificial intelligence concepts and Azure AI services, exploring foundational AI workloads and their practical applications.
+Introduction to artificial intelligence concepts, Azure AI services, machine learning, computer vision, natural language processing, and generative AI.
 
-### AI-103: Developing AI Applications and Agents in Azure
+### AI-103: Azure AI Apps and Agents Developer Associate
 
-Focus on developing AI-powered applications and agents using Microsoft Azure services, exploring application integration, agent development, and AI solution implementation.
+Focus on developing AI-powered applications and agents using Microsoft Foundry and Azure services, including generative AI, agent development, computer vision, and natural language processing.
 
-### AI-200: Developing AI Cloud Solutions in Azure
+### AI-200: Azure AI Cloud Developer Associate
 
-Focus on designing and developing cloud solutions using Microsoft Azure, covering application development, cloud services integration, and solution implementation.
+Focus on developing and implementing AI cloud solutions using Azure services, covering application development, containerized solutions, data management, security, monitoring, and troubleshooting.
 
 ## Repository Structure
 
