@@ -92,6 +92,8 @@ The directories serve the following purposes:
 
 This structure is shared across all certification learning paths to maintain consistency and make learning materials easy to navigate.
 
+Laboratories associated with a certification belong to its `labs/` directory, while independent projects are maintained separately in the root `projects/` directory.
+
 ## Laboratory Organization
 
 Hands-on laboratories are organized within the `labs/` directory of their corresponding certification learning path.
