@@ -23,7 +23,35 @@ See the [AZ-900 labs index](certifications/az-900/labs/README.md) for the full l
 
 ## Repository Structure
 
-- **`certifications/`**: Labs organized by certification.
-- **`docs/`**: Development workflow and documentation guide.
-- **`assets/`**: Images shared across the repository.
-- **`.github/`**: Issue and pull request templates.
+The repository is organized by certification, with separate directories for documentation, shared assets, and project configuration.
+
+```text
+azure-cloud-portfolio/
+├── .github/                         # Issue and pull request templates
+├── assets/                          # Shared images and resources
+├── certifications/                  # Certification-related content
+│   └── az-900/
+│       └── labs/                    # AZ-900 hands-on labs
+│           ├── README.md            # Labs index
+│           └── storage-account/     # Individual lab
+│               ├── README.md
+│               └── assets/
+│                   └── screenshots/
+├── docs/                            # Repository documentation
+│   ├── development-workflow.md
+│   └── documentation-guide.md
+└── projects/                        # Independent Azure and AI projects
+```
+
+### Directory Overview
+
+- **`certifications/`**: Contains hands-on labs organized by Microsoft certification. Each certification has its own directory.
+- **`docs/`**: Contains repository documentation, including development conventions and documentation standards.
+- **`assets/`**: Stores images and resources shared across the repository.
+- **`projects/`**: Contains independent Azure and AI projects, each documented separately.
+- **`.github/`**: Contains GitHub Issue and Pull Request templates.
+
+Each lab and project has its own `README.md` describing its purpose, implementation, results, and lessons learned.
+
+The structure is designed to remain consistent as new certifications, labs, and projects are added.
+
