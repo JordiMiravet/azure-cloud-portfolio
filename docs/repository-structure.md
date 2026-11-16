@@ -38,5 +38,5 @@ azure-cloud-portfolio/
 └── README.md
 ```
 
-The structure is designed to keep related resources together while maintaining a clear separation between certification materials, independent projects, and general repository documentation.
+The structure separates certification materials, independent projects, and general repository resources to keep related content organized and easy to navigate.
 
