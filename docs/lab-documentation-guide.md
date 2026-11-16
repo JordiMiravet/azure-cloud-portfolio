@@ -10,6 +10,22 @@ For general documentation conventions, including Markdown formatting, file namin
 
 For information about laboratory directory organization, see the [Repository Structure](repository-structure.md) guide.
 
+## Table of Contents
+
+- [Laboratory Documentation Guide](#laboratory-documentation-guide)
+  - [Table of Contents](#table-of-contents)
+  - [Laboratory Directory Structure](#laboratory-directory-structure)
+  - [Laboratory README Template](#laboratory-readme-template)
+  - [Expected Documentation Sections](#expected-documentation-sections)
+  - [Screenshots and Evidence](#screenshots-and-evidence)
+  - [Architecture Diagrams and Scripts](#architecture-diagrams-and-scripts)
+    - [Architecture Diagrams](#architecture-diagrams)
+    - [Scripts and Configuration Files](#scripts-and-configuration-files)
+  - [Troubleshooting and Lessons Learned](#troubleshooting-and-lessons-learned)
+    - [Troubleshooting](#troubleshooting)
+    - [Lessons Learned](#lessons-learned)
+  - [Microsoft Learning References](#microsoft-learning-references)
+
 ## Laboratory Directory Structure
 
 Each hands-on laboratory must have its own dedicated directory within the `labs/` directory of its corresponding certification learning path.
