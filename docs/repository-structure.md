@@ -16,6 +16,7 @@ For general documentation conventions, including file naming, Markdown formattin
   - [Main Directories](#main-directories)
   - [Certification Organization](#certification-organization)
   - [Laboratory Organization](#laboratory-organization)
+  - [Independent Project Organization](#independent-project-organization)
 
 ## Root Directory Structure
 
@@ -110,4 +111,29 @@ The directories and files serve the following purposes:
 
 The internal structure may vary depending on the complexity and requirements of each laboratory. Unnecessary directories should be avoided for simple exercises.
 
+## Independent Project Organization
+
+The `projects/` directory contains independent cloud projects that demonstrate practical implementations, cloud architectures, and technical solutions beyond individual certification exercises.
+
+Each project has its own dedicated directory, keeping its source code, documentation, and supporting resources together.
+
+A typical project directory may follow this structure:
+
+```text
+projects/
+└── project-01/
+    ├── README.md
+    ├── docs/
+    ├── src/
+    └── assets/
+```
+
+The directories and files serve the following purposes:
+
+- **`README.md`:** Introduces the project, describing its objectives, architecture, technologies, and implementation overview.
+- **`docs/`:** Contains technical documentation, architecture decisions, and implementation details.
+- **`src/`:** Contains source code, infrastructure definitions, scripts, and configuration files.
+- **`assets/`:** Stores project-specific resources such as architecture diagrams, screenshots, and images.
+
+The internal structure may vary depending on the project's scope, technologies, and implementation requirements. Additional directories may be introduced when necessary.
 
