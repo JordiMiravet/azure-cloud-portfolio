@@ -54,23 +54,26 @@ The repository is organized to keep certification materials, hands-on laboratori
 
 ```text
 azure-cloud-portfolio/
+├── .github/
+├── assets/                      # General repository assets
 ├── certifications/
 │   ├── az-900/                  # Microsoft Azure Fundamentals
 │   │   ├── notes/
 │   │   ├── labs/
 │   │   └── assets/
-│   ├── ai-901/                  # Introduction to AI in Azure
+│   ├── ai-901/                  # Microsoft Azure AI Fundamentals
 │   │   ├── notes/
 │   │   ├── labs/
 │   │   └── assets/
-│   ├── ai-103/                  # Developing AI Applications and Agents in Azure
+│   ├── ai-103/                  # Azure AI Apps and Agents Developer Associate
 │   │   ├── notes/
 │   │   ├── labs/
 │   │   └── assets/
-│   └── ai-200/                  # Developing AI Cloud Solutions in Azure
+│   └── ai-200/                  # Azure AI Cloud Developer Associate
 │       ├── notes/
 │       ├── labs/
 │       └── assets/
+├── docs/                        # General project documentation
 ├── projects/                    # Independent cloud projects
 │   ├── project-01/
 │   │   ├── docs/
@@ -80,8 +83,6 @@ azure-cloud-portfolio/
 │       ├── docs/
 │       ├── src/
 │       └── assets/
-├── docs/
-├── .github/
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── README.md
