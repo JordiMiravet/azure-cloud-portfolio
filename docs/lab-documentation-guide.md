@@ -38,16 +38,26 @@ A typical laboratory directory follows this structure:
 storage-account-lab/
 ├── README.md
 ├── src/
+│   ├── scripts/
+│   └── templates/
 └── assets/
+    ├── screenshots/
+    └── diagrams/
 ```
 
 The directories and files serve the following purposes:
 
 - **`README.md`:** Contains the laboratory documentation, including objectives, prerequisites, implementation steps, expected results, and references.
 - **`src/`:** Stores scripts, configuration files, templates, and other implementation resources used in the laboratory.
+  - **`scripts/`:** Contains automation scripts and commands used during the implementation.
+  - **`templates/`:** Stores infrastructure templates and configuration files.
 - **`assets/`:** Contains supporting resources such as screenshots, architecture diagrams, and other visual evidence.
+  - **`screenshots/`:** Stores screenshots documenting implementation steps and validation results.
+  - **`diagrams/`:** Contains architecture diagrams and their source files.
 
-Additional files or directories may be introduced when required by the laboratory's complexity or implementation technologies.
+The internal subdirectories are optional and should only be created when required by the laboratory.
+
+Additional files or directories may be introduced depending on the laboratory's complexity and implementation requirements.
 
 The structure should remain as simple as possible, avoiding unnecessary files and directories for straightforward exercises.
 
