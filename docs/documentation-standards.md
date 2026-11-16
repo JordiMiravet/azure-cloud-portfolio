@@ -41,3 +41,21 @@ documentation-standards.md
 azure-fundamentals.md
 storage-account-lab.md
 ```
+
+## Markdown Formatting Standards
+
+Markdown documentation must follow consistent formatting conventions to ensure readability and maintainability.
+
+The following rules apply:
+
+- Use ATX-style headings (`#`, `##`, `###`) to structure documents.
+- Maintain a logical heading hierarchy without skipping levels.
+- Use descriptive headings that clearly identify each section.
+- Use unordered lists for related items and ordered lists for sequential instructions.
+- Use Markdown checkboxes (`- [ ]`) for actionable checklists.
+- Use fenced code blocks with the appropriate language identifier for code examples.
+- Use inline code formatting for file paths, commands, configuration values, and technical identifiers.
+- Use tables when presenting structured information or comparisons.
+- Separate sections with blank lines to improve readability.
+
+Formatting should remain consistent throughout each document.
