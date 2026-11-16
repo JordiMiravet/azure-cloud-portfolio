@@ -19,6 +19,9 @@ For information about repository organization and independent project directorie
   - [Architecture Documentation](#architecture-documentation)
     - [Architecture Diagrams](#architecture-diagrams)
     - [Architecture Components](#architecture-components)
+  - [Technical Design and Decisions](#technical-design-and-decisions)
+    - [Architecture Decision Records (ADRs)](#architecture-decision-records-adrs)
+    - [Technical Design Considerations](#technical-design-considerations)
 
 ## Project Directory Structure
 
@@ -190,3 +193,87 @@ Depending on the project, documentation may include:
 Only components relevant to the project need to be documented.
 
 The level of detail should reflect the complexity of the architecture and the technical decisions involved.
+
+## Technical Design and Decisions
+
+Technical design documentation must explain the main implementation choices and technical decisions made throughout an independent project.
+
+The goal is to provide context about why specific technologies, services, architectural patterns, and implementation approaches were selected.
+
+The following guidelines apply:
+
+- Document important technical decisions that influence the project architecture or implementation.
+- Explain the reasons behind the selection of Azure services, tools, frameworks, and technologies.
+- Describe relevant design constraints, requirements, and assumptions.
+- Identify alternative solutions considered when they are relevant.
+- Explain the advantages, disadvantages, and trade-offs of important design choices.
+- Document relevant scalability, availability, performance, and maintainability considerations.
+- Ensure that documented decisions remain consistent with the actual implementation.
+
+Technical documentation should focus on decisions that provide meaningful context rather than documenting every minor implementation detail.
+
+### Architecture Decision Records (ADRs)
+
+Architecture Decision Records (ADRs) can be used to document significant architectural and technical decisions throughout a project.
+
+Each ADR should describe a specific decision, its context, the available alternatives, and the reasoning behind the selected approach.
+
+A recommended ADR structure is:
+
+```markdown
+# ADR-001: Decision Title
+
+## Status
+
+Proposed | Accepted | Rejected | Superseded
+
+## Context
+
+Describe the problem, requirements, or circumstances that led to the decision.
+
+## Decision
+
+Explain the selected approach and the reasons behind it.
+
+## Alternatives Considered
+
+Describe the alternative solutions evaluated and why they were not selected.
+
+## Consequences
+
+Document the expected benefits, limitations, trade-offs, and potential impacts of the decision.
+```
+
+ADRs should be stored in the project's `docs/decisions/` directory when multiple technical decisions need to be documented.
+
+Use sequential numbering and descriptive filenames to make decisions easy to identify and reference.
+
+Example:
+
+```text
+docs/
+└── decisions/
+    ├── ADR-001-select-compute-service.md
+    ├── ADR-002-choose-database-service.md
+    └── ADR-003-define-network-architecture.md
+```
+
+ADRs should be created when a decision has a meaningful impact on the architecture, security, infrastructure, cost, or long-term maintenance of the project.
+
+Not every implementation choice requires a separate ADR.
+
+### Technical Design Considerations
+
+Depending on the project's requirements and complexity, technical design documentation may address:
+
+- **Scalability:** How the solution accommodates changes in workload and resource demand.
+- **Availability:** How the architecture addresses service availability and resilience.
+- **Performance:** Relevant performance requirements, constraints, and optimization decisions.
+- **Security:** Design decisions related to identity, access control, networking, and data protection.
+- **Maintainability:** How the solution supports future changes, updates, and troubleshooting.
+- **Cost Efficiency:** How infrastructure and service selections influence operational costs.
+- **Reliability:** Relevant failure scenarios, recovery mechanisms, and fault tolerance considerations.
+
+Only considerations relevant to the project need to be documented.
+
+Technical design documentation should provide sufficient context for understanding the reasoning behind the implementation and evaluating its suitability for the project's objectives.
