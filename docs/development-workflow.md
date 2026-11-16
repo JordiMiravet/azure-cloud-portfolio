@@ -31,6 +31,7 @@ For contribution guidelines, including how to report issues and propose changes,
       - [PR Structure](#pr-structure)
       - [PR Example](#pr-example)
   - [Pull Request Workflow](#pull-request-workflow)
+  - [Typical Workflow](#typical-workflow)
 
 ## Issue and Pull Request Structure
 
@@ -436,3 +437,25 @@ Once the work is ready for review, follow these steps:
 3. Open a Pull Request targeting `main`, using the [PR Title](#pr-title) convention.
 4. Reference the corresponding task in the Pull Request, following the [PR Structure](#pr-structure).
 5. Address review feedback and make any required changes before the Pull Request is merged.
+
+## Typical Workflow
+
+The following example illustrates the typical Git workflow for implementing a documentation task:
+
+```bash
+# Create a branch from main
+git checkout main
+git pull origin main
+git checkout -b docs/7-development-workflow
+
+# Make your changes
+
+# Stage the changes
+git add .
+
+# Commit the changes
+git commit -m "docs(workflow): document development workflow (#7)"
+
+# Push the branch to the remote repository
+git push --set-upstream origin docs/7-development-workflow
+```
