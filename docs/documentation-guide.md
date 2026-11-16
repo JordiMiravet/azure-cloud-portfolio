@@ -9,6 +9,7 @@ For branch names, commit messages, and pull requests, see the [Development Workf
 - [Documentation Guide](#documentation-guide)
   - [Table of Contents](#table-of-contents)
   - [Folder Structure](#folder-structure)
+  - [Naming and Formatting](#naming-and-formatting)
 
 ## Folder Structure
 
@@ -39,3 +40,14 @@ labs/
 ```
 
 Add a `src/` folder to a lab or project only when it includes scripts or templates.
+
+## Naming and Formatting
+
+- Use lowercase `kebab-case` for files and folders, for example `storage-account/` or `documentation-guide.md`.
+- Write all documentation in English.
+- Use ATX headings (`#`, `##`, `###`) without skipping levels.
+- Use fenced code blocks with a language identifier.
+- Use inline code for file paths, commands, and Azure resource names.
+- Use relative links for files inside the repository, and official Microsoft documentation for external references.
+- Add a table of contents only to documents with several sections.
+
