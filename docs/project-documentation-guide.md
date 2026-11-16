@@ -531,3 +531,6 @@ Only practices relevant to the project need to be documented.
 
 Security considerations should be incorporated throughout the project lifecycle rather than treated as a final implementation step.
 
+---
+
+[↑ Back to top](#project-documentation-guide)
