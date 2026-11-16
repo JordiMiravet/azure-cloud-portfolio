@@ -29,6 +29,7 @@ For contribution guidelines, including how to report issues and propose changes,
   - [Pull Request Structure and Conventions](#pull-request-structure-and-conventions)
       - [PR Title](#pr-title)
       - [PR Structure](#pr-structure)
+      - [PR Example](#pr-example)
 
 ## Issue and Pull Request Structure
 
@@ -388,3 +389,39 @@ Document relevant details for reviewers that do not belong in the previous secti
 - Include limitations or outstanding considerations.
 
 Only report tests, coverage figures, and behavior checks that have actually been verified.
+
+#### PR Example
+
+**Title:** `docs(workflow): document development workflow (#7)`
+
+The following example illustrates how a pull request should be structured:
+
+```markdown
+### [Task #7](<task-url>)
+
+## Summary
+
+Document the development workflow of Azure Cloud Portfolio, establishing consistent conventions for organizing development work and managing repository contributions.
+
+This change provides a central reference for understanding how epics, tasks, branches, commits, and pull requests are structured and how they relate throughout the development process.
+
+### Components
+
+- `docs/development-workflow.md`
+
+## What's Included
+
+- Documented the relationship between epics, tasks, and pull requests.
+- Defined branch naming conventions.
+- Defined commit message conventions.
+- Documented epic and task structures and conventions.
+- Documented pull request structure and conventions.
+- Explained the typical development workflow.
+- Documented how GitHub Projects is used to organize work.
+
+## Notes
+
+- The changes are limited to project documentation.
+- No application code or infrastructure configuration is modified.
+- The document follows the existing GitHub Issue and Pull Request templates.
+```
