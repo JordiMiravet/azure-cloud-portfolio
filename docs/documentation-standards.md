@@ -102,6 +102,8 @@ The following guidelines apply:
 - Ensure that external references point to relevant and reliable resources.
 - Verify that links are valid and accessible before publishing documentation.
 - Avoid unnecessary duplication of information by linking to existing documentation when appropriate.
+- Use descriptive relative paths when linking to repository files.
+- Avoid linking to temporary, private, or inaccessible resources.
 
 References should provide additional context and support the information presented in each document.
 
