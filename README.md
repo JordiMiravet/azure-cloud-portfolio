@@ -21,3 +21,10 @@ _No labs completed yet. The first AZ-900 labs are in progress._
 <!-- - [Create a storage blob](certifications/az-900/labs/create-storage-blob/README.md) - AZ-900 -->
 
 Every lab is documented with its steps, result, and lessons learned. The full list of planned labs is in the [AZ-900 labs index](certifications/az-900/labs/README.md).
+
+## Repository Structure
+
+- **`certifications/`**: Labs organized by certification.
+- **`docs/`**: Development workflow and documentation guide.
+- **`assets/`**: Images shared across the repository.
+- **`.github/`**: Issue and pull request templates.
