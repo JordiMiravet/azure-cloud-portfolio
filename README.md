@@ -77,3 +77,13 @@ azure-cloud-portfolio/
 - **projects/**: Independent cloud projects demonstrating practical implementations, cloud architectures, and technical solutions beyond individual certification exercises.
 - **docs/**: General project documentation, development guidelines, and repository conventions.
 - **.github/**: GitHub issue templates and pull request templates.
+
+## Documentation
+
+The following table provides an overview of the project's documentation, including development guides and additional guidelines and policies available at the repository root:
+
+| Guide | Description |
+| --- | --- |
+| [Development Workflow](docs/development-workflow.md) | Conventions for issue organization, branch naming, commit messages, pull requests, and development processes. |
+| [Contributing Guidelines](CONTRIBUTING.md) | Guidelines for reporting issues, proposing changes, and contributing to the project. |
+| [License](LICENSE) | Defines the terms and restrictions governing the use of the repository's original materials. |
