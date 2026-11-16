@@ -30,6 +30,7 @@ For contribution guidelines, including how to report issues and propose changes,
       - [PR Title](#pr-title)
       - [PR Structure](#pr-structure)
       - [PR Example](#pr-example)
+  - [Pull Request Workflow](#pull-request-workflow)
 
 ## Issue and Pull Request Structure
 
@@ -425,3 +426,13 @@ This change provides a central reference for understanding how epics, tasks, bra
 - No application code or infrastructure configuration is modified.
 - The document follows the existing GitHub Issue and Pull Request templates.
 ```
+
+## Pull Request Workflow
+
+Once the work is ready for review, follow these steps:
+
+1. Ensure your branch is up to date with `main`.
+2. Push your branch to the remote repository.
+3. Open a Pull Request targeting `main`, using the [PR Title](#pr-title) convention.
+4. Reference the corresponding task in the Pull Request, following the [PR Structure](#pr-structure).
+5. Address review feedback and make any required changes before the Pull Request is merged.
