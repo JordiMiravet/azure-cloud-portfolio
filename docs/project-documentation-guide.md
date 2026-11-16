@@ -22,7 +22,6 @@ For information about repository organization and independent project directorie
   - [Technical Design and Decisions](#technical-design-and-decisions)
     - [Architecture Decision Records (ADRs)](#architecture-decision-records-adrs)
     - [Technical Design Considerations](#technical-design-considerations)
-    - [Technical Design Considerations](#technical-design-considerations-1)
   - [Implementation and Deployment Documentation](#implementation-and-deployment-documentation)
     - [Infrastructure as Code](#infrastructure-as-code)
     - [Deployment Instructions](#deployment-instructions)
@@ -276,22 +275,6 @@ docs/
 ADRs should be created when a decision has a meaningful impact on the architecture, security, infrastructure, cost, or long-term maintenance of the project.
 
 Not every implementation choice requires a separate ADR.
-
-### Technical Design Considerations
-
-Depending on the project's requirements and complexity, technical design documentation may address:
-
-- **Scalability:** How the solution accommodates changes in workload and resource demand.
-- **Availability:** How the architecture addresses service availability and resilience.
-- **Performance:** Relevant performance requirements, constraints, and optimization decisions.
-- **Security:** Design decisions related to identity, access control, networking, and data protection.
-- **Maintainability:** How the solution supports future changes, updates, and troubleshooting.
-- **Cost Efficiency:** How infrastructure and service selections influence operational costs.
-- **Reliability:** Relevant failure scenarios, recovery mechanisms, and fault tolerance considerations.
-
-Only considerations relevant to the project need to be documented.
-
-Technical design documentation should provide sufficient context for understanding the reasoning behind the implementation and evaluating its suitability for the project's objectives.
 
 ### Technical Design Considerations
 
