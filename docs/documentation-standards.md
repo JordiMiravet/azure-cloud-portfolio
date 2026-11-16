@@ -25,10 +25,10 @@ Documentation must be organized according to its context and purpose to keep the
 
 The following conventions apply:
 
-- **Certifications:** Study notes, learning materials, and laboratory documentation must be organized within their corresponding certification directory.
-- **Laboratories:** Each laboratory should have its own directory when it includes multiple files or supporting resources.
-- **Projects:** Independent projects must maintain their documentation within their respective project directories.
+- **Certifications:** Study notes, learning materials, hands-on laboratories, and related resources must be organized within their corresponding certification directory.
+- **Projects:** Independent projects must maintain their source code, documentation, and related resources within their respective project directories.
 - **General Documentation:** Repository-wide guidelines, development conventions, and documentation standards belong in the root `docs/` directory.
+- **General Assets:** Resources shared across the repository belong in the root `assets/` directory.
 
 Documentation should be placed as close as possible to the content it describes, avoiding unnecessary duplication and keeping related resources together.
 
