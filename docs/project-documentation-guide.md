@@ -10,5 +10,9 @@ For general documentation conventions, including Markdown formatting, file namin
 
 For information about repository organization and independent project directories, see the [Repository Structure](repository-structure.md) guide.
 
+## Table of Contents
+
+- [Project Documentation Guide](#project-documentation-guide)
+  - [Table of Contents](#table-of-contents)
 
 
