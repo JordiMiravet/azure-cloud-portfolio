@@ -18,6 +18,7 @@ For contribution guidelines, including how to report issues and propose changes,
     - [Development Flow](#development-flow)
   - [Branch Naming](#branch-naming)
   - [Commit Messages](#commit-messages)
+  - [Epic Structure and Conventions](#epic-structure-and-conventions)
 
 ## Issue and Pull Request Structure
 
@@ -119,3 +120,9 @@ To keep commit messages consistent:
 - Keep commit messages concise.
 - Write them in English.
 - Focus each commit on a single logical change.
+
+## Epic Structure and Conventions
+
+Epics group larger features, improvements, or technical objectives into a single initiative. They define the overall goal and scope of the work, which is broken down into multiple related tasks.
+
+All epics must follow the structure defined in the [Epic Template](../.github/ISSUE_TEMPLATE/epic.md).
