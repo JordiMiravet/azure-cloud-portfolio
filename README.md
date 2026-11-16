@@ -31,3 +31,49 @@ Focus on developing AI-powered applications and agents using Microsoft Azure ser
 ### AI-200: Developing AI Cloud Solutions in Azure
 
 Focus on designing and developing cloud solutions using Microsoft Azure, covering application development, cloud services integration, and solution implementation.
+
+## Repository Structure
+
+The repository is organized to keep certification materials, hands-on laboratories, technical documentation, and independent cloud projects structured and easy to navigate.
+
+```text
+azure-cloud-portfolio/
+├── certifications/
+│   ├── az-900/                  # Microsoft Azure Fundamentals
+│   │   ├── notes/
+│   │   ├── labs/
+│   │   └── assets/
+│   ├── ai-901/                  # Introduction to AI in Azure
+│   │   ├── notes/
+│   │   ├── labs/
+│   │   └── assets/
+│   ├── ai-103/                  # Developing AI Applications and Agents in Azure
+│   │   ├── notes/
+│   │   ├── labs/
+│   │   └── assets/
+│   └── ai-200/                  # Developing AI Cloud Solutions in Azure
+│       ├── notes/
+│       ├── labs/
+│       └── assets/
+├── projects/                    # Independent cloud projects
+│   ├── project-01/
+│   │   ├── docs/
+│   │   ├── src/
+│   │   └── assets/
+│   └── project-02/
+│       ├── docs/
+│       ├── src/
+│       └── assets/
+├── docs/
+├── .github/
+├── CONTRIBUTING.md
+├── LICENSE
+└── README.md
+```
+
+### Main Directories
+
+- **certifications/**: Certification learning paths, including study notes, hands-on laboratories, and related resources organized by certification.
+- **projects/**: Independent cloud projects demonstrating practical implementations, cloud architectures, and technical solutions beyond individual certification exercises.
+- **docs/**: General project documentation, development guidelines, and repository conventions.
+- **.github/**: GitHub issue templates and pull request templates.
