@@ -202,3 +202,6 @@ The following guidelines apply:
 
 References should help readers understand the concepts behind each laboratory and provide reliable resources for further exploration.
 
+---
+
+[↑ Back to top](#lab-documentation-guide)
