@@ -22,6 +22,9 @@ For contribution guidelines, including how to report issues and propose changes,
       - [Epic Title](#epic-title)
       - [Epic Structure](#epic-structure)
       - [Epic Example](#epic-example)
+  - [Task Structure and Conventions](#task-structure-and-conventions)
+      - [Task Title](#task-title)
+      - [Task Structure](#task-structure)
 
 ## Issue and Pull Request Structure
 
@@ -209,3 +212,64 @@ The goal is to ensure that all repository contributions follow a clear and consi
 - [ ] GitHub Projects usage is documented.
 - [ ] The documentation is consistent, readable, and written in English.
 ```
+
+## Task Structure and Conventions
+
+Tasks break epics down into specific, manageable units of work. Each task defines a clear objective, an implementation scope, and verifiable acceptance criteria.
+
+All tasks must follow the structure defined in the [Task Template](../.github/ISSUE_TEMPLATE/task.md).
+
+#### Task Title
+
+Tasks must follow this title format:
+
+`[CATEGORY] - Short description of the task`
+
+The category identifies the type of work, while the description summarizes the specific objective of the task.
+
+Example: `[DOCS] - Document issue and pull request workflow`
+
+#### Task Structure
+
+Every task must contain the following sections, in this order:
+
+1. PR Reference
+2. Description
+3. Scope
+4. Acceptance Criteria
+
+**PR Reference**
+
+Reference the pull request associated with the task using the following format:
+
+`### [PR #]()`
+
+Leave the reference empty until a pull request is created. Once available, replace the placeholder with the corresponding PR number and URL.
+
+This reference connects the task to its implementation.
+
+**Description**
+
+Explain the specific objective of the task, providing enough context to understand what needs to be achieved and why.
+
+- Focus on the particular piece of work covered by the task.
+- Explain the expected outcome.
+- Avoid repeating the overall objective of the parent epic.
+
+**Scope**
+
+Define the changes required to complete the task using a bullet list.
+
+- Describe the specific changes or deliverables included.
+- Keep each item focused on a clear part of the implementation.
+- Establish boundaries to avoid unrelated changes or work belonging to other tasks.
+- Ensure the scope contributes to the parent epic's objective.
+
+**Acceptance Criteria**
+
+List the conditions that must be satisfied for the task to be considered complete.
+
+- Use a checklist with Markdown checkboxes (`- [ ]`).
+- Describe specific, verifiable outcomes.
+- Ensure each criterion corresponds to an item in the task's scope or its expected result.
+- Include relevant constraints, such as preserving existing behavior or limiting changes to documentation, when applicable.
