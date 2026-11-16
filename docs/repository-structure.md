@@ -17,6 +17,7 @@ For general documentation conventions, including file naming, Markdown formattin
   - [Certification Organization](#certification-organization)
   - [Laboratory Organization](#laboratory-organization)
   - [Independent Project Organization](#independent-project-organization)
+  - [Shared Resources](#shared-resources)
 
 ## Root Directory Structure
 
@@ -137,3 +138,17 @@ The directories and files serve the following purposes:
 
 The internal structure may vary depending on the project's scope, technologies, and implementation requirements. Additional directories may be introduced when necessary.
 
+## Shared Resources
+
+The repository contains a root-level `assets/` directory for resources shared across multiple sections of the portfolio.
+
+These resources may include general diagrams, images, visual references, and other materials that are not specific to a particular certification, laboratory, or independent project.
+
+Resources should be stored according to their context:
+
+- **Repository-level assets:** Resources shared across the portfolio belong in the root `assets/` directory.
+- **Certification assets:** Resources related to a specific certification belong in its corresponding `assets/` directory.
+- **Laboratory assets:** Resources specific to an individual laboratory belong in its `assets/` directory.
+- **Project assets:** Resources associated with an independent project belong in its `assets/` directory.
+
+This organization keeps resources close to the content they support while avoiding unnecessary duplication across the repository.
