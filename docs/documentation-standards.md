@@ -105,6 +105,8 @@ The following guidelines apply:
 - Avoid unnecessary duplication of information by linking to existing documentation when appropriate.
 - Use descriptive relative paths when linking to repository files.
 - Avoid linking to temporary, private, or inaccessible resources.
+- Attribute external information, technical specifications, and borrowed content to their original sources when appropriate.
+- Include direct links to official documentation when explaining Azure services, features, or technical configurations.
 
 References should provide additional context and support the information presented in each document.
 
