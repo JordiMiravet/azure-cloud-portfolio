@@ -31,7 +31,6 @@ For contribution guidelines, including how to report issues and propose changes,
       - [PR Title](#pr-title)
       - [PR Structure](#pr-structure)
       - [PR Example](#pr-example)
-  - [Pull Request Workflow](#pull-request-workflow)
   - [Typical Workflow](#typical-workflow)
 
 ## Issue and Pull Request Structure
@@ -77,7 +76,7 @@ The typical development process follows these steps:
 2. Create individual tasks for the work required to complete the epic, linking each task to its parent epic.
 3. Create a dedicated branch for each task, following the [Branch Naming](#branch-naming) convention.
 4. Implement the task through small, focused commits that follow the [Commit Messages](#commit-messages) convention.
-5. Open a pull request referencing the corresponding task and following the [Pull Request Structure and Conventions](#pull-request-structure-and-conventions).
+5. Make sure the branch is up to date with `main`, push it, and open a pull request targeting `main`. Reference the corresponding task and follow the [Pull Request Structure and Conventions](#pull-request-structure-and-conventions).
 6. Review the pull request, address feedback, and merge it into `main` once approved.
 
 ## GitHub Projects
@@ -114,9 +113,9 @@ Where:
 Examples:
 
 ```text
-feature/234-document-development-workflow
-fix/198-handle-null-response
-docs/234-update-readme
+feature/25-create-certification-structure
+fix/31-correct-broken-link
+docs/23-align-workflow-examples
 ```
 
 ## Commit Messages
@@ -130,8 +129,8 @@ Commit messages must follow this format:
 Examples:
 
 ```text
-feat(terraform): add storage account module (#145)
-fix(networking): correct subnet configuration (#182)
+feat(labs): add storage account lab (#30)
+fix(readme): correct certification link (#31)
 docs(workflow): document development workflow (#7)
 ```
 
@@ -445,16 +444,6 @@ This change provides a central reference for understanding how epics, tasks, bra
 - No application code or infrastructure configuration is modified.
 - The document follows the existing GitHub Issue and Pull Request templates.
 ```
-
-## Pull Request Workflow
-
-Once the work is ready for review, follow these steps:
-
-1. Ensure your branch is up to date with `main`.
-2. Push your branch to the remote repository.
-3. Open a Pull Request targeting `main`, using the [PR Title](#pr-title) convention.
-4. Reference the corresponding task in the Pull Request, following the [PR Structure](#pr-structure).
-5. Address review feedback and make any required changes before the Pull Request is merged.
 
 ## Typical Workflow
 
