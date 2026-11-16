@@ -102,3 +102,16 @@ The workflow follows these conventions:
 - **Pull Requests:** Each pull request references its corresponding task and undergoes review before being merged into `main`.
 
 For detailed information about development conventions and processes, see the [Development Workflow](docs/development-workflow.md) guide.
+
+## Microsoft Learning References
+
+The following official Microsoft Learn resources provide certification information, learning materials, and exam preparation guidance for each learning path.
+
+| Certification | Official Microsoft Learn Reference |
+| --- | --- |
+| **AZ-900** - Microsoft Azure Fundamentals | [Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/) |
+| **AI-901** - Introduction to AI in Azure | [Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) |
+| **AI-103** - Developing AI Applications and Agents in Azure | [Azure AI Apps and Agents Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/) |
+| **AI-200** - Developing AI Cloud Solutions in Azure | [Azure AI Cloud Developer Associate](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/) |
+
+For additional learning materials, tutorials, and hands-on training, visit [Microsoft Learn](https://learn.microsoft.com/en-us/training/).
