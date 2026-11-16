@@ -15,12 +15,11 @@ This portfolio was started during the **IT Academy Azure and AI Certification pr
 
 ## Completed Labs
 
-_No labs completed yet. The first AZ-900 labs are in progress._
+_No labs completed yet. AZ-900 hands-on labs are currently in progress._
 
-<!-- Add each completed lab here, for example: -->
-<!-- - [Create a storage blob](certifications/az-900/labs/create-storage-blob/README.md) - AZ-900 -->
+Every completed lab is documented with step-by-step instructions, implementation screenshots, results, and lessons learned.
 
-Every lab is documented with its steps, result, and lessons learned. The full list of planned labs is in the [AZ-900 labs index](certifications/az-900/labs/README.md).
+See the [AZ-900 labs index](certifications/az-900/labs/README.md) for the full list of labs.
 
 ## Repository Structure
 
