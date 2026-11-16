@@ -12,3 +12,12 @@ This repository was started during the **IT Academy Azure and AI Certification**
 | **AI-901** - Microsoft Azure AI Fundamentals | Pending | [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/) |
 | **AI-103** - Azure AI Apps and Agents Developer Associate | Pending | [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/) |
 | **AI-200** - Azure AI Cloud Developer Associate | Pending | [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/) |
+
+## Completed Labs
+
+_No labs completed yet. The first AZ-900 labs are in progress._
+
+<!-- Add each completed lab here, for example: -->
+<!-- - [Create a storage blob](certifications/az-900/labs/create-storage-blob/README.md) - AZ-900 -->
+
+Every lab is documented with its steps, result, and lessons learned. The full list of planned labs is in the [AZ-900 labs index](certifications/az-900/labs/README.md).
