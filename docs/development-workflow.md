@@ -16,6 +16,7 @@ For contribution guidelines, including how to report issues and propose changes,
     - [How They Relate](#how-they-relate)
     - [Quick Reference](#quick-reference)
     - [Development Flow](#development-flow)
+  - [GitHub Projects](#github-projects)
   - [Branch Naming](#branch-naming)
   - [Commit Messages](#commit-messages)
   - [Epic Structure and Conventions](#epic-structure-and-conventions)
@@ -78,6 +79,23 @@ The typical development process follows these steps:
 4. Implement the task through small, focused commits that follow the [Commit Messages](#commit-messages) convention.
 5. Open a pull request referencing the corresponding task and following the [Pull Request Structure and Conventions](#pull-request-structure-and-conventions).
 6. Review the pull request, address feedback, and merge it into `main` once approved.
+
+## GitHub Projects
+
+GitHub Projects is used to organize, track, and manage development work across the repository.
+
+Epics and tasks are tracked through GitHub Issues and can be added to the project board to provide an overview of ongoing and planned work.
+
+The project board helps to:
+
+- Organize epics and tasks in a centralized location.
+- Track the progress of development work.
+- Identify pending tasks and ongoing activities.
+- Maintain visibility over the work required to complete each epic.
+
+Each task should be linked to its parent epic and associated with the corresponding GitHub Project to maintain traceability throughout the development workflow.
+
+Pull Requests provide visibility into the implementation of individual tasks and can be linked to their corresponding issues.
 
 ## Branch Naming
 
