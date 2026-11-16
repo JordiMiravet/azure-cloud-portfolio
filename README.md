@@ -87,3 +87,18 @@ The following table provides an overview of the project's documentation, includi
 | [Development Workflow](docs/development-workflow.md) | Conventions for issue organization, branch naming, commit messages, pull requests, and development processes. |
 | [Contributing Guidelines](CONTRIBUTING.md) | Guidelines for reporting issues, proposing changes, and contributing to the project. |
 | [License](LICENSE) | Defines the terms and restrictions governing the use of the repository's original materials. |
+
+## Development Workflow
+
+The project follows a structured development workflow to ensure consistency, traceability, and maintainability across all contributions.
+
+Development work is organized into GitHub Issues using epics and tasks, with dedicated branches and pull requests for implementing individual tasks.
+
+The workflow follows these conventions:
+
+- **Issues:** Work is organized into epics and actionable tasks.
+- **Branches:** Each task is implemented in a dedicated branch following the project's naming conventions.
+- **Commits:** Changes follow a consistent commit message format.
+- **Pull Requests:** Each pull request references its corresponding task and undergoes review before being merged into `main`.
+
+For detailed information about development conventions and processes, see the [Development Workflow](docs/development-workflow.md) guide.
