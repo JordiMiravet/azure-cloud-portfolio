@@ -109,3 +109,22 @@ Documentation should prioritize practical clarity and reproducibility. Instructi
 
 The level of detail may vary depending on the laboratory's complexity. Simple exercises do not require unnecessary sections or excessive explanations.
 
+## Screenshots and Evidence
+
+Screenshots and other supporting evidence should be included when they help demonstrate implementation steps, resource configurations, or successful validation results.
+
+The following guidelines apply:
+
+- Capture screenshots at relevant stages of the laboratory implementation.
+- Ensure screenshots clearly show the configuration, operation, or result being documented.
+- Include a short explanation describing what each screenshot demonstrates.
+- Remove credentials, access keys, tokens, personal information, and other sensitive data before publishing evidence.
+- Use descriptive filenames that identify the corresponding implementation step or resource.
+- Store screenshots and supporting evidence in the laboratory's `assets/` directory.
+- Reference screenshots from the laboratory `README.md` using relative paths.
+- Avoid redundant screenshots that do not provide additional technical value.
+
+Evidence should support the documented implementation and provide readers with a clear understanding of the expected results.
+
+Screenshots should complement written instructions rather than replace essential implementation details.
+
