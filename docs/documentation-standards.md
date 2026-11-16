@@ -93,3 +93,17 @@ The following guidelines apply:
 
 References should provide additional context and support the information presented in each document.
 
+## Documentation Maintenance
+
+Documentation must be kept accurate, consistent, and up to date as the repository evolves.
+
+The following guidelines apply:
+
+- Update documentation whenever relevant changes affect its content.
+- Remove outdated or redundant information.
+- Ensure that documented procedures and examples reflect the current implementation.
+- Review internal and external links periodically.
+- Keep documentation consistent with the actual repository structure.
+- Include relevant documentation updates in the pull requests associated with the corresponding changes.
+
+Documentation should evolve alongside the project to remain a reliable source of information.
