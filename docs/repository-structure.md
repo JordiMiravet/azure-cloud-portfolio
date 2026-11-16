@@ -14,6 +14,7 @@ For general documentation conventions, including file naming, Markdown formattin
   - [Table of Contents](#table-of-contents)
   - [Root Directory Structure](#root-directory-structure)
   - [Main Directories](#main-directories)
+  - [Certification Organization](#certification-organization)
 
 ## Root Directory Structure
 
@@ -53,3 +54,33 @@ The repository contains the following main directories:
 
 Each directory has a specific responsibility to maintain a clear separation between certification learning materials, independent projects, and general repository resources.
 
+## Certification Organization
+
+The `certifications/` directory contains the learning materials and practical exercises associated with each Microsoft certification learning path.
+
+Each certification has its own dedicated directory, identified by its exam code:
+
+```text
+certifications/
+├── az-900/                  # Microsoft Azure Fundamentals
+├── ai-901/                  # Microsoft Azure AI Fundamentals
+├── ai-103/                  # Azure AI Apps and Agents Developer Associate
+└── ai-200/                  # Azure AI Cloud Developer Associate
+```
+
+Each certification directory follows a consistent internal structure:
+
+```text
+az-900/
+├── notes/
+├── labs/
+└── assets/
+```
+
+The directories serve the following purposes:
+
+- **`notes/`:** Contains study notes, technical explanations, and certification-related learning materials.
+- **`labs/`:** Contains practical exercises and hands-on laboratories related to the certification topics.
+- **`assets/`:** Stores supporting resources such as images, diagrams, and screenshots.
+
+This structure is shared across all certification learning paths to maintain consistency and make learning materials easy to navigate.
