@@ -2,6 +2,22 @@
 
 My Azure Cloud Engineering journey, documenting hands-on laboratories, technical projects, cloud architectures, and Microsoft Azure certification learning paths.
 
+## Table of Contents
+
+- [Azure Cloud Portfolio](#azure-cloud-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [About This Portfolio](#about-this-portfolio)
+  - [Certification Learning Paths](#certification-learning-paths)
+    - [AZ-900: Microsoft Azure Fundamentals](#az-900-microsoft-azure-fundamentals)
+    - [AI-901: Microsoft Azure AI Fundamentals](#ai-901-microsoft-azure-ai-fundamentals)
+    - [AI-103: Azure AI Apps and Agents Developer Associate](#ai-103-azure-ai-apps-and-agents-developer-associate)
+    - [AI-200: Azure AI Cloud Developer Associate](#ai-200-azure-ai-cloud-developer-associate)
+  - [Repository Structure](#repository-structure)
+    - [Main Directories](#main-directories)
+  - [Documentation](#documentation)
+  - [Development Workflow](#development-workflow)
+  - [Microsoft Learning References](#microsoft-learning-references)
+
 ## About This Portfolio
 
 Azure Cloud Portfolio is a personal technical portfolio focused on developing and demonstrating practical knowledge of Microsoft Azure and cloud engineering.
