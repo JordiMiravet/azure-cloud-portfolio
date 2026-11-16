@@ -29,7 +29,11 @@ The following tree provides an overview of the main repository structure:
 
 ```text
 azure-cloud-portfolio/
-├── .github/
+.github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── epic.md
+│   │   └── task.md
+│   └── PULL_REQUEST_TEMPLATE.md
 ├── assets/
 ├── certifications/
 │   ├── az-900/
