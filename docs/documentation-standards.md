@@ -8,6 +8,17 @@ These standards apply to certification materials, hands-on laboratories, indepen
 
 For development conventions, including branch naming, commit messages, and pull request requirements, see the [Development Workflow](development-workflow.md) guide.
 
+## Table of Contents
+
+- [Documentation Standards](#documentation-standards)
+  - [Table of Contents](#table-of-contents)
+  - [Documentation Structure](#documentation-structure)
+  - [File Naming Conventions](#file-naming-conventions)
+  - [Markdown Formatting Standards](#markdown-formatting-standards)
+  - [Writing Guidelines](#writing-guidelines)
+  - [Links and References](#links-and-references)
+  - [Documentation Maintenance](#documentation-maintenance)
+
 ## Documentation Structure
 
 Documentation must be organized according to its context and purpose to keep the repository structured and easy to navigate.
