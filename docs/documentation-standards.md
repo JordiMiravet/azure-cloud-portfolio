@@ -136,6 +136,7 @@ The following guidelines apply:
 - Remove credentials, secrets, personal information, and other sensitive data before publishing screenshots.
 - Use diagrams to illustrate cloud architectures, workflows, infrastructure components, and technical relationships.
 - Maintain consistent visual styles and use descriptive filenames.
+- Optimize image sizes to reduce repository storage and loading overhead.
 - Store images and diagrams in the appropriate `assets/` directory according to their context.
 
 ---
