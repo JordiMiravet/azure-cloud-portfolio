@@ -21,6 +21,7 @@ For contribution guidelines, including how to report issues and propose changes,
   - [Epic Structure and Conventions](#epic-structure-and-conventions)
       - [Epic Title](#epic-title)
       - [Epic Structure](#epic-structure)
+      - [Epic Example](#epic-example)
 
 ## Issue and Pull Request Structure
 
@@ -173,3 +174,38 @@ List the conditions that must be satisfied for the epic to be considered complet
 - Describe specific, verifiable outcomes rather than implementation steps.
 - Ensure each criterion corresponds to the epic's objective and scope.
 - Include relevant constraints, such as preserving existing functionality or limiting changes to documentation, when applicable.
+
+#### Epic Example
+
+**Title:** `[DOCS] - Document development workflow`
+
+The following example illustrates how an epic should be structured:
+
+```markdown
+## Description
+
+Document the development workflow of Azure Cloud Portfolio and establish consistent conventions for organizing development work.
+
+The goal is to ensure that all repository contributions follow a clear and consistent process, making development activities easier to understand, manage, and track.
+
+## Scope
+
+- Document the relationship between epics, tasks, and pull requests.
+- Define branch naming conventions.
+- Define commit message conventions.
+- Document the expected structure of epics, tasks, and pull requests.
+- Explain the typical development workflow.
+- Document how GitHub Projects is used to organize and track work.
+
+## Acceptance Criteria
+
+- [ ] The development workflow is documented.
+- [ ] The relationship between epics, tasks, and pull requests is clearly explained.
+- [ ] Branch naming conventions are defined.
+- [ ] Commit message conventions are defined.
+- [ ] Epic and task structures are documented.
+- [ ] Pull request conventions are documented.
+- [ ] The typical development workflow is explained.
+- [ ] GitHub Projects usage is documented.
+- [ ] The documentation is consistent, readable, and written in English.
+```
