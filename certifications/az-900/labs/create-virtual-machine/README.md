@@ -112,6 +112,10 @@ The connection should time out because inbound HTTP traffic on port 80 is not ye
 
 By default, the NSG allows inbound SSH traffic on port 22, but HTTP traffic on port 80 is not allowed.
 
+The NSG rules before allowing HTTP traffic:
+
+![Network Security Group rules before HTTP](assets/screenshots/03-nsg-rules-before-http.png)
+
 ### 6. Create a network security rule for HTTP
 
 1. Create a rule named `allow-http` to allow inbound TCP traffic on port 80:
@@ -139,6 +143,10 @@ By default, the NSG allows inbound SSH traffic on port 22, but HTTP traffic on p
 
 The NSG should now include the default SSH rule and the new `allow-http` rule.
 
+The NSG rules after allowing HTTP traffic:
+
+![Network Security Group rules after HTTP](assets/screenshots/04-nsg-rules-after-http.png)
+
 ### 7. Verify the web server
 
 1. Run the same `curl` command again:
@@ -152,7 +160,13 @@ The NSG should now include the default SSH rule and the new `allow-http` rule.
 
 The welcome page confirms that Nginx is running and that inbound HTTP traffic is allowed.
 
-![Nginx welcome page](assets/screenshots/03-nginx-welcome-page.png)
+The web server response in Azure Cloud Shell:
+
+![Nginx web server response](assets/screenshots/05-nginx-web-server-response.png)
+
+The Nginx welcome page displayed in a browser:
+
+![Nginx browser welcome page](assets/screenshots/06-nginx-browser.png)
 
 ### 8. Clean up
 
