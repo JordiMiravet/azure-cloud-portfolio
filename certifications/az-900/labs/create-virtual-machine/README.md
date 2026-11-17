@@ -166,7 +166,7 @@ Deleting `IntroAzureRG` removes the virtual machine and all associated resources
 
 Other resource groups visible in the Azure subscription belong to previous labs or the training environment and were not modified as part of this exercise.
 
-![Resource group deleted](assets/screenshots/04-resource-group-deleted.png)
+![Resource group deleted](assets/screenshots/07-resource-group-deleted.png)
 
 ## Result
 
