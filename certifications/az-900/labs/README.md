@@ -6,7 +6,7 @@ Hands-on labs for **AZ-900: Microsoft Azure Fundamentals**, based on the officia
 
 | Lab | Official exercise | My documentation | Status |
 | --- | --- | --- | --- |
-| Create an Azure resource | [Exercise](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/Instructions/Labs/02-exercise-create-azure-resource.html) | - | Pending |
+| Create an Azure resource | [Exercise](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/Instructions/Labs/02-exercise-create-azure-resource.html) | [Documentation](create-azure-resource/README.md) | Completed |
 | Create a virtual machine and configure it as a web host | [Exercise](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/Instructions/Labs/03-exercise-create-azure-virtual-machine.html) | - | Pending |
 | Create a storage blob | [Exercise](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/Instructions/Labs/05-exercise-create-storage-blob.html) | - | Pending |
 | Estimate workload costs with the Pricing calculator | [Exercise](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/Instructions/Labs/06-exercise-estimate-workload-costs-use-pricing-calculator.html) | - | Pending |
