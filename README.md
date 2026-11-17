@@ -26,7 +26,7 @@ This portfolio was started during the **IT Academy Azure and AI Certification pr
 
 ## Completed Labs
 
-_No labs completed yet. AZ-900 hands-on labs are currently in progress._
+- [Create an Azure resource](certifications/az-900/labs/create-azure-resource/README.md) - AZ-900
 
 Every completed lab is documented with step-by-step instructions, implementation screenshots, results, and lessons learned.
 
