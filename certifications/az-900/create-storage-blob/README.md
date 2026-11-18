@@ -13,29 +13,77 @@ Region used: (Europe) Spain Central.
 ### 1. Create a storage account
 
 1. In the Azure portal, select **Create a resource**, then **Infrastructure services**, and create a **Storage account**.
-2. On the **Basics** tab, set the following values and leave the rest as default:
-   - Resource group: create a new one named `IntroAzureRG`
-   - Storage account name: `introazuremiravet`
-   - Region: the region used for this lab
-   - Performance: Standard
-   - Redundancy: Locally redundant storage (LRS)
+2. On the **Basics** tab, configure the following settings:
 
 The Basics tab configuration:
 
 | Setting | Value |
 |---|---|
+| Subscription | XLabs-731 |
 | Resource group | `IntroAzureRG` |
 | Storage account name | `introazuremiravet` |
-| Region | (Europe) Spain Central |
+| Region | Spain Central |
+| Primary service | Azure Blob Storage or Azure Data Lake Storage |
+| Primary workload | Not specified |
 | Performance | Standard |
-| Redundancy | Locally redundant storage (LRS) |
+| Replication | Locally redundant storage (LRS) |
+
+The Advanced tab configuration:
+
+| Setting | Value |
+|---|---|
+| Enable hierarchical namespace | Disabled |
+| Enable SFTP | Disabled |
+| Enable network file system v3 | Disabled |
+| Allow cross-tenant replication | Disabled |
+| Access tier | Hot |
+| Managed Identity for SMB | Disabled |
+| Require Encryption in Transit for SMB | Enabled |
+
+The Networking tab configuration:
+
+| Setting | Value |
+|---|---|
+| Public network access | Enabled |
+| Public network access scope | Enabled from all networks |
+| Default routing tier | Microsoft network routing |
+
+The Data protection tab configuration:
+
+| Setting | Value |
+|---|---|
+| Point-in-time restore | Disabled |
+| Blob soft delete | Enabled |
+| Blob retainment period in days | 7 |
+| Container soft delete | Enabled |
+| Container retainment period in days | 7 |
+| Classic file share soft delete | Enabled |
+| Classic file share retainment period in days | 7 |
+| Versioning | Disabled |
+| Blob change feed | Disabled |
+| Version-level immutability support | Disabled |
+
+The Security tab configuration:
+
+| Setting | Value |
+|---|---|
+| Secure transfer | Enabled |
+| Blob anonymous access | Enabled |
+| Allow storage account key access | Enabled |
+| Default to Microsoft Entra authorization in the Azure portal | Disabled |
+| Minimum TLS version | Version 1.2 |
+| Permitted scope for copy operations (Preview) | From any storage account |
+| Enable Defender for Storage | Disabled |
+
+The Encryption tab configuration:
+
+| Setting | Value |
+|---|---|
+| Encryption type | Microsoft-managed keys (MMK) |
+| Enable support for customer-managed keys | Blobs and files only |
+| Enable infrastructure encryption | Disabled |
 
 3. On the **Advanced** tab, check **Allow enabling anonymous access on individual containers**.
-
-The Advanced tab with anonymous access enabled:
-
-![Storage account Advanced tab](assets/screenshots/02-storage-account-advanced.png)
-
 4. Select **Review + create** and then **Create**, wait for the deployment to finish, and select **Go to resource**.
 
 ### 2. Create a container and upload a file
