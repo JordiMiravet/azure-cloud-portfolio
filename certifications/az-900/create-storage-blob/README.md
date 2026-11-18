@@ -6,7 +6,7 @@ This lab creates a storage account and a blob container in Azure, uploads an ima
 
 Based on the official exercise: [Create a storage blob](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/Instructions/Labs/05-exercise-create-storage-blob.html).
 
-Region used: TODO region.
+Region used: (Europe) Spain Central.
 
 ## Steps
 
@@ -15,20 +15,28 @@ Region used: TODO region.
 1. In the Azure portal, select **Create a resource**, then **Infrastructure services**, and create a **Storage account**.
 2. On the **Basics** tab, set the following values and leave the rest as default:
    - Resource group: create a new one named `IntroAzureRG`
-   - Storage account name: a globally unique name
+   - Storage account name: `introazuremiravet`
    - Region: the region used for this lab
    - Performance: Standard
    - Redundancy: Locally redundant storage (LRS)
+
+The Basics tab configuration:
+
+| Setting | Value |
+|---|---|
+| Resource group | `IntroAzureRG` |
+| Storage account name | `introazuremiravet` |
+| Region | (Europe) Spain Central |
+| Performance | Standard |
+| Redundancy | Locally redundant storage (LRS) |
+
 3. On the **Advanced** tab, check **Allow enabling anonymous access on individual containers**.
-4. Select **Review + create** and then **Create**, wait for the deployment to finish, and select **Go to resource**.
-
-The Basics tab with the values used:
-
-![Storage account Basics tab](assets/screenshots/01-storage-account-basics.png)
 
 The Advanced tab with anonymous access enabled:
 
 ![Storage account Advanced tab](assets/screenshots/02-storage-account-advanced.png)
+
+4. Select **Review + create** and then **Create**, wait for the deployment to finish, and select **Go to resource**.
 
 ### 2. Create a container and upload a file
 
