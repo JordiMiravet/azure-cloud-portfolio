@@ -19,26 +19,38 @@ Region used: Spain Central.
 2. Select the subscription, name the group `IntroAzureRG`, and choose a region where the required VM sizes are available.
 3. Select **Review + create** and then **Create**.
 
-### 2. Create a Linux virtual machine
+### 2. Create a virtual machine
 
 1. Select **Create a resource**, then **Infrastructure services**, and create a **Virtual machine**.
 2. On the **Basics** tab, set the following values and leave the rest as default:
-   - Resource group: `IntroAzureRG`
-   - Virtual machine name: `my-vm`
-   - Region: same as the resource group
-   - Authentication: password
-   - Username: `azureuser`
-   - Password: enter a custom password
-   - Public inbound ports: leave the default settings
+
+The Basics tab configuration:
+
+| Setting | Value |
+|---|---|
+| Subscription | `XLabs-269` |
+| Resource group | `IntroAzureRG` |
+| Virtual machine name | `my-vm` |
+| Region | Spain Central |
+| Zone options | Default |
+| Availability zone | Default |
+| Security type | Default |
+| Image | Default |
+| VM architecture | Default |
+| Run with Azure Spot discount | Unchecked |
+| Size | Default |
+| Authentication | Password |
+| Username | `azureuser` |
+| Password | Custom password |
+| Confirm password | Custom password |
+| Public inbound ports | None |
+| Select inbound ports | Default |
+
 3. Select **Review + create** and then **Create**, and wait for the deployment to finish.
-
-The Basics tab with the values used:
-
-![Virtual machine Basics tab](assets/screenshots/01-vm-basics-tab.png)
 
 The deployment finished:
 
-![Virtual machine deployment complete](assets/screenshots/02-vm-deployment-complete.png)
+![Deployment complete](assets/screenshots/01-vm-deployment-complete.png)
 
 ### 3. Install Nginx using Custom Script Extension
 
@@ -114,7 +126,7 @@ By default, the NSG allows inbound SSH traffic on port 22, but HTTP traffic on p
 
 The NSG rules before allowing HTTP traffic:
 
-![Network Security Group rules before HTTP](assets/screenshots/03-nsg-rules-before-http.png)
+![Network Security Group rules before HTTP](assets/screenshots/02-nsg-rules-before-http.png)
 
 ### 6. Create a network security rule for HTTP
 
@@ -145,7 +157,7 @@ The NSG should now include the default SSH rule and the new `allow-http` rule.
 
 The NSG rules after allowing HTTP traffic:
 
-![Network Security Group rules after HTTP](assets/screenshots/04-nsg-rules-after-http.png)
+![Network Security Group rules after HTTP](assets/screenshots/03-nsg-rules-after-http.png)
 
 ### 7. Verify the web server
 
@@ -162,11 +174,11 @@ The welcome page confirms that Nginx is running and that inbound HTTP traffic is
 
 The web server response in Azure Cloud Shell:
 
-![Nginx web server response](assets/screenshots/05-nginx-web-server-response.png)
+![Nginx web server response](assets/screenshots/04-nginx-web-server-response.png)
 
 The Nginx welcome page displayed in a browser:
 
-![Nginx browser welcome page](assets/screenshots/06-nginx-browser.png)
+![Nginx browser welcome page](assets/screenshots/05-nginx-browser.png)
 
 ### 8. Clean up
 
@@ -178,9 +190,7 @@ The Nginx welcome page displayed in a browser:
 
 Deleting `IntroAzureRG` removes the virtual machine and all associated resources created during this lab, avoiding unnecessary costs.
 
-Other resource groups visible in the Azure subscription belong to previous labs or the training environment and were not modified as part of this exercise.
-
-![Resource group deleted](assets/screenshots/07-resource-group-deleted.png)
+![Resource group deleted](assets/screenshots/06-resource-group-deleted.png)
 
 ## Result
 
