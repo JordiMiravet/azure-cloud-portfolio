@@ -19,26 +19,38 @@ Region used: Spain Central.
 2. Select the subscription, name the group `IntroAzureRG`, and choose a region where the required VM sizes are available.
 3. Select **Review + create** and then **Create**.
 
-### 2. Create a Linux virtual machine
+### 2. Create a virtual machine
 
 1. Select **Create a resource**, then **Infrastructure services**, and create a **Virtual machine**.
 2. On the **Basics** tab, set the following values and leave the rest as default:
-   - Resource group: `IntroAzureRG`
-   - Virtual machine name: `my-vm`
-   - Region: same as the resource group
-   - Authentication: password
-   - Username: `azureuser`
-   - Password: enter a custom password
-   - Public inbound ports: leave the default settings
+
+The Basics tab configuration:
+
+| Setting | Value |
+|---|---|
+| Subscription | `XLabs-269` |
+| Resource group | `IntroAzureRG` |
+| Virtual machine name | `my-vm` |
+| Region | Spain Central |
+| Zone options | Default |
+| Availability zone | Default |
+| Security type | Default |
+| Image | Default |
+| VM architecture | Default |
+| Run with Azure Spot discount | Unchecked |
+| Size | Default |
+| Authentication | Password |
+| Username | `azureuser` |
+| Password | Custom password |
+| Confirm password | Custom password |
+| Public inbound ports | None |
+| Select inbound ports | Default |
+
 3. Select **Review + create** and then **Create**, and wait for the deployment to finish.
-
-The Basics tab with the values used:
-
-![Virtual machine Basics tab](assets/screenshots/01-vm-basics-tab.png)
 
 The deployment finished:
 
-![Virtual machine deployment complete](assets/screenshots/02-vm-deployment-complete.png)
+![Deployment complete](assets/screenshots/02-vm-deployment-complete.png)
 
 ### 3. Install Nginx using Custom Script Extension
 
