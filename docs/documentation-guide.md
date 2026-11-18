@@ -24,20 +24,20 @@ azure-cloud-portfolio/
 ├── .github/                 # Issue and pull request templates
 ├── assets/                  # Images shared across the repository
 ├── certifications/
-│   └── az-900/
-│       └── labs/            # One folder per lab
+│   └── az-900/              # One folder per lab
 ├── docs/                    # Repository guides
 └── projects/                # Independent projects
 ```
 
-Folders are created only when there is content for them. Other certifications follow the same pattern as `az-900/`, and an optional `notes/` folder can be added next to `labs/` when study notes are needed.
+Folders are created only when there is content for them. Other certifications follow the same pattern as `az-900/`.
 
 A lab folder looks like this:
 
 ```text
-labs/
+az-900/
 ├── README.md                # Index of labs and their status
-└── storage-account/
+├── lab-template/            # Template for new labs
+└── create-storage-blob/
     ├── README.md
     └── assets/
         └── screenshots/
