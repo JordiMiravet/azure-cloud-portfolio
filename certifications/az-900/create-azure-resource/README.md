@@ -13,12 +13,17 @@ Region used: Spain Central.
 ### 1. Create a resource group
 
 1. In the Azure portal, open **Resource groups** and select **Create**.
-2. Select the subscription, name the group `IntroAzureRG`, and choose a region available in the subscription.
+2. Configure the following settings:
+
+The resource group configuration:
+
+| Setting | Value |
+|---|---|
+| Subscription | XLabs-731 |
+| Resource group | `IntroAzureRG` |
+| Region | Spain Central |
+
 3. Select **Review + create** and then **Create**.
-
-The form with the values used:
-
-![Resource group creation form](assets/screenshots/01-resource-group-form.png)
 
 The resource group once created:
 
