@@ -178,8 +178,6 @@ The Nginx welcome page displayed in a browser:
 
 Deleting `IntroAzureRG` removes the virtual machine and all associated resources created during this lab, avoiding unnecessary costs.
 
-Other resource groups visible in the Azure subscription belong to previous labs or the training environment and were not modified as part of this exercise.
-
 ![Resource group deleted](assets/screenshots/07-resource-group-deleted.png)
 
 ## Result
