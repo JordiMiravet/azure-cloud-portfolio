@@ -27,7 +27,7 @@ The resource group configuration:
 
 The resource group once created:
 
-![Resource group created](assets/screenshots/02-resource-group-created.png)
+![Resource group created](assets/screenshots/01-resource-group-created.png)
 
 ### 2. Create a virtual machine
 
@@ -42,18 +42,18 @@ The resource group once created:
 
 The Basics tab with the values used:
 
-![Virtual machine Basics tab](assets/screenshots/03-vm-basics-tab.png)
+![Virtual machine Basics tab](assets/screenshots/02-vm-basics-tab.png)
 
 The deployment finished:
 
-![Deployment complete](assets/screenshots/04-vm-deployment-complete.png)
+![Deployment complete](assets/screenshots/03-vm-deployment-complete.png)
 
 ### 3. Verify the resources created
 
 1. Go to **Resource groups** and open `IntroAzureRG`.
 2. Review the resources listed in the group.
 
-![Resource group with all its resources](assets/screenshots/05-resource-group-populated.png)
+![Resource group with all its resources](assets/screenshots/04-resource-group-populated.png)
 
 ### 4. Clean up
 
@@ -62,7 +62,7 @@ The deployment finished:
 3. If shown, check the force delete option for virtual machines.
 4. Type `IntroAzureRG` to confirm and select **Delete**.
 
-![Resource group deleted](assets/screenshots/06-resource-group-deleted.png)
+![Resource group deleted](assets/screenshots/05-resource-group-deleted.png)
 
 ## Result
 
