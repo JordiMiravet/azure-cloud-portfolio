@@ -3,7 +3,7 @@
 
 ## Overview
 
-This lab uses the Azure Pricing Calculator to estimate the monthly cost of running a basic web application in Azure.
+This lab uses the Azure Pricing Calculator to estimate the monthly and annual costs of running a basic web application in Azure.
 
 The estimated solution includes three Azure services:
 
@@ -110,7 +110,7 @@ Under **Application Gateway**, configure the following settings:
 | Setting | Value |
 |---|---|
 | Region | West US |
-| Tier | Web Application Firewall |
+| Tier | Web Application Firewall V1 |
 | Size | Medium |
 | Gateway hours | 2 x 730 hours |
 | Data processed | 1 TB |
@@ -126,32 +126,61 @@ This configuration provides application traffic distribution and Web Application
 
 1. Scroll to the bottom of the calculator.
 2. Review the estimated monthly cost for each service and the total.
-3. Check that the selected currency is correct.
+3. Check that the selected currency is USD.
 4. Use **Export** to download the estimate as an Excel document.
 5. Optionally, use **Save** or **Save as** to store the estimate, or **Share** to generate a URL.
 
-Record the resulting monthly estimate and its currency.
+The resulting estimate is:
 
-| Azure service | Estimated monthly cost |
-|---|---|
-| Virtual Machines | To be completed |
-| Azure SQL Database | To be completed |
-| Application Gateway | To be completed |
-| **Total** | **To be completed** |
+| Azure service | Estimated monthly cost | Estimated annual cost |
+|---|---:|---:|
+| Virtual Machines | $297.84 | $3,574.08 |
+| Azure SQL Database | $978.20 | $11,738.43 |
+| Application Gateway | $206.04 | $2,472.42 |
+| **Total** | **$1,482.08** | **$17,784.93** |
+
+**Estimation date:** 18 November 2026  
+**Currency:** USD  
+**Estimated upfront cost:** $0.00
 
 The final estimate:
 
 ![Azure Pricing Calculator final estimate](assets/screenshots/04-final-cost-estimate.png)
 
-**Note:** The estimate is indicative and does not represent a fixed or guaranteed price. Azure prices vary depending on region, configuration, usage, and the date of the calculation. The calculator is provided for informational purposes and does not provision resources or charge for the selected services.
+### Estimation assumptions
+
+The estimate relies on the following assumptions and configuration details:
+
+- All three Azure services are configured in the West US region.
+- Two Windows D2s v5 virtual machines run continuously for 730 hours per month.
+- Virtual machine pricing uses the Pay-as-you-go model, with Windows licensing included.
+- Azure SQL Database uses the General Purpose provisioned tier, with 8 vCores and Gen 5 hardware.
+- The database uses RA-GRS backup storage redundancy.
+- Application Gateway uses the Web Application Firewall V1 tier with Medium instance size.
+- Two gateway instances run for 730 hours each month.
+- Application Gateway processes 1 TB of data per month.
+- Outbound data transfer is configured as 5 GB.
+- Other configuration options retain their default calculator values unless specified.
+
+The calculator also displays 2 GB of SQL Database storage and 5 GB of inter-region outbound data transfer from West US to East Asia. These values are additional configuration details displayed in the resulting estimate and are not separate requirements defined by the original exercise.
+
+The original exercise specifies a database storage requirement of up to 32 GB. The resulting calculator configuration displays 2 GB, so the estimate should be understood as the actual configuration entered rather than a fully sized database for the maximum stated storage requirement.
+
+**Note:** The estimate is indicative and does not represent a fixed or guaranteed price. Azure prices vary depending on region, configuration, usage, licensing, and the date of the calculation. The calculator is provided for informational purposes and does not provision resources or charge for the selected services.
 
 ## Result
 
-The Azure Pricing Calculator was used to build a monthly cost estimate for a basic internal web application.
+The Azure Pricing Calculator was used to build a monthly and annual cost estimate for a basic internal web application.
 
-The estimate includes two Windows virtual machines, an Azure SQL Database, and an Application Gateway configured according to the workload requirements.
+The estimate includes two Windows D2s v5 virtual machines, an Azure SQL Database using the General Purpose provisioned tier, and an Application Gateway with Web Application Firewall capabilities.
 
-The resulting estimate provides an overview of the expected monthly infrastructure costs and can be exported, saved, or shared for further analysis.
+The resulting estimate is:
+
+- **Monthly cost:** $1,482.08 USD.
+- **Annual cost:** $17,784.93 USD.
+- **Upfront cost:** $0.00 USD.
+
+The estimate provides an overview of the expected infrastructure costs and can be exported, saved, or shared for further analysis.
 
 ## Lessons Learned
 
@@ -159,6 +188,7 @@ The resulting estimate provides an overview of the expected monthly infrastructu
 - A workload estimate depends on several assumptions, including region, service tier, instance size, and expected usage.
 - Running resources continuously for 730 hours per month significantly influences the estimated cost.
 - Different Azure services use different pricing models, such as virtual machine hours, database compute capacity, and network data processing.
+- Default calculator values may differ from the original workload requirements and should be reviewed before accepting an estimate.
 - Choosing a service configuration that matches the actual workload helps avoid overestimating or underestimating costs.
 - The calculator does not deploy resources or generate charges. It only provides an estimate.
 - Azure prices can change over time, so estimates should be reviewed whenever workload requirements or pricing information changes.
@@ -171,3 +201,4 @@ The resulting estimate provides an overview of the expected monthly infrastructu
 - [Azure Virtual Machines pricing](https://azure.microsoft.com/pricing/details/virtual-machines/)
 - [Azure SQL Database pricing](https://azure.microsoft.com/pricing/details/azure-sql-database/)
 - [Azure Application Gateway pricing](https://azure.microsoft.com/pricing/details/application-gateway/)
+- [Azure Cost Management documentation](https://learn.microsoft.com/azure/cost-management-billing/cost-management-billing-overview)
