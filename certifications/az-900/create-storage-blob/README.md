@@ -94,11 +94,11 @@ The Encryption tab configuration:
 
 The container created with private access:
 
-![Container created](assets/screenshots/03-container-created.png)
+![Container created](assets/screenshots/01-container-created.png)
 
 The image uploaded to the container:
 
-![Blob uploaded](assets/screenshots/04-blob-uploaded.png)
+![Blob uploaded](assets/screenshots/02-blob-uploaded.png)
 
 ### 3. Try to access the blob while the container is private
 
@@ -106,7 +106,7 @@ The image uploaded to the container:
 2. Open the URL in a new browser tab.
 3. The request fails with this error: TODO exact error shown. The container does not allow anonymous access yet.
 
-![Access denied to the blob](assets/screenshots/05-blob-access-denied.png)
+![Access denied to the blob](assets/screenshots/03-blob-access-denied.png)
 
 ### 4. Change the access level
 
@@ -116,11 +116,11 @@ The image uploaded to the container:
 
 The access level change:
 
-![Change access level](assets/screenshots/06-change-access-level.png)
+![Change access level](assets/screenshots/04-change-access-level.png)
 
 The blob is now accessible from the internet:
 
-![Blob accessible](assets/screenshots/07-blob-access-allowed.png)
+![Blob accessible](assets/screenshots/05-blob-access-allowed.png)
 
 ### 5. Clean up
 
@@ -130,7 +130,7 @@ The blob is now accessible from the internet:
 
 Deleting the resource group removes the storage account and everything stored in it.
 
-![Resource group deleted](assets/screenshots/08-resource-group-deleted.png)
+![Resource group deleted](assets/screenshots/06-resource-group-deleted.png)
 
 ## Result
 
