@@ -50,7 +50,7 @@ The Basics tab configuration:
 
 The deployment finished:
 
-![Deployment complete](assets/screenshots/02-vm-deployment-complete.png)
+![Deployment complete](assets/screenshots/01-vm-deployment-complete.png)
 
 ### 3. Install Nginx using Custom Script Extension
 
@@ -126,7 +126,7 @@ By default, the NSG allows inbound SSH traffic on port 22, but HTTP traffic on p
 
 The NSG rules before allowing HTTP traffic:
 
-![Network Security Group rules before HTTP](assets/screenshots/03-nsg-rules-before-http.png)
+![Network Security Group rules before HTTP](assets/screenshots/02-nsg-rules-before-http.png)
 
 ### 6. Create a network security rule for HTTP
 
@@ -157,7 +157,7 @@ The NSG should now include the default SSH rule and the new `allow-http` rule.
 
 The NSG rules after allowing HTTP traffic:
 
-![Network Security Group rules after HTTP](assets/screenshots/04-nsg-rules-after-http.png)
+![Network Security Group rules after HTTP](assets/screenshots/03-nsg-rules-after-http.png)
 
 ### 7. Verify the web server
 
@@ -174,11 +174,11 @@ The welcome page confirms that Nginx is running and that inbound HTTP traffic is
 
 The web server response in Azure Cloud Shell:
 
-![Nginx web server response](assets/screenshots/05-nginx-web-server-response.png)
+![Nginx web server response](assets/screenshots/04-nginx-web-server-response.png)
 
 The Nginx welcome page displayed in a browser:
 
-![Nginx browser welcome page](assets/screenshots/06-nginx-browser.png)
+![Nginx browser welcome page](assets/screenshots/05-nginx-browser.png)
 
 ### 8. Clean up
 
@@ -190,7 +190,7 @@ The Nginx welcome page displayed in a browser:
 
 Deleting `IntroAzureRG` removes the virtual machine and all associated resources created during this lab, avoiding unnecessary costs.
 
-![Resource group deleted](assets/screenshots/07-resource-group-deleted.png)
+![Resource group deleted](assets/screenshots/06-resource-group-deleted.png)
 
 ## Result
 
