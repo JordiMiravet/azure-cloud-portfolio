@@ -19,7 +19,7 @@ This portfolio was started during the **IT Academy Azure and AI Certification pr
 
 | Certification | Status | Links |
 | --- | --- | --- |
-| **AZ-900** - Microsoft Azure Fundamentals | In progress | [Labs](certifications/az-900/labs/README.md) · [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/) |
+| **AZ-900** - Microsoft Azure Fundamentals | In progress | [Labs](certifications/az-900/README.md) · [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/) |
 | **AI-901** - Microsoft Azure AI Fundamentals | Pending | [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/) |
 | **AI-103** - Azure AI Apps and Agents Developer Associate | Pending | [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/) |
 | **AI-200** - Azure AI Cloud Developer Associate | Pending | [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/) |
