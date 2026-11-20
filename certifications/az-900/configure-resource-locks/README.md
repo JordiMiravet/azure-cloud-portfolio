@@ -68,3 +68,7 @@ The container created:
 3. Type `IntroAzureRG` to confirm and select **Delete**, then confirm in the pop-up window.
 
 ![Resource group deleted](assets/screenshots/07-resource-group-deleted.png)
+
+## Result
+
+With the read-only lock in place, creating a container failed. After changing the lock type to **Delete**, the container was created, but deleting the storage account was still blocked. The account could only be deleted after removing the lock.
