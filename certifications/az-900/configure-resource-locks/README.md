@@ -44,3 +44,10 @@ The lock with the new type:
 The container created:
 
 ![Container created](assets/screenshots/04-container-created.png)
+
+### 5. Try to delete the storage account
+
+1. In the storage account **Overview**, select **Delete**.
+2. Azure blocks the operation because the account has a delete lock.
+
+![Storage account deletion blocked](assets/screenshots/05-storage-account-delete-blocked.png)
