@@ -30,3 +30,17 @@ Region used: TODO region.
 3. The operation fails with this error: TODO exact error shown. The read-only lock prevents create and update operations on the storage account.
 
 ![Container creation failed](assets/screenshots/02-container-creation-failed.png)
+
+### 4. Change the lock to Delete and add a container
+
+1. Go back to **Settings** > **Locks**, open the existing lock, change its type to **Delete**, and select **OK**.
+2. Repeat the container creation from the previous step.
+3. This time the container is created and appears in the list.
+
+The lock with the new type:
+
+![Lock changed to Delete](assets/screenshots/03-lock-changed-to-delete.png)
+
+The container created:
+
+![Container created](assets/screenshots/04-container-created.png)
