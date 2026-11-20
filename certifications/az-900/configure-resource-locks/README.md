@@ -2,11 +2,13 @@
 
 ## Overview
 
-This lab applies resource locks to a storage account to see how they protect it from accidental changes and deletion. It tests a read-only lock and a delete lock, and shows that a lock has to be removed before the resource can be deleted. It uses the services Resource groups, Storage accounts, and Resource locks.
+This lab demonstrates how Azure resource locks protect a storage account against accidental modifications and deletion. It applies a read-only lock and a delete lock to observe how each affects resource operations and demonstrates why locks must be removed before deleting protected resources.
+
+It uses the services Resource groups, Storage accounts, and Resource locks.
 
 Based on the official exercise: [Configure resource locks](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/Instructions/Labs/08-exercise-configure-resource-lock.html).
 
-Region used: TODO region.
+Region used: Spain Central.
 
 ## Steps
 
@@ -15,6 +17,14 @@ Region used: TODO region.
 1. In the Azure portal, create a resource group named `IntroAzureRG`.
 2. Create a storage account in that resource group with a unique name, the same region as the resource group, **Standard** performance, and **Locally redundant storage (LRS)** redundancy. Leave the rest as default.
 3. Wait for the deployment to finish and select **Go to resource**.
+
+![Storage account configuration](assets/screenshots/01-storage-account-configuration.png)
+
+The storage account was configured with Standard performance, locally redundant storage (LRS), and Spain Central as its region.
+
+![Storage account created](assets/screenshots/02-storage-account-created.png)
+
+The storage account was successfully deployed in the `IntroAzureRG` resource group.
 
 ### 2. Apply a read-only lock
 
@@ -27,7 +37,7 @@ Region used: TODO region.
 
 1. Under **Data storage**, select **Containers** and then **+ Container**.
 2. Enter a container name and select **Create**.
-3. The operation fails with this error: TODO exact error shown. The read-only lock prevents create and update operations on the storage account.
+3. The operation fails with the error **Failed to create storage container** because the read-only lock prevents create and update operations on the storage account.
 
 ![Container creation failed](assets/screenshots/02-container-creation-failed.png)
 
@@ -69,17 +79,21 @@ The container created:
 
 ![Resource group deleted](assets/screenshots/07-resource-group-deleted.png)
 
+![Resource group no longer found](assets/screenshots/08-resource-group-not-found.png)
+
+A subsequent attempt to access the storage account returned a 404 error, confirming that the resource group and its associated resources were no longer available.
+
 ## Result
 
 With the read-only lock in place, creating a container failed. After changing the lock type to **Delete**, the container was created, but deleting the storage account was still blocked. The account could only be deleted after removing the lock.
 
 ## Lessons Learned
 
-- A read-only lock blocks changes to the resource, such as creating a container in the storage account, even for users who have permission to make them.
-- A delete lock still allows changes but prevents the resource from being deleted.
-- A resource with a lock cannot be deleted until the lock is removed, so locks protect against accidental deletion but do not make it permanent.
-- Locks are a good safeguard for critical resources, but they can also block legitimate operations, so the lock type has to match what needs to be protected.
-- The exercise shows that locks must be removed before cleaning up, otherwise the resources cannot be deleted.
+- A read-only lock prevents modification operations on the protected resource, including creating a container in the storage account.
+- A delete lock allows modifications but prevents the protected resource from being deleted.
+- A resource protected by a delete lock cannot be deleted until the lock is removed.
+- Locks are useful safeguards for critical resources, but they can also block legitimate operations, so the lock type must match the protection requirements.
+- Resource locks must be removed before deleting protected resources during cleanup.
 
 ## References
 
