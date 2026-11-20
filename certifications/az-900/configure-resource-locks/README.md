@@ -51,3 +51,12 @@ The container created:
 2. Azure blocks the operation because the account has a delete lock.
 
 ![Storage account deletion blocked](assets/screenshots/05-storage-account-delete-blocked.png)
+
+### 6. Remove the lock and delete the storage account
+
+1. In the storage account, open **Settings** > **Locks** and delete the lock.
+2. Go to **Storage accounts**, select the account, and select **Delete**.
+3. Type the name of the storage account to confirm and select **Delete**.
+4. Check in **Storage accounts** that the account no longer exists.
+
+![Storage account deleted](assets/screenshots/06-storage-account-deleted.png)
