@@ -60,3 +60,11 @@ The container created:
 4. Check in **Storage accounts** that the account no longer exists.
 
 ![Storage account deleted](assets/screenshots/06-storage-account-deleted.png)
+
+### 7. Clean up
+
+1. In the Azure portal, open **Resource groups** and select `IntroAzureRG`.
+2. Select **Delete resource group**.
+3. Type `IntroAzureRG` to confirm and select **Delete**, then confirm in the pop-up window.
+
+![Resource group deleted](assets/screenshots/07-resource-group-deleted.png)
