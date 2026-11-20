@@ -15,3 +15,10 @@ Region used: TODO region.
 1. In the Azure portal, create a resource group named `IntroAzureRG`.
 2. Create a storage account in that resource group with a unique name, the same region as the resource group, **Standard** performance, and **Locally redundant storage (LRS)** redundancy. Leave the rest as default.
 3. Wait for the deployment to finish and select **Go to resource**.
+
+### 2. Apply a read-only lock
+
+1. In the storage account, open **Settings** > **Locks** and select **+ Add**.
+2. Enter a lock name, check that the lock type is **Read-only**, and select **OK**.
+
+![Read-only lock added](assets/screenshots/01-read-only-lock-added.png)
