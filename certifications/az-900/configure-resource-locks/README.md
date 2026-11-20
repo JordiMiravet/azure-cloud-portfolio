@@ -22,3 +22,11 @@ Region used: TODO region.
 2. Enter a lock name, check that the lock type is **Read-only**, and select **OK**.
 
 ![Read-only lock added](assets/screenshots/01-read-only-lock-added.png)
+
+### 3. Try to add a container
+
+1. Under **Data storage**, select **Containers** and then **+ Container**.
+2. Enter a container name and select **Create**.
+3. The operation fails with this error: TODO exact error shown. The read-only lock prevents create and update operations on the storage account.
+
+![Container creation failed](assets/screenshots/02-container-creation-failed.png)
