@@ -72,3 +72,11 @@ The container created:
 ## Result
 
 With the read-only lock in place, creating a container failed. After changing the lock type to **Delete**, the container was created, but deleting the storage account was still blocked. The account could only be deleted after removing the lock.
+
+## Lessons Learned
+
+- A read-only lock blocks changes to the resource, such as creating a container in the storage account, even for users who have permission to make them.
+- A delete lock still allows changes but prevents the resource from being deleted.
+- A resource with a lock cannot be deleted until the lock is removed, so locks protect against accidental deletion but do not make it permanent.
+- Locks are a good safeguard for critical resources, but they can also block legitimate operations, so the lock type has to match what needs to be protected.
+- The exercise shows that locks must be removed before cleaning up, otherwise the resources cannot be deleted.
