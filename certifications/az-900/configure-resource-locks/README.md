@@ -80,3 +80,8 @@ With the read-only lock in place, creating a container failed. After changing th
 - A resource with a lock cannot be deleted until the lock is removed, so locks protect against accidental deletion but do not make it permanent.
 - Locks are a good safeguard for critical resources, but they can also block legitimate operations, so the lock type has to match what needs to be protected.
 - The exercise shows that locks must be removed before cleaning up, otherwise the resources cannot be deleted.
+
+## References
+
+- [Official AZ-900 lab instructions - Configure resource locks](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/Instructions/Labs/08-exercise-configure-resource-lock.html)
+- [Lock your Azure resources to protect your infrastructure](https://learn.microsoft.com/azure/azure-resource-manager/management/lock-resources)
