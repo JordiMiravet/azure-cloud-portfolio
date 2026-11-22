@@ -46,7 +46,7 @@ azure-cloud-portfolio/
 │   └── az-900/                      # AZ-900 hands-on labs
 │       ├── README.md                # Labs index
 │       ├── lab-template/            # Template for documenting new labs
-│       └── <lab-name>/              # One folder per lab
+│       └── <NN-lab-name>/           # One numbered folder per lab
 ├── docs/
 │   ├── development-workflow.md      # Issues, branches, commits, and pull requests
 │   └── documentation-guide.md       # Folder structure, formatting, and templates
