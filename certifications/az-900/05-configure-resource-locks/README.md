@@ -31,7 +31,7 @@ The storage account was successfully deployed in the `IntroAzureRG` resource gro
 1. In the storage account, open **Settings** > **Locks** and select **+ Add**.
 2. Enter a lock name, check that the lock type is **Read-only**, and select **OK**.
 
-![Read-only lock added](assets/screenshots/01-read-only-lock-added.png)
+![Read-only lock added](assets/screenshots/03-read-only-lock-added.png)
 
 ### 3. Try to add a container
 
@@ -39,7 +39,7 @@ The storage account was successfully deployed in the `IntroAzureRG` resource gro
 2. Enter a container name and select **Create**.
 3. The operation fails with the error **Failed to create storage container** because the read-only lock prevents create and update operations on the storage account.
 
-![Container creation failed](assets/screenshots/02-container-creation-failed.png)
+![Container creation failed](assets/screenshots/04-container-creation-failed.png)
 
 ### 4. Change the lock to Delete and add a container
 
@@ -49,18 +49,18 @@ The storage account was successfully deployed in the `IntroAzureRG` resource gro
 
 The lock with the new type:
 
-![Lock changed to Delete](assets/screenshots/03-lock-changed-to-delete.png)
+![Lock changed to Delete](assets/screenshots/05-lock-changed-to-delete.png)
 
 The container created:
 
-![Container created](assets/screenshots/04-container-created.png)
+![Container created](assets/screenshots/06-container-created.png)
 
 ### 5. Try to delete the storage account
 
 1. In the storage account **Overview**, select **Delete**.
 2. Azure blocks the operation because the account has a delete lock.
 
-![Storage account deletion blocked](assets/screenshots/05-storage-account-delete-blocked.png)
+![Storage account deletion blocked](assets/screenshots/07-storage-account-delete-blocked.png)
 
 ### 6. Remove the lock and delete the storage account
 
@@ -69,7 +69,7 @@ The container created:
 3. Type the name of the storage account to confirm and select **Delete**.
 4. Check in **Storage accounts** that the account no longer exists.
 
-![Storage account deleted](assets/screenshots/06-storage-account-deleted.png)
+![Storage account deleted](assets/screenshots/08-storage-account-deleted.png)
 
 ### 7. Clean up
 
@@ -77,9 +77,9 @@ The container created:
 2. Select **Delete resource group**.
 3. Type `IntroAzureRG` to confirm and select **Delete**, then confirm in the pop-up window.
 
-![Resource group deleted](assets/screenshots/07-resource-group-deleted.png)
+![Resource group deleted](assets/screenshots/09-resource-group-deleted.png)
 
-![Resource group no longer found](assets/screenshots/08-resource-group-not-found.png)
+![Resource group no longer found](assets/screenshots/10-resource-group-not-found.png)
 
 A subsequent attempt to access the storage account returned a 404 error, confirming that the resource group and its associated resources were no longer available.
 
