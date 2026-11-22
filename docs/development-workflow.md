@@ -129,7 +129,7 @@ Commit messages must follow this format:
 Examples:
 
 ```text
-feat(labs): add storage account lab (#30)
+feat(az-900): add storage account lab (#30)
 fix(readme): correct certification link (#31)
 docs(workflow): document development workflow (#7)
 ```

@@ -26,11 +26,11 @@ This portfolio was started during the **IT Academy Azure and AI Certification pr
 
 ## Completed Labs
 
-- [Create an Azure resource](certifications/az-900/create-azure-resource/README.md) - AZ-900
-- [Create a virtual machine and configure it as a web host](certifications/az-900/create-virtual-machine/README.md) - AZ-900
-- [Create a storage blob](certifications/az-900/create-storage-blob/README.md) - AZ-900
-- [Estimate workload costs with the Pricing calculator](certifications/az-900/estimate-workload-costs/README.md) - AZ-900
-- [Configure resource locks](certifications/az-900/configure-resource-locks/README.md) - AZ-900
+- [Create an Azure resource](certifications/az-900/01-create-azure-resource/README.md) - AZ-900
+- [Create a virtual machine and configure it as a web host](certifications/az-900/02-create-virtual-machine/README.md) - AZ-900
+- [Create a storage blob](certifications/az-900/03-create-storage-blob/README.md) - AZ-900
+- [Estimate workload costs with the Pricing calculator](certifications/az-900/04-estimate-workload-costs/README.md) - AZ-900
+- [Configure resource locks](certifications/az-900/05-configure-resource-locks/README.md) - AZ-900
 
 Every completed lab is documented with step-by-step instructions, implementation screenshots, results, and lessons learned.
 
@@ -46,7 +46,7 @@ azure-cloud-portfolio/
 │   └── az-900/                      # AZ-900 hands-on labs
 │       ├── README.md                # Labs index
 │       ├── lab-template/            # Template for documenting new labs
-│       └── <lab-name>/              # One folder per lab
+│       └── <NN-lab-name>/           # One numbered folder per lab
 ├── docs/
 │   ├── development-workflow.md      # Issues, branches, commits, and pull requests
 │   └── documentation-guide.md       # Folder structure, formatting, and templates
