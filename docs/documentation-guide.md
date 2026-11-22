@@ -37,7 +37,7 @@ A lab folder looks like this:
 az-900/
 ├── README.md                # Index of labs and their status
 ├── lab-template/            # Template for new labs
-└── create-storage-blob/
+└── 03-create-storage-blob/
     ├── README.md
     └── assets/
         └── screenshots/
@@ -47,7 +47,8 @@ Add a `src/` folder to a lab or project only when it includes scripts or templat
 
 ## Naming and Formatting
 
-- Use lowercase `kebab-case` for files and folders, for example `storage-account/` or `documentation-guide.md`.
+- Use lowercase `kebab-case` for files and folders, for example `documentation-guide.md`.
+- Prefix each lab folder with a two-digit number that reflects the learning sequence, for example `03-create-storage-blob/`. The `lab-template/` folder has no prefix because it is not a lab.
 - Write all documentation in English.
 - Use ATX headings (`#`, `##`, `###`) without skipping levels.
 - Use fenced code blocks with a language identifier.
@@ -95,6 +96,7 @@ Sections that do not apply can be omitted.
 - Use `.png` files named in `kebab-case` with a sequence number, for example `01-resource-group-created.png`.
 - Add a short sentence explaining what each screenshot shows.
 - Remove or blur subscription IDs, keys, tokens, and personal data before committing.
+- Number the screenshots of each lab in a single sequence, without repeating numbers.
 
 ## Project Documentation
 
