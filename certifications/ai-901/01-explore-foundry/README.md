@@ -35,6 +35,20 @@ The Build page:
 
 ![Foundry Build page](assets/screenshots/03-foundry-build-page.png)
 
+### 3. Deploy a model
+
+1. In **Build** > **Models**, deploy a base model from the catalog using the default settings.
+2. When the deployment finishes, the model playground opens.
+3. Ask `Who was Ada Lovelace?` and then a follow-up question about her work.
+
+The model deployed:
+
+![Model deployed](assets/screenshots/04-model-deployed.png)
+
+The playground with the model's response:
+
+![Model playground response](assets/screenshots/05-model-playground-response.png)
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/00-explore-foundry.html)
