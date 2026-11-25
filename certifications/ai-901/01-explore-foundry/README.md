@@ -31,9 +31,17 @@ The parent Foundry resource:
 
 ![Foundry parent resource](assets/screenshots/02-foundry-parent-resource.png)
 
+The Catalog page:
+
+![Foundry Catalog page](assets/screenshots/03-foundry-catalog.png)
+
 The Build page:
 
-![Foundry Build page](assets/screenshots/03-foundry-build-page.png)
+![Foundry Build page](assets/screenshots/04-foundry-build-page.png)
+
+The Manage page:
+
+![Foundry Manage page](assets/screenshots/05-foundry-manage-page.png)
 
 ### 3. Deploy a model
 
