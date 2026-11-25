@@ -49,6 +49,11 @@ The playground with the model's response:
 
 ![Model playground response](assets/screenshots/05-model-playground-response.png)
 
+### 4. Connect the Computing History app
+
+1. From the project home page, take note of the project endpoint, the deployment name, and the API key. These are credentials and are not shown in this document.
+2. Open the [Computing History Agent](https://aka.ms/computing-history-foundry) app provided by the exercise, enter those values in its configuration panel, and save.
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/00-explore-foundry.html)
