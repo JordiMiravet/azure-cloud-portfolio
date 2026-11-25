@@ -54,6 +54,34 @@ The playground with the model's response:
 1. From the project home page, take note of the project endpoint, the deployment name, and the API key. These are credentials and are not shown in this document.
 2. Open the [Computing History Agent](https://aka.ms/computing-history-foundry) app provided by the exercise, enter those values in its configuration panel, and save.
 
+### 5. Explore AI capabilities with the app
+
+Each capability was tried in a new conversation.
+
+**Generative AI.** Asked about the ELIZA chatbot and how it compares with modern large language models.
+
+![Generative AI response](assets/screenshots/06-app-generative-ai.png)
+
+**Text analysis.** Asked the agent to summarize a short article and identify people, places, and dates.
+
+![Text analysis response](assets/screenshots/07-app-text-analysis.png)
+
+**Speech.** Used voice input to ask about computer speech. The response was returned as text and read aloud.
+
+![Speech response](assets/screenshots/08-app-speech.png)
+
+**Computer vision.** Uploaded an image of a vintage computer provided by the exercise and asked about it.
+
+![Computer vision response](assets/screenshots/09-app-computer-vision.png)
+
+**Information extraction.** Uploaded an image of a printed circuit board provided by the exercise and asked what could be identified from it.
+
+![Information extraction response](assets/screenshots/10-app-information-extraction.png)
+
+**Safety guardrails.** Tried prompts asking for harmful help to see how the model reacted.
+
+![Guardrails response](assets/screenshots/11-app-guardrails.png)
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/00-explore-foundry.html)
