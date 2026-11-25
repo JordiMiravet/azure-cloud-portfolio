@@ -6,7 +6,7 @@ This lab creates a Microsoft Foundry project, explores the Foundry portal, deplo
 
 Based on the official exercise: [Get started with Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/00-explore-foundry.html).
 
-Region used: TODO region.
+Region used: Spain Central.
 
 Model used: TODO model and deployment name.
 
