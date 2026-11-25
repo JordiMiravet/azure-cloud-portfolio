@@ -96,6 +96,16 @@ Deleting the resource group removes the Foundry resource, the project, and the m
 
 The Foundry project was created, a model was deployed and tested in the playground, and the Computing History app answered using that deployment for text, speech, and image prompts. TODO describe what the guardrails did with the prompts you tried.
 
+## Lessons Learned
+
+- A Foundry project organizes models, agents, and tools, and belongs to a parent Foundry resource in an Azure subscription, where several projects can share services and settings.
+- Models are deployed in the Foundry resource and can be tested in the playground before being used from an application.
+- A client application needs the project endpoint, the deployment name, and an API key to use a deployed model. The key is a credential and must never be committed or shown in screenshots.
+- Text analysis, image interpretation, and information extraction were all done by the same deployed model through prompts, while speech used Azure Speech in the Foundry tools of the same resource.
+- Foundry models apply content safety guardrails by default.
+- Model deployments depend on regional quota, so a different model or region may be needed if the quota is missing.
+- Deleting the resource group removes the project and everything it contains.
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/00-explore-foundry.html)
