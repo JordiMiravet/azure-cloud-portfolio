@@ -82,6 +82,16 @@ Each capability was tried in a new conversation.
 
 ![Guardrails response](assets/screenshots/11-app-guardrails.png)
 
+### 6. Clean up
+
+1. In the Azure portal, open the resource group used for the lab.
+2. Select **Delete resource group**.
+3. Type the resource group name to confirm and select **Delete**.
+
+Deleting the resource group removes the Foundry resource, the project, and the model deployment, which avoids unnecessary charges.
+
+![Resource group deleted](assets/screenshots/12-resource-group-deleted.png)
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/00-explore-foundry.html)
