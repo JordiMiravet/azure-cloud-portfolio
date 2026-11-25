@@ -24,6 +24,7 @@ azure-cloud-portfolio/
 ├── .github/                 # Issue and pull request templates
 ├── assets/                  # Images shared across the repository
 ├── certifications/
+│   ├── lab-template/        # Template shared by all labs
 │   └── az-900/              # One folder per lab
 ├── docs/                    # Repository guides
 └── projects/                # Independent projects
@@ -36,7 +37,6 @@ A lab folder looks like this:
 ```text
 az-900/
 ├── README.md                # Index of labs and their status
-├── lab-template/            # Template for new labs
 └── 03-create-storage-blob/
     ├── README.md
     └── assets/
@@ -58,7 +58,7 @@ Add a `src/` folder to a lab or project only when it includes scripts or templat
 
 ## Lab Documentation
 
-Each lab has its own folder with a `README.md`. Labs based on an official exercise must link to the original, such as the [AZ-900 labs](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/).
+Each lab has its own folder with a `README.md`. Labs based on an official exercise must link to the original, such as the [AZ-900 labs](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/). New labs start as a copy of the shared `certifications/lab-template/` folder.
 
 ### Lab README Template
 
