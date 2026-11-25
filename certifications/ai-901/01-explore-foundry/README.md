@@ -51,11 +51,11 @@ The Manage page:
 
 The model deployed:
 
-![Model deployed](assets/screenshots/04-model-deployed.png)
+![Model deployed](assets/screenshots/05-model-deployed.png)
 
 The playground with the model's response:
 
-![Model playground response](assets/screenshots/05-model-playground-response.png)
+![Model playground response](assets/screenshots/06-model-playground-response.png)
 
 ### 4. Connect the Computing History app
 
@@ -68,27 +68,27 @@ Each capability was tried in a new conversation.
 
 **Generative AI.** Asked about the ELIZA chatbot and how it compares with modern large language models.
 
-![Generative AI response](assets/screenshots/06-app-generative-ai.png)
+![Generative AI response](assets/screenshots/07-app-generative-ai.png)
 
 **Text analysis.** Asked the agent to summarize a short article and identify people, places, and dates.
 
-![Text analysis response](assets/screenshots/07-app-text-analysis.png)
+![Text analysis response](assets/screenshots/08-app-text-analysis.png)
 
 **Speech.** Used voice input to ask about computer speech. The response was returned as text and read aloud.
 
-![Speech response](assets/screenshots/08-app-speech.png)
+![Speech response](assets/screenshots/09-app-speech.png)
 
 **Computer vision.** Uploaded an image of a vintage computer provided by the exercise and asked about it.
 
-![Computer vision response](assets/screenshots/09-app-computer-vision.png)
+![Computer vision response](assets/screenshots/10-app-computer-vision.png)
 
 **Information extraction.** Uploaded an image of a printed circuit board provided by the exercise and asked what could be identified from it.
 
-![Information extraction response](assets/screenshots/10-app-information-extraction.png)
+![Information extraction response](assets/screenshots/11-app-information-extraction.png)
 
 **Safety guardrails.** Tried prompts asking for harmful help to see how the model reacted.
 
-![Guardrails response](assets/screenshots/11-app-guardrails.png)
+![Guardrails response](assets/screenshots/12-app-guardrails.png)
 
 ### 6. Clean up
 
@@ -98,7 +98,7 @@ Each capability was tried in a new conversation.
 
 Deleting the resource group removes the Foundry resource, the project, and the model deployment, which avoids unnecessary charges.
 
-![Resource group deleted](assets/screenshots/12-resource-group-deleted.png)
+![Resource group deleted](assets/screenshots/13-resource-group-deleted.png)
 
 ## Result
 
