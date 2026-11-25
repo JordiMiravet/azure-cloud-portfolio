@@ -43,6 +43,12 @@ The Manage page:
 
 ![Foundry Manage page](assets/screenshots/05-foundry-manage-page.png)
 
+#### Note about the lab sessions
+
+During the initial deployment attempts, the model deployments failed because the maximum output token limit was not configured correctly. The deployment required a maximum output token limit of 30,000.
+
+After correcting this configuration, the model was successfully deployed. Due to the time limitations of the Azure lab environment, the exercise was continued across two separate lab sessions.
+
 ### 3. Deploy a model
 
 1. In **Build** > **Models**, deploy a base model from the catalog using the default settings.
