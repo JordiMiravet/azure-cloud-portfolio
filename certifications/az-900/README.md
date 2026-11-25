@@ -14,6 +14,6 @@ Hands-on labs for **AZ-900: Microsoft Azure Fundamentals**, based on the officia
 
 ## Adding a New Lab
 
-1. Copy the [`lab-template/`](lab-template/) folder and rename it with the next two-digit number followed by a `kebab-case` name, for example `06-lab-name/`.
+1. Copy the shared [`lab-template/`](../lab-template/) folder into this directory and rename it using the next two-digit number followed by a `kebab-case` name, for example `06-lab-name/`.
 2. Fill in its `README.md` following the [Documentation Guide](../../docs/documentation-guide.md).
 3. Update the lab's row in the table above with a link to its documentation and its new status.
