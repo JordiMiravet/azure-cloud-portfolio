@@ -14,3 +14,9 @@ Hands-on labs for **AI-901: Microsoft Azure AI Fundamentals**, based on the offi
 | Information extraction in Microsoft Foundry | [Exercise](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/06a-content-understanding.html) | - | Pending |
 | Foundry IQ in Microsoft Foundry | [Exercise](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/07-foundry-iq.html) | - | Pending |
 | Voice agents in Microsoft Foundry | [Exercise](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/08-configure-voice-agent.html) | - | Pending |
+
+## Adding a New Lab
+
+1. Copy the shared [`lab-template/`](../lab-template/) folder into this directory and rename it with the lab number followed by a `kebab-case` name, for example `01-explore-foundry/`.
+2. Fill in its `README.md` following the [Documentation Guide](../../docs/documentation-guide.md).
+3. Update the lab's row in the table above with a link to its documentation and its new status.
