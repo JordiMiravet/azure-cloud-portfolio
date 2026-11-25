@@ -92,6 +92,10 @@ Deleting the resource group removes the Foundry resource, the project, and the m
 
 ![Resource group deleted](assets/screenshots/12-resource-group-deleted.png)
 
+## Result
+
+The Foundry project was created, a model was deployed and tested in the playground, and the Computing History app answered using that deployment for text, speech, and image prompts. TODO describe what the guardrails did with the prompts you tried.
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/00-explore-foundry.html)
