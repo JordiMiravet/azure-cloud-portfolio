@@ -8,14 +8,14 @@ Based on the official exercise: [Get started with Microsoft Foundry](https://mic
 
 Region used: Spain Central.
 
-Model used: TODO model and deployment name.
+Model used: GPT-5.1.
 
 ## Steps
 
 ### 1. Create a Foundry project
 
 1. Open [Microsoft Foundry](https://ai.azure.com) and sign in with the Azure account.
-2. Create a new project with a unique name. In **Advanced options**, set a name for the Foundry resource, the subscription, a new resource group named `TODO resource group`, and a recommended region.
+2. Create a new project with a unique name. In **Advanced options**, set a name for the Foundry resource, the subscription, a new resource group and a recommended region.
 3. Wait for the project to be created.
 
 The project home page. The API key and endpoints shown on this page were hidden:
@@ -108,7 +108,7 @@ Deleting the resource group removes the Foundry resource, the project, and the m
 
 ## Result
 
-The Foundry project was created, a model was deployed and tested in the playground, and the Computing History app answered using that deployment for text, speech, and image prompts. TODO describe what the guardrails did with the prompts you tried.
+The Foundry project was created, a model was deployed and tested in the playground, and the Computing History app answered using that deployment for text, speech, and image prompts.
 
 ## Lessons Learned
 
