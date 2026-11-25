@@ -80,9 +80,9 @@ Each capability was tried in a new conversation.
 
 ![Text analysis response](assets/screenshots/09-app-text-analysis.png)
 
-**Speech.** Used voice input to ask about computer speech. The response was returned as text and read aloud.
+**Speech.** Attempted to use voice input to ask the agent about speech recognition. However, the application returned a `501 - Transcription failed` error, preventing the audio from being transcribed. The issue was documented with a screenshot.
 
-![Speech response](assets/screenshots/10-app-speech.png)
+![Speech transcription error](assets/screenshots/10-app-speech-error.png)
 
 **Computer vision.** Uploaded an image of a vintage computer provided by the exercise and asked about it.
 
