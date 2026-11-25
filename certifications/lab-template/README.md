@@ -4,7 +4,7 @@
 
 <!-- What the lab covers and which Azure services are involved. Link the original exercise. -->
 
-Based on: [Exercise name](https://microsoftlearning.github.io/AZ-900-Microsoft-Azure-Fundamentals/)
+Based on: [Exercise name](https://microsoftlearning.github.io/)
 
 ## Steps
 
