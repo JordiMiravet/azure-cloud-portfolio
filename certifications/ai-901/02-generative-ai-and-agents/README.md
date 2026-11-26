@@ -104,6 +104,17 @@ Deleting the resource group removes the Foundry resource, the project, the model
 
 The model was deployed, tested in the playground, and then turned into an agent with instructions and a web search tool. The agent answered in the playground and in the web preview, and the Monitor and Cost pages showed its token usage. TODO describe how the model answered the off-topic question and whether it used the web search tool.
 
+## Lessons Learned
+
+- The responses of a language model are generated dynamically, not looked up in a data source, so they may not be based on authoritative facts.
+- Chat applications usually include the conversation history in the prompt, which is how the model keeps the context between messages.
+- Instructions (the system prompt) give the model a role and constraints, such as limiting it to a single domain.
+- Tools such as web search give a model access to external and up-to-date information.
+- An agent packages the model, its instructions, and its tools, so client applications can connect to its endpoint without defining a system prompt or implementing their own retrieval logic.
+- Applications that use an agent in a project authenticate with Microsoft Entra ID instead of keys.
+- Token usage is the basis of an agent's cost, and cost control policies can set spending thresholds for the project and its agents.
+- Deleting the resource group removes the project and everything it contains.
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html)
