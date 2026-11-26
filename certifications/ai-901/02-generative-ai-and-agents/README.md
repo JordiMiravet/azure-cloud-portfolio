@@ -8,7 +8,7 @@ Based on the official exercise: [Get started with generative AI and agents in Mi
 
 Region used: Spain Central.
 
-Model used: TODO model and deployment name.
+Model used: gpt-4.1-mini (deployment: `gpt-4.1-mini`).
 
 ## Steps
 
