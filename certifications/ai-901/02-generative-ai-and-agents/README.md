@@ -90,6 +90,16 @@ The cost control page of the project:
 
 ![Project cost control](assets/screenshots/09-project-cost-control.png)
 
+### 9. Clean up
+
+1. In the Azure portal, open the resource group used for the lab.
+2. Select **Delete resource group**.
+3. Type the resource group name to confirm and select **Delete**.
+
+Deleting the resource group removes the Foundry resource, the project, the model deployment, and the agent, which avoids unnecessary charges.
+
+![Resource group deleted](assets/screenshots/10-resource-group-deleted.png)
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html)
