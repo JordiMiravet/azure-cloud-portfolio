@@ -73,6 +73,10 @@ The web preview:
 
 ![Agent preview](assets/screenshots/07-agent-preview.png)
 
+### 7. Review the client code
+
+The **Continue in code** option shows sample code to use the agent from an application. The sample uses the Azure AI Projects library to connect to the project and to get a client for the agent. Because it connects to a project, key-based authentication is not supported and the application has to authenticate with a Microsoft Entra ID identity. The code is not included here because it contains the project endpoint.
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html)
