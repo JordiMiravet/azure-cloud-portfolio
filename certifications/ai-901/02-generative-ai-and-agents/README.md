@@ -6,7 +6,7 @@ This lab deploys a generative AI model in Microsoft Foundry, shapes its behavior
 
 Based on the official exercise: [Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html).
 
-Region used: TODO region.
+Region used: Spain Central.
 
 Model used: TODO model and deployment name.
 
