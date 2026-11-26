@@ -100,6 +100,10 @@ Deleting the resource group removes the Foundry resource, the project, the model
 
 ![Resource group deleted](assets/screenshots/10-resource-group-deleted.png)
 
+## Result
+
+The model was deployed, tested in the playground, and then turned into an agent with instructions and a web search tool. The agent answered in the playground and in the web preview, and the Monitor and Cost pages showed its token usage. TODO describe how the model answered the off-topic question and whether it used the web search tool.
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html)
