@@ -54,6 +54,16 @@ The tool enabled and the response:
 
 ![Web search tool](assets/screenshots/05-web-search-tool.png)
 
+### 5. Save the configuration as an agent
+
+1. Select **Save as agent** and name it `computing-historian`.
+2. The agent opens in its own playground. Its **YAML** tab holds the definition of the agent: the model, its parameters, the instructions, and the tools. It is not shown here because it contains identifiers of the project.
+3. In the chat, ask `Who are you?` to check that the agent knows its role.
+
+The agent responding:
+
+![Agent created](assets/screenshots/06-agent-created.png)
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html)
