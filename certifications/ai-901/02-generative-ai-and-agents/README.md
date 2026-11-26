@@ -22,6 +22,19 @@ The model deployed:
 
 ![Model deployed](assets/screenshots/01-model-deployed.png)
 
+### 2. Chat with the model
+
+1. In the playground, ask `Who was Ada Lovelace?` and then a follow-up question about her work with Charles Babbage. The model understands who "her" refers to because the conversation history is sent with each prompt.
+2. Start a new chat and ask `List three facts about Ada Lovelace.` to see how a more specific prompt changes the response.
+
+The conversation with follow-up:
+
+![Playground chat](assets/screenshots/02-playground-chat.png)
+
+The response to the more specific prompt:
+
+![Specific prompt response](assets/screenshots/03-playground-specific-prompt.png)
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html)
