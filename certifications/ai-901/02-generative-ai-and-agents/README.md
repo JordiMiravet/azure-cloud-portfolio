@@ -35,6 +35,16 @@ The response to the more specific prompt:
 
 ![Specific prompt response](assets/screenshots/03-playground-specific-prompt.png)
 
+### 3. Specify instructions
+
+1. Start a new chat and write instructions (the system prompt) that limit the model to answering about the history of computing.
+2. Ask questions about ELIZA and how it compares with modern LLMs.
+3. Ask an off-topic question to see how the instructions affect the response.
+
+The instructions and the off-topic response:
+
+![Instructions and off-topic question](assets/screenshots/04-instructions-off-topic.png)
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html)
