@@ -77,6 +77,19 @@ The web preview:
 
 The **Continue in code** option shows sample code to use the agent from an application. The sample uses the Azure AI Projects library to connect to the project and to get a client for the agent. Because it connects to a project, key-based authentication is not supported and the application has to authenticate with a Microsoft Entra ID identity. The code is not included here because it contains the project endpoint.
 
+### 8. Monitor activity and cost
+
+1. In the agent's **Monitor** tab, review the overall metrics, and in the **Cost** tab, the **Token usage** view.
+2. In the project's **Monitor** page, review the metrics, the **Cost** tab, and the **Cost Control** tab, where spending thresholds can be defined.
+
+The token usage of the agent:
+
+![Agent token usage](assets/screenshots/08-agent-token-usage.png)
+
+The cost control page of the project:
+
+![Project cost control](assets/screenshots/09-project-cost-control.png)
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html)
