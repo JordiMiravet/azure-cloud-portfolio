@@ -45,6 +45,15 @@ The instructions and the off-topic response:
 
 ![Instructions and off-topic question](assets/screenshots/04-instructions-off-topic.png)
 
+### 4. Add a web search tool
+
+1. In the **Tools** section of the playground, make sure **Web search** is enabled.
+2. Start a new chat and ask the model to find a vintage computer store near Seattle.
+
+The tool enabled and the response:
+
+![Web search tool](assets/screenshots/05-web-search-tool.png)
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html)
