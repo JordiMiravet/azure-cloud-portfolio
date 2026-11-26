@@ -64,6 +64,15 @@ The agent responding:
 
 ![Agent created](assets/screenshots/06-agent-created.png)
 
+### 6. Preview the agent
+
+1. In the **Publish** menu of the agent, select **Preview web app**.
+2. Ask `What can you tell me about the Altair 8800?` in the preview chat, and close the tab afterwards.
+
+The web preview:
+
+![Agent preview](assets/screenshots/07-agent-preview.png)
+
 ## References
 
 - [Official AI-901 lab instructions - Get started with generative AI and agents in Microsoft Foundry](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html)
