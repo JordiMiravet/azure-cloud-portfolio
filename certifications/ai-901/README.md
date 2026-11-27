@@ -7,7 +7,7 @@ Hands-on labs for **AI-901: Microsoft Azure AI Fundamentals**, based on the offi
 | Lab | Official exercise | My documentation | Status |
 | --- | --- | --- | --- |
 | Get started with Microsoft Foundry | [Exercise](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/00-explore-foundry.html) | [Documentation](01-explore-foundry/README.md) | Completed |
-| Generative AI and agents in Microsoft Foundry | [Exercise](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html) | - | Pending |
+| Generative AI and agents in Microsoft Foundry | [Exercise](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02a-generative-ai.html) | [Documentation](02-generative-ai-and-agents/README.md) | Completed |
 | Text analysis in Microsoft Foundry | [Exercise](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/03b-text-analysis.html) | - | Pending |
 | Speech in Microsoft Foundry | [Exercise](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/04a-speech.html) | - | Pending |
 | Computer vision in Microsoft Foundry | [Exercise](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/05a-image-analysis.html) | - | Pending |
