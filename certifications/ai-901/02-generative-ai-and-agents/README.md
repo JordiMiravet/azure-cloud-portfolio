@@ -58,7 +58,7 @@ The instructions and the off-topic response:
 
 The tool enabled and the response:
 
-![Web search tool](assets/screenshots/05-web-search-tool.png)
+![Web search tool](assets/screenshots/06-web-search-tool.png)
 
 ### 5. Save the configuration as an agent
 
@@ -68,7 +68,7 @@ The tool enabled and the response:
 
 The agent responding:
 
-![Agent created](assets/screenshots/06-agent-created.png)
+![Agent created](assets/screenshots/07-agent-created.png)
 
 ### 6. Preview the agent
 
@@ -77,11 +77,74 @@ The agent responding:
 
 The web preview:
 
-![Agent preview](assets/screenshots/07-agent-preview.png)
+![Agent preview](assets/screenshots/08-agent-preview.png)
 
 ### 7. Review the client code
 
-The **Continue in code** option shows sample code to use the agent from an application. The sample uses the Azure AI Projects library to connect to the project and to get a client for the agent. Because it connects to a project, key-based authentication is not supported and the application has to authenticate with a Microsoft Entra ID identity. The code is not included here because it contains the project endpoint.
+The **Continue in code** option provides a Python example showing how to connect to the existing agent from an external application.
+
+The sample uses the Azure AI Projects SDK (`azure-ai-projects`) and Microsoft Entra ID authentication to connect to the Foundry project and interact with the `computing-historian` agent.
+
+#### Install dependencies
+
+Install the required Python package:
+
+`pip install "azure-ai-projects>=2.1.0"`
+
+#### Client implementation
+
+The following example authenticates with Microsoft Entra ID, connects to the Foundry project, creates a conversation, sends a message to the agent, and prints its response.
+
+```python
+from azure.identity import DefaultAzureCredential
+from azure.ai.projects import AIProjectClient
+
+endpoint = "<PROJECT_ENDPOINT>"
+agent_name = "computing-historian"
+user_message = "Hi computing-historian"
+
+with (
+    DefaultAzureCredential() as credential,
+    AIProjectClient(
+        endpoint=endpoint,
+        credential=credential,
+        allow_preview=True,
+    ) as project_client,
+):
+    # Bind the OpenAI client to the existing agent endpoint.
+    openai_client = project_client.get_openai_client(
+        agent_name=agent_name
+    )
+
+    # Create a conversation for the interaction.
+    conversation = openai_client.conversations.create()
+
+    # Send a message to the agent.
+    response = openai_client.responses.create(
+        conversation=conversation.id,
+        input=[{"role": "user", "content": user_message}],
+    )
+
+    print(f"Response output: {response.output_text}")
+```
+
+#### Authentication
+
+The application uses `DefaultAzureCredential` to authenticate through Microsoft Entra ID rather than an API key.
+
+The identity running the application must have the necessary permissions to access the Foundry project and its agent.
+
+#### Key components
+
+- **`DefaultAzureCredential`:** obtains an identity token using the available Microsoft Entra ID authentication methods.
+- **`AIProjectClient`:** establishes the connection to the Foundry project.
+- **`get_openai_client`:** obtains an OpenAI-compatible client bound to the existing agent.
+- **`conversations.create()`:** creates a conversation for the interaction.
+- **`responses.create()`:** sends the user message to the agent and retrieves its response.
+
+The sample was reviewed but not executed as part of this lab.
+
+The project endpoint is represented by a placeholder to avoid exposing project-specific identifiers.
 
 ### 8. Monitor activity and cost
 
@@ -90,11 +153,11 @@ The **Continue in code** option shows sample code to use the agent from an appli
 
 The token usage of the agent:
 
-![Agent token usage](assets/screenshots/08-agent-token-usage.png)
+![Agent token usage](assets/screenshots/09-agent-token-usage.png)
 
 The cost control page of the project:
 
-![Project cost control](assets/screenshots/09-project-cost-control.png)
+![Project cost control](assets/screenshots/10-project-cost-control.png)
 
 ### 9. Clean up
 
@@ -104,7 +167,7 @@ The cost control page of the project:
 
 Deleting the resource group removes the Foundry resource, the project, the model deployment, and the agent, which avoids unnecessary charges.
 
-![Resource group deleted](assets/screenshots/10-resource-group-deleted.png)
+![Resource group deleted](assets/screenshots/11-resource-group-deleted.png)
 
 ## Result
 
