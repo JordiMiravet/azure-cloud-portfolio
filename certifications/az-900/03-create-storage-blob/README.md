@@ -104,7 +104,7 @@ The image uploaded to the container:
 
 1. Select the uploaded blob and copy its URL from the **Properties** tab.
 2. Open the URL in a new browser tab.
-3. The request fails with this error: TODO exact error shown. The container does not allow anonymous access yet.
+3. The request fails with this error: 'This XML file does not appear to have any style information associated with it. The document tree is shown below' exact error shown. The container does not allow anonymous access yet.
 
 ![Access denied to the blob](assets/screenshots/03-blob-access-denied.png)
 

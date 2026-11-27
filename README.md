@@ -33,6 +33,7 @@ This portfolio was started during the **IT Academy Azure and AI Certification pr
 - [Configure resource locks](certifications/az-900/05-configure-resource-locks/README.md) - AZ-900
 
 - [Get started with Microsoft Foundry](certifications/ai-901/01-explore-foundry/README.md) - AI-901
+- [Generative AI and agents in Microsoft Foundry](certifications/ai-901/02-generative-ai-and-agents/README.md) - AI-901
 
 Every completed lab is documented with step-by-step instructions, implementation screenshots, results, and lessons learned.
 
