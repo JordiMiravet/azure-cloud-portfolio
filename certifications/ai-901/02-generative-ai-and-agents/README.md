@@ -167,9 +167,9 @@ The project Cost Control page displayed "No cost controls yet", indicating that 
 
 ### 9. Clean up
 
-1. In the Azure portal, open the resource group used for the lab.
-2. Select **Delete resource group**.
-3. Type the resource group name to confirm and select **Delete**.
+1. Open the Azure portal and navigate to **Resource groups**.
+2. Select `rg-xlab-u2j-191-6070` and choose **Delete resource group**.
+3. Enter the resource group name to confirm the operation and select **Delete**.
 
 Deleting the resource group removes the Foundry resource, the project, the model deployment, and the agent, which avoids unnecessary charges.
 
