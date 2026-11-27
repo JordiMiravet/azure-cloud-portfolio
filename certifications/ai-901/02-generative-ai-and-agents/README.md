@@ -177,7 +177,17 @@ Deleting the resource group removes the Foundry resource, the project, the model
 
 ## Result
 
-The model was deployed, tested in the playground, and then turned into an agent with instructions and a web search tool. The agent answered in the playground and in the web preview, and the Monitor and Cost pages showed its token usage. TODO describe how the model answered the off-topic question and whether it used the web search tool.
+The `gpt-4.1-mini` model was successfully deployed in Microsoft Foundry and tested through the playground.
+
+The lab demonstrated how conversation history maintains context between messages and how system instructions influence the model's responses by assigning it a specific role.
+
+A web search tool was configured to provide access to external information. The configuration was then saved as the `computing-historian` agent, which was successfully tested in its own playground and through the web preview.
+
+The agent's YAML definition and the Python client example were reviewed to understand its configuration and how external applications can interact with it using Microsoft Entra ID authentication.
+
+Finally, the agent's monitoring and cost information were reviewed, including token usage and billed cost. The project had no cost controls configured.
+
+The Azure resource group was deleted after completing the lab to remove the resources created during the exercise.
 
 ## Lessons Learned
 
