@@ -89,7 +89,9 @@ The sample uses the Azure AI Projects SDK (`azure-ai-projects`) and Microsoft En
 
 Install the required Python package:
 
-`pip install "azure-ai-projects>=2.1.0"`
+```bash
+pip install "azure-ai-projects>=2.1.0"
+```
 
 #### Client implementation
 
