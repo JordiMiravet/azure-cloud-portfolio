@@ -191,14 +191,15 @@ The Azure resource group was deleted after completing the lab to remove the reso
 
 ## Lessons Learned
 
-- The responses of a language model are generated dynamically, not looked up in a data source, so they may not be based on authoritative facts.
-- Chat applications usually include the conversation history in the prompt, which is how the model keeps the context between messages.
-- Instructions (the system prompt) give the model a role and constraints, such as limiting it to a single domain.
-- Tools such as web search give a model access to external and up-to-date information.
-- An agent packages the model, its instructions, and its tools, so client applications can connect to its endpoint without defining a system prompt or implementing their own retrieval logic.
-- Applications that use an agent in a project authenticate with Microsoft Entra ID instead of keys.
-- Token usage is the basis of an agent's cost, and cost control policies can set spending thresholds for the project and its agents.
-- Deleting the resource group removes the project and everything it contains.
+- Generative AI models generate responses dynamically rather than retrieving predefined answers, so their output should be evaluated critically.
+- Conversation history allows models to maintain context across multiple messages and understand follow-up questions.
+- System instructions help define a model's role, response style, and domain restrictions.
+- Web search tools allow agents to retrieve external information and provide more up-to-date responses.
+- Agents combine a model, instructions, and tools into a reusable configuration that can be accessed by external applications.
+- Microsoft Entra ID authentication allows applications to connect to Foundry projects without embedding API keys.
+- The Azure AI Projects SDK provides a client interface for interacting with deployed agents programmatically.
+- Monitoring features provide visibility into token usage and billed costs, while Cost Control offers options for configuring spending limits.
+- Deleting the Azure resource group removes the resources created during the lab and helps prevent unnecessary ongoing charges.
 
 ## References
 
