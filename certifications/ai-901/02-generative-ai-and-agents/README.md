@@ -161,7 +161,7 @@ The project's latest billed cost and total token usage:
 
 ![Project cost](assets/screenshots/10-project-cost.png)
 
-The project cost control page, showing that no controls have been configured:
+The project Cost Control page displayed "No cost controls yet", indicating that no spending controls had been configured:
 
 ![Project cost control](assets/screenshots/11-project-cost-control.png)
 
