@@ -148,16 +148,20 @@ The project endpoint is represented by a placeholder to avoid exposing project-s
 
 ### 8. Monitor activity and cost
 
-1. In the agent's **Monitor** tab, review the overall metrics, and in the **Cost** tab, the **Token usage** view.
-2. In the project's **Monitor** page, review the metrics, the **Cost** tab, and the **Cost Control** tab, where spending thresholds can be defined.
+1. In the agent's **Monitor** tab, review the overall metrics and the **Cost** tab, including token usage.
+2. In the project's **Monitor** page, review the available metrics and the **Cost** tab, including **Latest billed cost** and **Total token usage**. Then open **Cost Control** to review the available spending controls.
 
 The token usage of the agent:
 
 ![Agent token usage](assets/screenshots/09-agent-token-usage.png)
 
-The cost control page of the project:
+The project's latest billed cost and total token usage:
 
-![Project cost control](assets/screenshots/10-project-cost-control.png)
+![Project cost](assets/screenshots/10-project-cost.png)
+
+The project cost control page, showing that no controls have been configured:
+
+![Project cost control](assets/screenshots/11-project-cost-control.png)
 
 ### 9. Clean up
 
@@ -167,7 +171,7 @@ The cost control page of the project:
 
 Deleting the resource group removes the Foundry resource, the project, the model deployment, and the agent, which avoids unnecessary charges.
 
-![Resource group deleted](assets/screenshots/11-resource-group-deleted.png)
+![Resource group deleted](assets/screenshots/12-resource-group-deleted.png)
 
 ## Result
 
